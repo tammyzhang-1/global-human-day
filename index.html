@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <title>INFO 4310 - HW 2</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/topojson.v3.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap">
+
+    <style>
+        body {
+            display: flex;
+        }
+
+        #category-filters {
+            display: flex;
+            flex-direction: column;
+        }
+    
+    </style>
+  </head>
+
+  <body>
+    <aside id="controls-sidebar" height="800">
+        <div id="category-filters"></div>
+    </aside> 
+    <svg id="scatterplot" width="800" height="800"></svg>
+  </body>
+
+  <script>
+
+    function populateFilters(data) {
+        const categoryList = [...new Set(data.map(item => item.Category))];
+        console.log(categoryList)
+
+        categoryList.forEach((category) => {
+            document.getElementById("category-filters").innerHTML += `<button class="category-filter">${category}</button>`
+        })
+    }
+
+    const requestData = async function() {
+        const countries = await d3.csv("all_countries.csv", d3.autoType);
+        console.log(countries)
+
+        const result = countries.filter((country) => country.Category == "Food preparation");
+        console.log(result)
+
+        populateFilters(countries)
+    }
+    requestData();
+
+  </script>
+</html>
