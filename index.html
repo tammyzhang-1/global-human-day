@@ -2,7 +2,6 @@
   <head>
     <title>INFO 4310 - HW 2</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script src="https://d3js.org/topojson.v3.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap">
 
     <style>
@@ -14,7 +13,6 @@
             display: flex;
             flex-direction: column;
         }
-    
     </style>
   </head>
 
@@ -26,24 +24,23 @@
   </body>
 
   <script>
-
-    function populateFilters(data) {
-        const categoryList = [...new Set(data.map(item => item.Category))];
-        console.log(categoryList)
-
-        categoryList.forEach((category) => {
-            document.getElementById("category-filters").innerHTML += `<button class="category-filter">${category}</button>`
-        })
-    }
-
     const requestData = async function() {
-        const countries = await d3.csv("all_countries.csv", d3.autoType);
-        console.log(countries)
+      const countries = await d3.csv("all_countries.csv", d3.autoType);
 
-        const result = countries.filter((country) => country.Category == "Food preparation");
-        console.log(result)
+      // populating category filter buttons with unique categories from the data
+      const categoryList = [...new Set(countries.map(item => item.Category))];
+      categoryList.forEach((category) => {
+        document.getElementById("category-filters").innerHTML += `<button class="category-filter">${category}</button>`
+      });
 
-        populateFilters(countries)
+      // initializing filtered subset to first category in the data
+      let filteredData = countries.filter((country) => country.Category == categoryList[0]);
+
+      // event listeners for category filter buttons
+      d3.selectAll(".category-filter").on("click", function(){
+        filteredData = countries.filter((country) => country.Category == d3.select(this).text());
+        console.log(filteredData);
+      });
     }
     requestData();
 
