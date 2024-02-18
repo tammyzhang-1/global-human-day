@@ -5,22 +5,69 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap">
 
     <style>
+        body, button {
+          font-family: 'Lato', sans-serif;
+        }
+
+        h1 {
+          font-weight: normal;
+          font-size: 1.75em;
+        }
+
+        h2 {
+          font-weight: normal;
+          font-style: italic;
+          font-size: 1.25em;
+        }
+
+        h3 {
+          font-size: 1.5em;
+          margin-top: 0;
+        }
+
+        #subtitle-filter {
+          text-decoration: underline;
+          text-decoration-color:rgb(196, 196, 196);
+        }
+
         #scatter-container {
             display: flex;
         }
 
         #controls-sidebar {
           width: 25%;
+          display: flex;
+          justify-content: center;
+          padding-right: 2em;
         }
 
         #category-filters {
             display: flex;
             flex-direction: column;
             width: 100%;
+            justify-content: center;
+            height: 100%;
+            gap: 0.5em;
         }
 
         .category-filter {
-          
+          background-color: white;
+          flex-grow: 1;
+          border: solid 3px rgb(205, 205, 205);
+          border-radius: 20px;
+          font-weight: normal;
+          font-size: 1em;
+        }
+
+        .category-filter:not(.active-filter):hover {
+          background-color: rgb(244, 244, 244);
+          cursor: pointer;
+        }
+
+        .active-filter {
+          font-weight: bold;
+          background-color: rgb(223, 223, 223);
+          border-color: rgb(126, 126, 126);
         }
 
         .gridlines line {
@@ -39,15 +86,29 @@
           font-size: 15px;
         }
 
+        #detail-sidebar {
+          width: 25%;
+          border-left: solid thin rgb(178, 178, 178);
+          margin-left: 1em;
+          padding-left: 1em;
+        }
+
     </style>
   </head>
 
   <body>
+    <div id="headers">
+      <h1>The Global Human Day</h1>
+      <h2>How many hours a day do people across the world spend on <span id="subtitle-filter">...</span>?</h2>
+    </div>
+  
     <div id="scatter-container">
       <aside id="controls-sidebar" height="700">
         <div id="category-filters"></div>
       </aside> 
       <svg id="scatterplot" width="700" height="700"></svg>
+      <aside id="detail-sidebar" height="700">
+      </aside>
     </div>
   </body>
 
@@ -63,19 +124,6 @@
     let chartArea = scatter.append("g").attr("id","dots")
                     .attr("transform","translate("+margin.left+","+margin.top+")")
 
-    scatter.append("text")
-            .attr("class", "x label")
-            .attr("x", chartWidth/2)
-            .attr("y", chartHeight+margin.bottom+10) //hardcoded values....
-            .text("GDP per capita");
-
-    scatter.append("text")
-            .attr("class", "y label")
-            .attr("y", 15) //sorta hardcoded...
-            .attr("x", -chartHeight/2)
-            .attr("transform", "rotate(-90)")
-            .text("Hours");   
-
     const requestData = async function() {
       const countries = await d3.csv("df_bycat.csv", d3.autoType);
 
@@ -87,96 +135,119 @@
 
       // initializing filtered subset to first category in the data
       let filteredData = countries.filter((country) => country.Category == categoryList[0]);
-  
-      console.log(countries)
-      console.log(filteredData)
 
       // event listeners for category filter buttons
       d3.selectAll(".category-filter").on("click", function(){
+        document.getElementById("subtitle-filter").innerHTML = formatFilterText( d3.select(this).text());
         filteredData = countries.filter((country) => country.Category == d3.select(this).text());
 
-        //reset/refresh the scatterplot 
-        refreshScatter();
+        refreshScatter(filteredData); //reset/refresh the scatterplot 
+        
+        d3.selectAll(".category-filter").classed("active-filter", false); // update appearance of filters
+        d3.select(this).classed("active-filter", true);
+      });
+    }
 
-        //unbold all buttons, then bold the current button
-        d3.selectAll(".category-filter").style("font-weight", "normal")
-        d3.select(this).style("font-weight", "bold")
+    async function refreshScatter(data) {
+      d3.select("#scatterplot").selectAll(".axis,.gridlines,text").remove();
+
+        // set scatterplot scales based on what filter we're on
+      const gdpExtent = d3.extent(data, d => d['GDP_percapita']); //DO WE WANT THE AXIS TO STAY CONSTANT OR VARY BY FILTER??
+      const gdpScale = d3.scaleLinear().domain(gdpExtent).range([0, chartWidth]);
+
+      let hourExtent = d3.extent(data, d => d['hoursPerDayCombined']);
+      let hourScale = d3.scaleLinear().domain(hourExtent).range([chartHeight, 0]);
+
+      const regionScale = d3.scaleOrdinal(d3.schemeCategory10);
+
+      let leftAxis = d3.axisLeft(hourScale)
+                      .tickFormat(d3.format(""));  // shorter scientific notation with a dollar sign in front
+      let leftGridlines = d3.axisLeft(hourScale)
+                            .tickSize(-chartWidth-10)
+                            .tickFormat("")
+      let bottomAxis = d3.axisBottom(gdpScale)
+                        .tickFormat(d3.format("$.2s"));  // exact value without commas
+      let bottomGridlines = d3.axisBottom(gdpScale)
+                              .tickSize(-chartHeight-10)
+                              .tickFormat("")
+
+      //font size source: http://www.d3noob.org/2016/08/changing-text-size-for-axes-in-d3js-v4.html
+      annotations.append("g")
+                  .attr("class", "y axis")
+                  .attr("transform",`translate(${margin.left-10},${margin.top})`)
+                  .call(leftAxis)
+      annotations.append("g")
+                  .attr("class", "y gridlines")
+                  .attr("transform",`translate(${margin.left-10},${margin.top})`)
+                  .call(leftGridlines);
+      annotations.append("g")
+                  .attr("class", "x axis")
+                  .attr("transform",`translate(${margin.left},${chartHeight+margin.top+10})`)
+                  .call(bottomAxis);
+      annotations.append("g")
+                  .attr("class", "x gridlines")
+                  .attr("transform",`translate(${margin.left},${chartHeight+margin.top+10})`)
+                  .call(bottomGridlines);
+
+      scatter.append("text")
+            .attr("class", "x label")
+            .attr("x", chartWidth/2)
+            .attr("y", chartHeight+margin.bottom+10) //hardcoded values....
+            .text("GDP per capita");
+
+      scatter.append("text")
+            .attr("class", "y label")
+            .attr("y", 15) //sorta hardcoded...
+            .attr("x", -chartHeight/2)
+            .attr("transform", "rotate(-90)")
+            .text("Hours");   
+
+      let circles = chartArea.selectAll("circle.point").data(data)
+                          .join(enter => enter.append("circle")
+                                              .attr("class","point")
+                                              .attr("opacity", 0.6)
+                                            )
+                          .attr("cx", d => gdpScale(d['GDP_percapita']))
+                          .attr("cy", d => hourScale(d['hoursPerDayCombined']))
+                          .attr("r", 6)
+                          .style("opacity", 0.8)
+                          .attr("fill", d => regionScale(d['region_name']))
+                          .attr("country_name", d => d["country_name"]);
+        
+      circles.on("mouseover", function(event, d) { //DO WE WANT THIS ON MOUSEOVER OR CLICK??? 
+        d3.select(this)
+          .transition().duration(100)
+          .attr("stroke","black")
+          .attr("stroke-width", 4);
+
+        // console.log(d.country_name, d.region_name, d.hoursPerDayCombined);
+        console.log(d)
+          //in here we could update a panel later
+       
       });
 
-      const refreshScatter = async function() {
-        d3.select("#scatterplot").selectAll(".axis,.gridlines").remove();
+      circles.on("mouseout", function(event, d) {
+        d3.select(this)
+          .transition().duration(100)
+          .attr("stroke","")
+          .attr("stroke-width", 1);
+        //in here we could clear the panel, or use updatePanel({})
+      });
 
-         // set scatterplot scales based on what filter we're on
-        const gdpExtent = d3.extent(countries, d => d['GDP_percapita']); //DO WE WANT THE AXIS TO STAY CONSTANT OR VARY BY FILTER??
-        const gdpScale = d3.scaleLinear().domain(gdpExtent).range([0, chartWidth]);
-
-        let hourExtent = d3.extent(filteredData, d => d['hoursPerDayCombined']);
-        let hourScale = d3.scaleLinear().domain(hourExtent).range([chartHeight, 0]);
-
-        const regionScale = d3.scaleOrdinal(d3.schemeCategory10);
-
-        let leftAxis = d3.axisLeft(hourScale)
-                        .tickFormat(d3.format(""));  // shorter scientific notation with a dollar sign in front
-        let leftGridlines = d3.axisLeft(hourScale)
-                              .tickSize(-chartWidth-10)
-                              .tickFormat("")
-        let bottomAxis = d3.axisBottom(gdpScale)
-                          .tickFormat(d3.format("$.2s"));  // exact value without commas
-        let bottomGridlines = d3.axisBottom(gdpScale)
-                                .tickSize(-chartHeight-10)
-                                .tickFormat("")
-
-        //font size source: http://www.d3noob.org/2016/08/changing-text-size-for-axes-in-d3js-v4.html
-        annotations.append("g")
-                    .attr("class", "y axis")
-                    .attr("transform",`translate(${margin.left-10},${margin.top})`)
-                    .call(leftAxis)
-        annotations.append("g")
-                    .attr("class", "y gridlines")
-                    .attr("transform",`translate(${margin.left-10},${margin.top})`)
-                    .call(leftGridlines);
-        annotations.append("g")
-                    .attr("class", "x axis")
-                    .attr("transform",`translate(${margin.left},${chartHeight+margin.top+10})`)
-                    .call(bottomAxis);
-        annotations.append("g")
-                    .attr("class", "x gridlines")
-                    .attr("transform",`translate(${margin.left},${chartHeight+margin.top+10})`)
-                    .call(bottomGridlines);
-
-        let circles = chartArea.selectAll("circle.point").data(filteredData)
-                            .join(enter => enter.append("circle")
-                                                .attr("class","point")
-                                                .attr("opacity", 0.6)
-                                              )
-                            .attr("cx", d => gdpScale(d['GDP_percapita']))
-                            .attr("cy", d => hourScale(d['hoursPerDayCombined']))
-                            .attr("r", 6)
-                            .style("opacity", 0.8)
-                            .attr("fill", d => regionScale(d['region_name']))
-                            .attr("country_name", d => d["country_name"]);
-          
-          circles.on("mouseover", function(event, d) { //DO WE WANT THIS ON MOUSEOVER OR CLICK??? 
-            d3.select(this)
-              .transition().duration(100)
-              .attr("stroke","black")
-              .attr("stroke-width", 4);
-            console.log(d.country_name, d.region_name, d.hoursPerDayCombined);
-              //in here we could update a panel later
-          });
-          circles.on("mouseout", function(event, d) {
-            d3.select(this)
-              .transition().duration(100)
-              .attr("stroke","")
-              .attr("stroke-width", 1);
-            //in here we could clear the panel, or use updatePanel({})
-          });
-    };
-
-    
-      
-
+      circles.on("click", function(event, d) {
+        let detailContainer = document.getElementById("detail-sidebar");
+        detailContainer.innerHTML = `<h3>${d.country_name}</h3>`
+        detailContainer.innerHTML += `<p>Hours per day spent on ${formatFilterText(d.Category)}: ${d.hoursPerDayCombined}</p>`
+        detailContainer.innerHTML += `<p>Region: ${d.region_name}</p>`
+        detailContainer.innerHTML += `<p>GDP per capita: ${d.GDP_percapita}</p>`
+        detailContainer.innerHTML += `<p>Population: ${d.population}</p>`
+      });
     }
+
+    function formatFilterText(filter) {
+      return filter == "Experience oriented" ? filter.toLowerCase() + " activities" : filter.toLowerCase();
+    }
+
     requestData();
 
     
