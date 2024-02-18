@@ -13,6 +13,23 @@
             display: flex;
             flex-direction: column;
         }
+
+        .gridlines line {
+          stroke: #bbb;
+        }
+
+        .gridlines .domain {
+          stroke: none;
+        }
+
+        .label{
+          font-size: 20px;
+        }
+
+        .axis{
+          font-size: 15px;
+        }
+
     </style>
   </head>
 
@@ -24,8 +41,23 @@
   </body>
 
   <script>
+    const scatter = d3.select("svg#scatterplot");
+    const width = scatter.attr("width");
+    const height = scatter.attr("height");
+    const margin = {top: 25, right: 25, bottom: 60, left: 60};
+    const chartWidth = width - margin.left - margin.right;
+    const chartHeight = height - margin.top - margin.bottom;
+
+    let annotations = scatter.append("g").attr("id","annotations")
+    let chartArea = scatter.append("g").attr("id","dots")
+                    .attr("transform","translate("+margin.left+","+margin.top+")")
+
+    
+
     const requestData = async function() {
-      const countries = await d3.csv("all_countries.csv", d3.autoType);
+      const countries = await d3.csv("df_bycat.csv", d3.autoType);
+
+      let current_filter = "";
 
       // populating category filter buttons with unique categories from the data
       const categoryList = [...new Set(countries.map(item => item.Category))];
@@ -40,9 +72,103 @@
       d3.selectAll(".category-filter").on("click", function(){
         filteredData = countries.filter((country) => country.Category == d3.select(this).text());
         console.log(filteredData);
+        //reset/refresh the scatterplot 
+        refreshScatter();
+        //unbold all buttons, then bold the current button
+        d3.selectAll(".category-filter").style("font-weight", "normal")
+        d3.select(this).style("font-weight", "bold")
       });
+
+      // set scatterplot scales based on what filter we're on
+      const gdpExtent = d3.extent(countries, d => d['GDP_percapita']); //DO WE WANT THE AXIS TO STAY CONSTANT OR VARY BY FILTER??
+      const gdpScale = d3.scaleLinear().domain(gdpExtent).range([0,chartWidth]);
+      // console.log(gdpExtent, gdpScale(2000))
+
+      const hourExtent = d3.extent(countries, d=>d['hoursPerDayCombined']);
+      const hourScale = d3.scaleLinear().domain(hourExtent).range([chartHeight, 0]);
+      // console.log(hourExtent, hourScale(0.5))
+
+      const regionScale = d3.scaleOrdinal(d3.schemeCategory10);
+
+      let leftAxis = d3.axisLeft(hourScale)
+                       .tickFormat(d3.format(""));  // shorter scientific notation with a dollar sign in front
+      let leftGridlines = d3.axisLeft(hourScale)
+                            .tickSize(-chartWidth-10)
+                            .tickFormat("")
+      let bottomAxis = d3.axisBottom(gdpScale)
+                         .tickFormat(d3.format("$.2s"));  // exact value without commas
+      let bottomGridlines = d3.axisBottom(gdpScale)
+                              .tickSize(-chartHeight-10)
+                              .tickFormat("")
+
+      //font size source: http://www.d3noob.org/2016/08/changing-text-size-for-axes-in-d3js-v4.html
+      annotations.append("g")
+                  .attr("class", "y axis")
+                  .attr("transform",`translate(${margin.left-10},${margin.top})`)
+                  .call(leftAxis)
+      annotations.append("g")
+                  .attr("class", "y gridlines")
+                  .attr("transform",`translate(${margin.left-10},${margin.top})`)
+                  .call(leftGridlines);
+      annotations.append("g")
+                  .attr("class", "x axis")
+                  .attr("transform",`translate(${margin.left},${chartHeight+margin.top+10})`)
+                  .call(bottomAxis);
+      annotations.append("g")
+                  .attr("class", "x gridlines")
+                  .attr("transform",`translate(${margin.left},${chartHeight+margin.top+10})`)
+                  .call(bottomGridlines);
+
+      scatter.append("text")
+          .attr("class", "x label")
+          .attr("x", chartWidth/2)
+          .attr("y", chartHeight+margin.bottom+10) //hardcoded values....
+          .text("GDP per capita");
+
+      scatter.append("text")
+          .attr("class", "y label")
+          .attr("y", 15) //sorta hardcoded...
+          .attr("x", -chartHeight/2)
+          .attr("transform", "rotate(-90)")
+          .text("Hours");   
+
+      const refreshScatter = async function() {
+        let circles = chartArea.selectAll("circle.point").data(filteredData)
+                            .join(enter => enter.append("circle")
+                                                .attr("class","point")
+                                                .attr("opacity", 0.6)
+                                              )
+                            .attr("cx", d => gdpScale(d['GDP_percapita']))
+                            .attr("cy", d => hourScale(d['hoursPerDayCombined']))
+                            .attr("r", 6)
+                            .style("opacity", 0.8)
+                            .attr("fill", d => regionScale(d['region_name']))
+                            .attr("country_name", d => d["country_name"]);
+          
+          circles.on("mouseover", function(event, d) { //DO WE WANT THIS ON MOUSEOVER OR CLICK??? 
+            d3.select(this)
+              .transition().duration(100)
+              .attr("stroke","black")
+              .attr("stroke-width", 4);
+            console.log(d.country_name, d.region_name);
+              //in here we could update a panel later
+          });
+          circles.on("mouseout", function(event, d) {
+            d3.select(this)
+              .transition().duration(100)
+              .attr("stroke","")
+              .attr("stroke-width", 1);
+            //in here we could clear the panel, or use updatePanel({})
+          });
+    };
+
+    
+      
+
     }
     requestData();
+
+    
 
   </script>
 </html>
