@@ -105,7 +105,11 @@
 
         .legend-element {
           width: 233px;
-          height: 30px;
+          height: 20px;
+        }
+
+        .legend-text {
+          font-size: 0.75em;
         }
 
         #scatterplot-legend {
@@ -187,17 +191,6 @@
             ${region}
           <text>
         </svg>`
-        // d3.select("#scatterplot-legend").append("circle")
-        //   .attr("cx", 50 + i*100)
-        //   .attr("cy", 50)
-        //   .attr("r", 6)
-        //   .attr("opacity", 0.8)
-        //   .attr("fill", regionScale(region));
-        // d3.select("#scatterplot-legend").append("text")
-        //   .attr("x", 50 + i*100)
-        //   .attr("y", 80)
-        //   .attr("text-anchor", "middle")
-        //   .text(region);
       })
 
       // SETTING DEFAULT VIEW: initializing filtered subset to first category in the data
