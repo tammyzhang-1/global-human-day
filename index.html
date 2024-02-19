@@ -36,7 +36,9 @@
           width: 25%;
           display: flex;
           justify-content: center;
-          padding-right: 2em;
+          margin-right: 2em;
+          padding-right: 0.5em;
+          background-color: rgb(251, 251, 251);
         }
 
         #category-filters {
@@ -113,6 +115,7 @@
         }
 
         #scatterplot-legend {
+          padding-top: 1em;
           padding-bottom: 1em;
         }
 
@@ -122,6 +125,7 @@
           border-left: solid thin rgb(178, 178, 178);
           margin-left: 1em;
           padding-left: 1em;
+          background-color: rgb(251, 251, 251);
         }
 
         line.dashed {
@@ -170,6 +174,8 @@
     
     const regionScale = d3.scaleOrdinal(d3.schemeCategory10);
 
+    let selectedCountry = ""; // global variable tracker
+
     // ------------------------- REQUEST DATA FUNCTION -------------------------
     const requestData = async function() {
       const countries = await d3.csv("df_bycat.csv", d3.autoType);
@@ -182,7 +188,6 @@
 
       // populating legend
       const regionList = [...new Set(countries.map(country => country.region_name))];
-      console.log(regionList);
       regionList.forEach((region, i) => {
         document.getElementById("scatterplot-legend").innerHTML += `<svg class="legend-element">
           <circle cx=12 cy="50%"" r=6 opacity=0.8 fill=${regionScale(region)} class="legend-point">
@@ -205,6 +210,10 @@
         document.getElementById("subtitle-filter").innerHTML = formatFilterText( d3.select(this).text());
 
         refreshScatter(filteredData); //reset/refresh the scatterplot 
+        if (selectedCountry) {
+          selectedCountry = filteredData.find(d => d.country_name == selectedCountry.country_name); // find selected country in new data subset
+          updateDetail(filteredData, selectedCountry);
+        }
         
         d3.selectAll(".category-filter").classed("active-filter", false); // update appearance of filters
         d3.select(this).classed("active-filter", true);
@@ -215,7 +224,8 @@
     async function refreshScatter(data) {
       d3.select("#scatterplot").selectAll(".axis,.gridlines,text").remove();
 
-        // set scatterplot scales based on what filter we're on
+      // set scatterplot scales based on what filter we're on
+      // note: can possibly move this out to global scope and call axes to update inside this function
       const gdpExtent = d3.extent(data, d => d['GDP_percapita']); 
       const gdpScale = d3.scaleLinear().domain(gdpExtent).range([0, chartWidth]);
 
@@ -294,23 +304,22 @@
           .attr("stroke-width", 4);
 
         d3.select("#small-label").text(d['country_name']);
-        
-        console.log(d)
-          //in here we could update a panel later
-       
       });
 
       circles.on("mouseout", function(event, d) {
-        d3.select(this)
+        if (d != selectedCountry) { // prevent deselection when mouseout of selected country
+          d3.select(this)
           .transition().duration(100)
           .attr("stroke",d=>(d3.select(this).attr("selected")=="true" ? 'black' : ''))
           .attr("stroke-width", d=>(d3.select(this).attr("selected")=="true") ? 4 : 1);
 
           d3.select("#small-label").text(""); //clear the small label
+        }
       });
 
       // ------------------------- CIRCLE CLICK EVENT LISTENER FUNCTION -------------------------
       circles.on("click", function(event, d) {
+        selectedCountry = d;
         //my attempt to remember which circle is selected via click
         //clear all selections
         d3.selectAll("circle.point")
@@ -324,9 +333,14 @@
           .attr("stroke","black")
           .attr("stroke-width", 4)
           .attr("selected", true);
+        
+          updateDetail(data, selectedCountry);
+      });
+    }
 
-        // ------------------------- POPULATE DETAIL TEXT -------------------------
-        let detailContainer = document.getElementById("detail-sidebar");
+    async function updateDetail(data, d) {
+      // ------------------------- POPULATE DETAIL TEXT -------------------------
+      let detailContainer = document.getElementById("detail-sidebar");
         detailContainer.innerHTML = `<h3>${d.country_name}</h3>`
         detailContainer.innerHTML += `<p>Hours per day spent on ${formatFilterText(d.Category)}: ${d3.format(".2f")(d.hoursPerDayCombined)}</p>`
         detailContainer.innerHTML += `<p>Region: ${d.region_name}</p>`
@@ -348,6 +362,8 @@
         let region_data = data.filter(dpoints => dpoints.region_name == d.region_name);
 
         // x version of the hour scale. uses same hourExtent
+        let hourExtent = d3.extent(data, d => d['hoursPerDayCombined']); // copied this line over since it's currently defined out of scope but we can change that
+        
         let new_hourScale = d3.scaleLinear().domain(hourExtent).range([20,region_width-20]);
         
         // create the lines
@@ -415,7 +431,6 @@
               .attr("fill", d => regionScale(d.region_name))
               .attr("stroke",datapoint=>(datapoint.country_name==d.country_name ? 'black' : ''))
               .attr("stroke-width", datapoint=>(datapoint.country_name==d.country_name) ? 2 : 1);
-      });
     }
 
     function formatFilterText(filter) {
