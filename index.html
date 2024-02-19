@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap">
 
     <style>
+        /* ------- headers ------- */
         body, button {
           font-family: 'Lato', sans-serif;
         }
@@ -30,10 +31,7 @@
           text-decoration-color:rgb(196, 196, 196);
         }
 
-        #scatter-container {
-            display: flex;
-        }
-
+        /* ------- category filters ------- */
         #controls-sidebar {
           width: 25%;
           display: flex;
@@ -70,6 +68,11 @@
           border-color: rgb(126, 126, 126);
         }
 
+        /* ------- main scatterplot visualization ------- */
+        #scatter-container {
+            display: flex;
+        }
+
         .gridlines line {
           stroke: #ebebeb;
         }
@@ -82,7 +85,7 @@
           cursor: pointer;
         }
 
-        .label{
+        .label {
           font-size: 20px;
         }
 
@@ -94,6 +97,7 @@
           stroke: #747474;
         }
 
+        /* ------- detail sidebar ------- */
         #detail-sidebar {
           width: 25%;
           border-left: solid thin rgb(178, 178, 178);
@@ -130,7 +134,7 @@
   </body>
 
   <script>
-    // ------------------------- SCATTERPLOT -------------------------
+    // ------------------------- MAIN SCATTERPLOT SETUP -------------------------
     const scatter = d3.select("svg#scatterplot");
     const width = scatter.attr("width");
     const height = scatter.attr("height");
@@ -142,8 +146,7 @@
     let chartArea = scatter.append("g").attr("id","dots")
                     .attr("transform","translate("+margin.left+","+margin.top+")")
 
-
-
+    // ------------------------- REQUEST DATA FUNCTION -------------------------
     const requestData = async function() {
       const countries = await d3.csv("df_bycat.csv", d3.autoType);
 
@@ -159,7 +162,7 @@
       document.getElementById("subtitle-filter").innerHTML = formatFilterText(categoryList[0]);
       refreshScatter(filteredData);
 
-      // event listeners for category filter buttons
+      // ------------------------- FILTER SELECT EVENT LISTENER FUNCTION ------------------------- 
       d3.selectAll(".category-filter").on("click", function(){
         filteredData = countries.filter((country) => country.Category == d3.select(this).text());
         document.getElementById("subtitle-filter").innerHTML = formatFilterText( d3.select(this).text());
@@ -171,6 +174,7 @@
       });
     }
 
+    // ------------------------- SCATTERPLOT REFRESH FUNCTION -------------------------
     async function refreshScatter(data) {
       d3.select("#scatterplot").selectAll(".axis,.gridlines,text").remove();
 
@@ -246,7 +250,8 @@
                           .attr("fill", d => regionScale(d['region_name']))
                           .attr("country_name", d => d["country_name"])
                           .attr("selected", false);
-        
+      
+      // ------------------------- CIRCLE HOVER EVENT LISTENER FUNCTION ------------------------- 
       circles.on("mouseover", function(event, d) { 
         d3.select(this)
           .transition().duration(100)
@@ -269,6 +274,7 @@
           d3.select("#small-label").text(""); //clear the small label
       });
 
+      // ------------------------- CIRCLE CLICK EVENT LISTENER FUNCTION -------------------------
       circles.on("click", function(event, d) {
         //my attempt to remember which circle is selected via click
         //clear all selections
@@ -284,6 +290,7 @@
           .attr("stroke-width", 4)
           .attr("selected", true);
 
+        // ------------------------- POPULATE DETAIL TEXT -------------------------
         let detailContainer = document.getElementById("detail-sidebar");
         detailContainer.innerHTML = `<h3>${d.country_name}</h3>`
         detailContainer.innerHTML += `<p>Hours per day spent on ${formatFilterText(d.Category)}: ${d3.format(".2f")(d.hoursPerDayCombined)}</p>`
@@ -293,7 +300,8 @@
         detailContainer.innerHTML += `<svg id="bubbleplot-region" height="150" width="320" ></svg>`
         detailContainer.innerHTML += `<svg id="bubbleplot-all" height="150" width="320"></svg>`
 
-        //setup for the side panel visualizations
+        // ------------------------- DETAIL VISUALIZATIONS SETUP -------------------------
+        // setup for the side panel visualizations
         const bp_region = d3.select("svg#bubbleplot-region");
         const region_width = bp_region.attr("width");
         const region_height = bp_region.attr("height");
@@ -301,23 +309,23 @@
         const all_width = bp_all.attr("width");
         const all_height = bp_all.attr("height");
 
-        //get a minidataset of the data's region
+        // get a minidataset of the data's region
         let region_data = data.filter(dpoints => dpoints.region_name == d.region_name);
 
-        //x version of the hour scale. uses same hourExtent
+        // x version of the hour scale. uses same hourExtent
         let new_hourScale = d3.scaleLinear().domain(hourExtent).range([20,region_width-20]);
         
-        ///create the lines
+        // create the lines
         d3.select("#bubbleplot-region").append("line").attr("x1",new_hourScale(hourExtent[0])-10).attr("x2",new_hourScale(hourExtent[1])+10)
                                         .attr("y1", region_height/2).attr("y2", region_height/2).attr("class","dashed");
         d3.select("#bubbleplot-all").append("line").attr("x1",new_hourScale(hourExtent[0])-10).attr("x2",new_hourScale(hourExtent[1])+10)
                                         .attr("y1", all_height/2).attr("y2", all_height/2).attr("class","dashed");
         
-        //create the title labels
+        // create the title labels
         d3.select("#bubbleplot-region").append("text").text(`${d.region_name} Region`).attr("class","bubbleaxis").attr("x",0).attr("y",15);
         d3.select("#bubbleplot-all").append("text").text(`All Countries`).attr("class","bubbleaxis").attr("x",0).attr("y",15);
 
-        //SIMULATIONS
+        // SIMULATIONS
         let regionSimulation = d3.forceSimulation()
                                   .nodes(region_data)
                                   .force("collision", d3.forceCollide()
@@ -344,7 +352,7 @@
                                               .strength( 0.3 ) )
                               .stop();
 
-        //run the simulation behind the scenes. references FA22 10/24 notes
+        // run the simulation behind the scenes. references FA22 10/24 notes
         while (regionSimulation.alpha() > 0.01) { 
           regionSimulation.tick(); 
         }
@@ -352,7 +360,7 @@
           allSimulation.tick(); 
         }
 
-        //draw circles 
+        // draw circles 
         let br_layer = d3.select("#bubbleplot-region").append("g");
         br_layer.selectAll("circle").data(region_data)
               .enter().append("circle")
@@ -376,6 +384,8 @@
     }
 
     function formatFilterText(filter) {
+      // Returns: a string representing an activity category formatted for use in the subtitle and detail panel.
+      // Parameter filter: an unformatted string representing a unique value of the "Category" column in the data.
       return filter == "Experience oriented" ? filter.toLowerCase() + " activities" : filter.toLowerCase();
     }
 
