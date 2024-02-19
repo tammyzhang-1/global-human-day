@@ -11,7 +11,7 @@
 
         h1 {
           font-weight: normal;
-          font-size: 1.75em;
+          font-size: 1.65em;
         }
 
         h2 {
@@ -71,19 +71,27 @@
         }
 
         .gridlines line {
-          stroke: #bbb;
+          stroke: #ebebeb;
         }
 
         .gridlines .domain {
           stroke: none;
         }
 
+        #scatterplot circle:hover {
+          cursor: pointer;
+        }
+
         .label{
           font-size: 20px;
         }
 
-        .axis{
+        .axis {
           font-size: 15px;
+        }
+
+        .axis path {
+          stroke: #747474;
         }
 
         #detail-sidebar {
@@ -122,6 +130,7 @@
   </body>
 
   <script>
+    // ------------------------- SCATTERPLOT -------------------------
     const scatter = d3.select("svg#scatterplot");
     const width = scatter.attr("width");
     const height = scatter.attr("height");
@@ -133,6 +142,8 @@
     let chartArea = scatter.append("g").attr("id","dots")
                     .attr("transform","translate("+margin.left+","+margin.top+")")
 
+
+
     const requestData = async function() {
       const countries = await d3.csv("df_bycat.csv", d3.autoType);
 
@@ -142,18 +153,16 @@
         document.getElementById("category-filters").innerHTML += `<button class="category-filter">${category}</button>`
       });
 
-      // initializing filtered subset to first category in the data
+      // SETTING DEFAULT VIEW: initializing filtered subset to first category in the data
       let filteredData = countries.filter((country) => country.Category == categoryList[0]);
-      //display the scatterplot for the first category in the data (default)
-      filteredData = countries.filter((country) => country.Category == categoryList[0]);
-
-      //WE NEED TO ADD SOMETHING HERE TO BOLD THE FIRST BUTTON 
-      refreshScatter(filteredData)
+      d3.select(".category-filter").classed("active-filter", true);
+      document.getElementById("subtitle-filter").innerHTML = formatFilterText(categoryList[0]);
+      refreshScatter(filteredData);
 
       // event listeners for category filter buttons
       d3.selectAll(".category-filter").on("click", function(){
-        document.getElementById("subtitle-filter").innerHTML = formatFilterText( d3.select(this).text());
         filteredData = countries.filter((country) => country.Category == d3.select(this).text());
+        document.getElementById("subtitle-filter").innerHTML = formatFilterText( d3.select(this).text());
 
         refreshScatter(filteredData); //reset/refresh the scatterplot 
         
@@ -166,7 +175,7 @@
       d3.select("#scatterplot").selectAll(".axis,.gridlines,text").remove();
 
         // set scatterplot scales based on what filter we're on
-      const gdpExtent = d3.extent(data, d => d['GDP_percapita']); //DO WE WANT THE AXIS TO STAY CONSTANT OR VARY BY FILTER??
+      const gdpExtent = d3.extent(data, d => d['GDP_percapita']); 
       const gdpScale = d3.scaleLinear().domain(gdpExtent).range([0, chartWidth]);
 
       let hourExtent = d3.extent(data, d => d['hoursPerDayCombined']);
@@ -363,8 +372,6 @@
               .attr("fill", d => regionScale(d.region_name))
               .attr("stroke",datapoint=>(datapoint.country_name==d.country_name ? 'black' : ''))
               .attr("stroke-width", datapoint=>(datapoint.country_name==d.country_name) ? 2 : 1);
-
-
       });
     }
 
@@ -373,8 +380,5 @@
     }
 
     requestData();
-
-    
-
   </script>
 </html>
