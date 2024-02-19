@@ -93,6 +93,12 @@
           padding-left: 1em;
         }
 
+        line.dashed {
+          stroke: #aaa;
+          stroke-width: 1px;
+          stroke-dasharray: 2;
+        }
+
     </style>
   </head>
 
@@ -108,6 +114,9 @@
       </aside> 
       <svg id="scatterplot" width="700" height="700"></svg>
       <aside id="detail-sidebar" height="700">
+        <!-- <svg id="bubbleplot-region" height="200" width="300" style="background: #fff; margin-top:50px" ></svg>
+        <svg id="bubbleplot-country" height="200" width="300" style="background: #fff; margin-top:50px" ></svg> -->
+
       </aside>
     </div>
   </body>
@@ -135,6 +144,11 @@
 
       // initializing filtered subset to first category in the data
       let filteredData = countries.filter((country) => country.Category == categoryList[0]);
+      //display the scatterplot for the first category in the data (default)
+      filteredData = countries.filter((country) => country.Category == categoryList[0]);
+
+      //WE NEED TO ADD SOMETHING HERE TO BOLD THE FIRST BUTTON 
+      refreshScatter(filteredData)
 
       // event listeners for category filter buttons
       d3.selectAll(".category-filter").on("click", function(){
@@ -161,12 +175,12 @@
       const regionScale = d3.scaleOrdinal(d3.schemeCategory10);
 
       let leftAxis = d3.axisLeft(hourScale)
-                      .tickFormat(d3.format(""));  // shorter scientific notation with a dollar sign in front
+                      .tickFormat(d3.format(""));
       let leftGridlines = d3.axisLeft(hourScale)
                             .tickSize(-chartWidth-10)
                             .tickFormat("")
       let bottomAxis = d3.axisBottom(gdpScale)
-                        .tickFormat(d3.format("$.2s"));  // exact value without commas
+                        .tickFormat(d3.format("$.2s"));
       let bottomGridlines = d3.axisBottom(gdpScale)
                               .tickSize(-chartHeight-10)
                               .tickFormat("")
@@ -192,7 +206,7 @@
       scatter.append("text")
             .attr("class", "x label")
             .attr("x", chartWidth/2)
-            .attr("y", chartHeight+margin.bottom+10) //hardcoded values....
+            .attr("y", chartHeight+margin.bottom+15) //hardcoded values....
             .text("GDP per capita");
 
       scatter.append("text")
@@ -201,6 +215,15 @@
             .attr("x", -chartHeight/2)
             .attr("transform", "rotate(-90)")
             .text("Hours");   
+
+      //small label for the country name on hover
+      scatter.append("text")
+              .attr("id", "small-label")
+              .attr("x", chartWidth+50) //no idea why this has to be +50
+              .attr("y", 10)
+              .style("text-anchor", "end")
+              .style("alignment-baseline", "hanging")
+              .text("");
 
       let circles = chartArea.selectAll("circle.point").data(data)
                           .join(enter => enter.append("circle")
@@ -212,15 +235,17 @@
                           .attr("r", 6)
                           .style("opacity", 0.8)
                           .attr("fill", d => regionScale(d['region_name']))
-                          .attr("country_name", d => d["country_name"]);
+                          .attr("country_name", d => d["country_name"])
+                          .attr("selected", false);
         
-      circles.on("mouseover", function(event, d) { //DO WE WANT THIS ON MOUSEOVER OR CLICK??? 
+      circles.on("mouseover", function(event, d) { 
         d3.select(this)
           .transition().duration(100)
           .attr("stroke","black")
           .attr("stroke-width", 4);
 
-        // console.log(d.country_name, d.region_name, d.hoursPerDayCombined);
+        d3.select("#small-label").text(d['country_name']);
+        
         console.log(d)
           //in here we could update a panel later
        
@@ -229,18 +254,117 @@
       circles.on("mouseout", function(event, d) {
         d3.select(this)
           .transition().duration(100)
-          .attr("stroke","")
-          .attr("stroke-width", 1);
-        //in here we could clear the panel, or use updatePanel({})
+          .attr("stroke",d=>(d3.select(this).attr("selected")=="true" ? 'black' : ''))
+          .attr("stroke-width", d=>(d3.select(this).attr("selected")=="true") ? 4 : 1);
+
+          d3.select("#small-label").text(""); //clear the small label
       });
 
       circles.on("click", function(event, d) {
+        //my attempt to remember which circle is selected via click
+        //clear all selections
+        d3.selectAll("circle.point")
+          .transition().duration(100)
+          .attr("stroke","")
+          .attr("stroke-width", 1)
+          .attr("selected", false);
+        //make this one selected!
+        d3.select(this)
+          .transition().duration(100)
+          .attr("stroke","black")
+          .attr("stroke-width", 4)
+          .attr("selected", true);
+
         let detailContainer = document.getElementById("detail-sidebar");
         detailContainer.innerHTML = `<h3>${d.country_name}</h3>`
-        detailContainer.innerHTML += `<p>Hours per day spent on ${formatFilterText(d.Category)}: ${d.hoursPerDayCombined}</p>`
+        detailContainer.innerHTML += `<p>Hours per day spent on ${formatFilterText(d.Category)}: ${d3.format(".2f")(d.hoursPerDayCombined)}</p>`
         detailContainer.innerHTML += `<p>Region: ${d.region_name}</p>`
-        detailContainer.innerHTML += `<p>GDP per capita: ${d.GDP_percapita}</p>`
-        detailContainer.innerHTML += `<p>Population: ${d.population}</p>`
+        detailContainer.innerHTML += `<p>GDP per capita: ${d3.format("$,.2f")(d.GDP_percapita)}</p>`
+        detailContainer.innerHTML += `<p>Population: ${d3.format(",")(d.population)}</p>`
+        detailContainer.innerHTML += `<svg id="bubbleplot-region" height="150" width="320" ></svg>`
+        detailContainer.innerHTML += `<svg id="bubbleplot-all" height="150" width="320"></svg>`
+
+        //setup for the side panel visualizations
+        const bp_region = d3.select("svg#bubbleplot-region");
+        const region_width = bp_region.attr("width");
+        const region_height = bp_region.attr("height");
+        const bp_all = d3.select("svg#bubbleplot-all");
+        const all_width = bp_all.attr("width");
+        const all_height = bp_all.attr("height");
+
+        //get a minidataset of the data's region
+        let region_data = data.filter(dpoints => dpoints.region_name == d.region_name);
+
+        //x version of the hour scale. uses same hourExtent
+        let new_hourScale = d3.scaleLinear().domain(hourExtent).range([20,region_width-20]);
+        
+        ///create the lines
+        d3.select("#bubbleplot-region").append("line").attr("x1",new_hourScale(hourExtent[0])-10).attr("x2",new_hourScale(hourExtent[1])+10)
+                                        .attr("y1", region_height/2).attr("y2", region_height/2).attr("class","dashed");
+        d3.select("#bubbleplot-all").append("line").attr("x1",new_hourScale(hourExtent[0])-10).attr("x2",new_hourScale(hourExtent[1])+10)
+                                        .attr("y1", all_height/2).attr("y2", all_height/2).attr("class","dashed");
+        
+        //create the title labels
+        d3.select("#bubbleplot-region").append("text").text(`${d.region_name} Region`).attr("class","bubbleaxis").attr("x",0).attr("y",15);
+        d3.select("#bubbleplot-all").append("text").text(`All Countries`).attr("class","bubbleaxis").attr("x",0).attr("y",15);
+
+        //SIMULATIONS
+        let regionSimulation = d3.forceSimulation()
+                                  .nodes(region_data)
+                                  .force("collision", d3.forceCollide()
+                                                        .radius(2)
+                                                        .iterations(3) )
+                                  .force("xpos", d3.forceX()
+                                                  .x( d => new_hourScale(d.hoursPerDayCombined) )
+                                                  .strength( 0.1 ) )
+                                  .force("ypos", d3.forceY()
+                                                  .y(region_height/2)
+                                                  .strength( 0.1 ) )
+                                  .stop();
+
+        let allSimulation = d3.forceSimulation()
+                              .nodes(data)
+                              .force("collision", d3.forceCollide()
+                                                    .radius(4)
+                                                    .iterations(3) )
+                              .force("xpos", d3.forceX()
+                                              .x( d => new_hourScale(d.hoursPerDayCombined) )
+                                              .strength( 0.3 ) )
+                              .force("ypos", d3.forceY()
+                                              .y(all_height/2)
+                                              .strength( 0.3 ) )
+                              .stop();
+
+        //run the simulation behind the scenes. references FA22 10/24 notes
+        while (regionSimulation.alpha() > 0.01) { 
+          regionSimulation.tick(); 
+        }
+        while (allSimulation.alpha() > 0.01) { 
+          allSimulation.tick(); 
+        }
+
+        //draw circles 
+        let br_layer = d3.select("#bubbleplot-region").append("g");
+        br_layer.selectAll("circle").data(region_data)
+              .enter().append("circle")
+              .attr("r", 3) 
+              .attr("cx", d => d.x) 
+              .attr("cy", d => d.y) 
+              .attr("fill", d => regionScale(d.region_name))
+              .attr("stroke",datapoint=>(datapoint.country_name==d.country_name ? 'black' : ''))
+              .attr("stroke-width", datapoint=>(datapoint.country_name==d.country_name) ? 2 : 1);
+
+        let ba_layer = d3.select("#bubbleplot-all").append("g");
+        ba_layer.selectAll("circle").data(data)
+              .enter().append("circle")
+              .attr("r", 3) 
+              .attr("cx", d => d.x) 
+              .attr("cy", d => d.y)
+              .attr("fill", d => regionScale(d.region_name))
+              .attr("stroke",datapoint=>(datapoint.country_name==d.country_name ? 'black' : ''))
+              .attr("stroke-width", datapoint=>(datapoint.country_name==d.country_name) ? 2 : 1);
+
+
       });
     }
 
