@@ -31,7 +31,7 @@
           text-decoration-color:rgb(196, 196, 196);
         }
 
-        /* ------- category filters ------- */
+        /* ------- category filter sidebar ------- */
         #controls-sidebar {
           width: 25%;
           display: flex;
@@ -69,8 +69,14 @@
         }
 
         /* ------- main scatterplot visualization ------- */
-        #scatter-container {
+        main {
             display: flex;
+        }
+
+        #scatterplot-container {
+          display: flex;
+          flex-direction: column;
+          width: 700px;
         }
 
         .gridlines line {
@@ -97,6 +103,15 @@
           stroke: #747474;
         }
 
+        .legend-element {
+          width: 233px;
+          height: 30px;
+        }
+
+        #scatterplot-legend {
+          padding-bottom: 1em;
+        }
+
         /* ------- detail sidebar ------- */
         #detail-sidebar {
           width: 25%;
@@ -120,17 +135,20 @@
       <h2>How many hours a day do people across the world spend on <span id="subtitle-filter">...</span>?</h2>
     </div>
   
-    <div id="scatter-container">
+    <main>
       <aside id="controls-sidebar" height="700">
         <div id="category-filters"></div>
       </aside> 
-      <svg id="scatterplot" width="700" height="700"></svg>
+      <div id="scatterplot-container">
+        <div id="scatterplot-legend" width="700" height="100"></div>
+        <svg id="scatterplot" width="700" height="700"></svg>
+      </div>
       <aside id="detail-sidebar" height="700">
         <!-- <svg id="bubbleplot-region" height="200" width="300" style="background: #fff; margin-top:50px" ></svg>
         <svg id="bubbleplot-country" height="200" width="300" style="background: #fff; margin-top:50px" ></svg> -->
 
       </aside>
-    </div>
+    </main>
   </body>
 
   <script>
@@ -145,16 +163,42 @@
     let annotations = scatter.append("g").attr("id","annotations")
     let chartArea = scatter.append("g").attr("id","dots")
                     .attr("transform","translate("+margin.left+","+margin.top+")")
+    
+    const regionScale = d3.scaleOrdinal(d3.schemeCategory10);
 
     // ------------------------- REQUEST DATA FUNCTION -------------------------
     const requestData = async function() {
       const countries = await d3.csv("df_bycat.csv", d3.autoType);
 
       // populating category filter buttons with unique categories from the data
-      const categoryList = [...new Set(countries.map(item => item.Category))];
+      const categoryList = [...new Set(countries.map(country => country.Category))];
       categoryList.forEach((category) => {
         document.getElementById("category-filters").innerHTML += `<button class="category-filter">${category}</button>`
       });
+
+      // populating legend
+      const regionList = [...new Set(countries.map(country => country.region_name))];
+      console.log(regionList);
+      regionList.forEach((region, i) => {
+        document.getElementById("scatterplot-legend").innerHTML += `<svg class="legend-element">
+          <circle cx=12 cy="50%"" r=6 opacity=0.8 fill=${regionScale(region)} class="legend-point">
+          </circle>
+          <text x="15%" y="50%" dominant-baseline="middle" class="legend-text">
+            ${region}
+          <text>
+        </svg>`
+        // d3.select("#scatterplot-legend").append("circle")
+        //   .attr("cx", 50 + i*100)
+        //   .attr("cy", 50)
+        //   .attr("r", 6)
+        //   .attr("opacity", 0.8)
+        //   .attr("fill", regionScale(region));
+        // d3.select("#scatterplot-legend").append("text")
+        //   .attr("x", 50 + i*100)
+        //   .attr("y", 80)
+        //   .attr("text-anchor", "middle")
+        //   .text(region);
+      })
 
       // SETTING DEFAULT VIEW: initializing filtered subset to first category in the data
       let filteredData = countries.filter((country) => country.Category == categoryList[0]);
@@ -184,8 +228,6 @@
 
       let hourExtent = d3.extent(data, d => d['hoursPerDayCombined']);
       let hourScale = d3.scaleLinear().domain(hourExtent).range([chartHeight, 0]);
-
-      const regionScale = d3.scaleOrdinal(d3.schemeCategory10);
 
       let leftAxis = d3.axisLeft(hourScale)
                       .tickFormat(d3.format(""));
