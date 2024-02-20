@@ -178,7 +178,7 @@
 
     // ------------------------- REQUEST DATA FUNCTION -------------------------
     const requestData = async function() {
-      const countries = await d3.csv("df_bycat.csv", d3.autoType);
+      const countries = await d3.csv("df_bycat2.csv", d3.autoType);
 
       // populating category filter buttons with unique categories from the data
       const categoryList = [...new Set(countries.map(country => country.Category))];
@@ -187,7 +187,7 @@
       });
 
       // populating legend
-      const regionList = [...new Set(countries.map(country => country.region_name))];
+      const regionList = [...new Set(countries.map(country => country.larger_region_name))];
       regionList.forEach((region, i) => {
         document.getElementById("scatterplot-legend").innerHTML += `<svg class="legend-element">
           <circle cx=12 cy="50%"" r=6 opacity=0.8 fill=${regionScale(region)} class="legend-point">
@@ -292,7 +292,7 @@
                           .attr("cy", d => hourScale(d['hoursPerDayCombined']))
                           .attr("r", 6)
                           .style("opacity", 0.8)
-                          .attr("fill", d => regionScale(d['region_name']))
+                          .attr("fill", d => regionScale(d['larger_region_name']))
                           .attr("country_name", d => d["country_name"])
                           .attr("selected", false);
       
@@ -343,7 +343,7 @@
       let detailContainer = document.getElementById("detail-sidebar");
         detailContainer.innerHTML = `<h3>${d.country_name}</h3>`
         detailContainer.innerHTML += `<p>Hours per day spent on ${formatFilterText(d.Category)}: ${d3.format(".2f")(d.hoursPerDayCombined)}</p>`
-        detailContainer.innerHTML += `<p>Region: ${d.region_name}</p>`
+        detailContainer.innerHTML += `<p>Region: ${d.larger_region_name}</p>`
         detailContainer.innerHTML += `<p>GDP per capita: ${d3.format("$,.2f")(d.GDP_percapita)}</p>`
         detailContainer.innerHTML += `<p>Population: ${d3.format(",")(d.population)}</p>`
         detailContainer.innerHTML += `<svg id="bubbleplot-region" height="150" width="320" ></svg>`
@@ -359,7 +359,7 @@
         const all_height = bp_all.attr("height");
 
         // get a minidataset of the data's region
-        let region_data = data.filter(dpoints => dpoints.region_name == d.region_name);
+        let region_data = data.filter(dpoints => dpoints.larger_region_name == d.larger_region_name);
 
         // x version of the hour scale. uses same hourExtent
         let hourExtent = d3.extent(data, d => d['hoursPerDayCombined']); // copied this line over since it's currently defined out of scope but we can change that
@@ -373,7 +373,7 @@
                                         .attr("y1", all_height/2).attr("y2", all_height/2).attr("class","dashed");
         
         // create the title labels
-        d3.select("#bubbleplot-region").append("text").text(`${d.region_name} Region`).attr("class","bubbleaxis").attr("x",0).attr("y",15);
+        d3.select("#bubbleplot-region").append("text").text(`${d.larger_region_name} Region`).attr("class","bubbleaxis").attr("x",0).attr("y",15);
         d3.select("#bubbleplot-all").append("text").text(`All Countries`).attr("class","bubbleaxis").attr("x",0).attr("y",15);
 
         // SIMULATIONS
@@ -418,7 +418,7 @@
               .attr("r", 3) 
               .attr("cx", d => d.x) 
               .attr("cy", d => d.y) 
-              .attr("fill", d => regionScale(d.region_name))
+              .attr("fill", d => regionScale(d.larger_region_name))
               .attr("stroke",datapoint=>(datapoint.country_name==d.country_name ? 'black' : ''))
               .attr("stroke-width", datapoint=>(datapoint.country_name==d.country_name) ? 2 : 1);
 
@@ -428,7 +428,8 @@
               .attr("r", 3) 
               .attr("cx", d => d.x) 
               .attr("cy", d => d.y)
-              .attr("fill", d => regionScale(d.region_name))
+              .attr("fill", datapoint=>(datapoint.country_name==d.country_name) ? regionScale(d.larger_region_name):"gray")
+              .style("opacity", datapoint=>(datapoint.country_name==d.country_name) ? 1:0.5)
               .attr("stroke",datapoint=>(datapoint.country_name==d.country_name ? 'black' : ''))
               .attr("stroke-width", datapoint=>(datapoint.country_name==d.country_name) ? 2 : 1);
     }

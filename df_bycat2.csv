@@ -1,0 +1,1481 @@
+Category,country_name,region_name,hoursPerDayCombined,population,GDP_percapita,uncertaintyCombined_mod,larger_region_name
+Deliberate neural restructuring,Afghanistan,Southern Asia,1.62,36296111,2515.55,0.3218396355918361,Asia
+Experience oriented,Afghanistan,Southern Asia,6.32,36296111,2515.55,1.1822136273190929,Asia
+Food provision,Afghanistan,Southern Asia,2.12,36296111,2515.55,0.2436092248715308,Asia
+Maintenance of surroundings,Afghanistan,Southern Asia,0.68,36296111,2515.55,0.1810142890673382,Asia
+Nonfood provision,Afghanistan,Southern Asia,0.06,36296111,2515.55,0.0024889263615189,Asia
+Organization,Afghanistan,Southern Asia,1.74,36296111,2515.55,0.2464331035561558,Asia
+Somatic maintenance,Afghanistan,Southern Asia,11.02,36296111,2515.55,0.9863219228380382,Asia
+Technosphere modification,Afghanistan,Southern Asia,0.45,36296111,2515.55,0.0273522448610944,Asia
+Deliberate neural restructuring,Albania,Southern Europe,1.1,2896307,13088.31,0.0025489556006793,Europe
+Experience oriented,Albania,Southern Europe,6.8500000000000005,2896307,13088.31,0.0132000297634528,Europe
+Food provision,Albania,Southern Europe,1.96,2896307,13088.31,0.0253472060528597,Europe
+Maintenance of surroundings,Albania,Southern Europe,0.84,2896307,13088.31,0.0019102953562017,Europe
+Nonfood provision,Albania,Southern Europe,0.09,2896307,13088.31,0.0003684501137772,Europe
+Organization,Albania,Southern Europe,1.83,2896307,13088.31,0.0087770601691346,Europe
+Somatic maintenance,Albania,Southern Europe,10.62,2896307,13088.31,0.1705406611603561,Europe
+Technosphere modification,Albania,Southern Europe,0.7100000000000001,2896307,13088.31,0.0037002087373202,Europe
+Deliberate neural restructuring,Algeria,Northern Africa,1.42,41389174,11644.06,0.0040170064706431,Africa
+Experience oriented,Algeria,Northern Africa,7.390000000000001,41389174,11644.06,0.042033899878655,Africa
+Food provision,Algeria,Northern Africa,1.2999999999999998,41389174,11644.06,0.0121155405514999,Africa
+Maintenance of surroundings,Algeria,Northern Africa,0.76,41389174,11644.06,0.0101187009014956,Africa
+Nonfood provision,Algeria,Northern Africa,0.07,41389174,11644.06,7.039627501314332e-05,Africa
+Organization,Algeria,Northern Africa,1.58,41389174,11644.06,0.0123260310774768,Africa
+Somatic maintenance,Algeria,Northern Africa,10.96,41389174,11644.06,0.585806533739324,Africa
+Technosphere modification,Algeria,Northern Africa,0.51,41389174,11644.06,0.0095962596777519,Africa
+Deliberate neural restructuring,Angola,Middle Africa,2.39,31825299,7681.96,0.3540090411598675,Africa
+Experience oriented,Angola,Middle Africa,5.43,31825299,7681.96,1.1940850933355414,Africa
+Food provision,Angola,Middle Africa,1.89,31825299,7681.96,0.5745784415181214,Africa
+Maintenance of surroundings,Angola,Middle Africa,0.72,31825299,7681.96,0.2001208693806697,Africa
+Nonfood provision,Angola,Middle Africa,0.18,31825299,7681.96,0.0183708206248169,Africa
+Organization,Angola,Middle Africa,1.99,31825299,7681.96,0.3546176284891226,Africa
+Somatic maintenance,Angola,Middle Africa,10.93,31825299,7681.96,1.298723351948884,Africa
+Technosphere modification,Angola,Middle Africa,0.47,31825299,7681.96,0.1441319588704239,Africa
+Deliberate neural restructuring,Antigua and Barbuda,Caribbean,1.45,97115,20190.63,0.3509884761906235,America
+Experience oriented,Antigua and Barbuda,Caribbean,6.07,97115,20190.63,3.627329256609568,America
+Food provision,Antigua and Barbuda,Caribbean,1.81,97115,20190.63,0.2505704445049446,America
+Maintenance of surroundings,Antigua and Barbuda,Caribbean,1.3,97115,20190.63,0.2103782043481173,America
+Nonfood provision,Antigua and Barbuda,Caribbean,0.11,97115,20190.63,0.0055898138979939,America
+Organization,Antigua and Barbuda,Caribbean,2.16,97115,20190.63,0.6210651982564246,America
+Somatic maintenance,Antigua and Barbuda,Caribbean,10.33,97115,20190.63,4.921168632266722,America
+Technosphere modification,Antigua and Barbuda,Caribbean,0.76,97115,20190.63,0.0299020332796977,America
+Deliberate neural restructuring,Argentina,South America,1.22,44780675,23597.12,0.3318387585655065,America
+Experience oriented,Argentina,South America,7.14,44780675,23597.12,1.2354060551820163,America
+Food provision,Argentina,South America,0.83,44780675,23597.12,0.1989551784251559,America
+Maintenance of surroundings,Argentina,South America,0.73,44780675,23597.12,0.2058731061296564,America
+Nonfood provision,Argentina,South America,0.06,44780675,23597.12,0.0024992020262002,America
+Organization,Argentina,South America,2.87,44780675,23597.12,0.4070408269031628,America
+Somatic maintenance,Argentina,South America,10.27,44780675,23597.12,1.8788094124816184,America
+Technosphere modification,Argentina,South America,0.9000000000000001,44780675,23597.12,0.081622466054317,America
+Deliberate neural restructuring,Armenia,Western Asia,1.46,2925559,11974.03,0.3232881829989931,Asia
+Experience oriented,Armenia,Western Asia,7.38,2925559,11974.03,1.219803277255405,Asia
+Food provision,Armenia,Western Asia,1.42,2925559,11974.03,0.1905838814741054,Asia
+Maintenance of surroundings,Armenia,Western Asia,0.82,2925559,11974.03,0.1880094540822351,Asia
+Nonfood provision,Armenia,Western Asia,0.12,2925559,11974.03,0.0023963919997362,Asia
+Organization,Armenia,Western Asia,1.72,2925559,11974.03,0.1622855117183348,Asia
+Somatic maintenance,Armenia,Western Asia,10.73,2925559,11974.03,1.3411405521680475,Asia
+Technosphere modification,Armenia,Western Asia,0.36,2925559,11974.03,0.0250250023633787,Asia
+Deliberate neural restructuring,Aruba,Caribbean,1.45,101665,36893.48,0.3463365332151254,America
+Experience oriented,Aruba,Caribbean,6.13,101665,36893.48,3.6271412513820382,America
+Food provision,Aruba,Caribbean,1.64,101665,36893.48,0.2392641856774785,America
+Maintenance of surroundings,Aruba,Caribbean,1.43,101665,36893.48,0.2117528021582365,America
+Nonfood provision,Aruba,Caribbean,0.08,101665,36893.48,0.0041507111438245,America
+Organization,Aruba,Caribbean,2.39,101665,36893.48,0.6142569657341121,America
+Somatic maintenance,Aruba,Caribbean,10.31,101665,36893.48,4.921080995487821,America
+Technosphere modification,Aruba,Caribbean,0.54,101665,36893.48,0.0208248654165971,America
+Deliberate neural restructuring,Australia,Australia and New Zealand,1.08,21332293,49748.18,0.0012664405753623,Oceania
+Experience oriented,Australia,Australia and New Zealand,6.99,21332293,49748.18,0.0169216754003105,Oceania
+Food provision,Australia,Australia and New Zealand,0.94,21332293,49748.18,0.0013136364835088,Oceania
+Maintenance of surroundings,Australia,Australia and New Zealand,1.03,21332293,49748.18,0.000991463913103,Oceania
+Nonfood provision,Australia,Australia and New Zealand,0.09,21332293,49748.18,1.6334269917437193e-05,Oceania
+Organization,Australia,Australia and New Zealand,2.71,21332293,49748.18,0.0022985246100707,Oceania
+Somatic maintenance,Australia,Australia and New Zealand,10.43,21332293,49748.18,0.1339111754242339,Oceania
+Technosphere modification,Australia,Australia and New Zealand,0.76,21332293,49748.18,0.0015267755814409,Oceania
+Deliberate neural restructuring,Austria,Western Europe,0.95,8453501,54390.55,0.0021630763707167,Europe
+Experience oriented,Austria,Western Europe,6.95,8453501,54390.55,0.0119074987938949,Europe
+Food provision,Austria,Western Europe,1.11,8453501,54390.55,0.0023383737062462,Europe
+Maintenance of surroundings,Austria,Western Europe,1.21,8453501,54390.55,0.0018162546854882,Europe
+Nonfood provision,Austria,Western Europe,0.06,8453501,54390.55,5.6198898016567615e-05,Europe
+Organization,Austria,Western Europe,2.62,8453501,54390.55,0.0396738551258952,Europe
+Somatic maintenance,Austria,Western Europe,10.16,8453501,54390.55,0.1413434840741447,Europe
+Technosphere modification,Austria,Western Europe,0.94,8453501,54390.55,0.0124619999671201,Europe
+Deliberate neural restructuring,Azerbaijan,Western Asia,1.46,10047719,14184.79,0.3261184877838416,Asia
+Experience oriented,Azerbaijan,Western Asia,7.380000000000001,10047719,14184.79,1.219949533489157,Asia
+Food provision,Azerbaijan,Western Asia,1.45,10047719,14184.79,0.2047100695939965,Asia
+Maintenance of surroundings,Azerbaijan,Western Asia,0.83,10047719,14184.79,0.1881815351301928,Asia
+Nonfood provision,Azerbaijan,Western Asia,0.14,10047719,14184.79,0.0036112886731214,Asia
+Organization,Azerbaijan,Western Asia,1.6800000000000002,10047719,14184.79,0.1867340651987525,Asia
+Somatic maintenance,Azerbaijan,Western Asia,10.66,10047719,14184.79,1.3411424337421087,Asia
+Technosphere modification,Azerbaijan,Western Asia,0.4,10047719,14184.79,0.0288162254515006,Asia
+Deliberate neural restructuring,Bahamas,Caribbean,1.45,389486,37211.84,0.3509884761906235,America
+Experience oriented,Bahamas,Caribbean,6.07,389486,37211.84,3.627329256609568,America
+Food provision,Bahamas,Caribbean,1.81,389486,37211.84,0.2505704445049446,America
+Maintenance of surroundings,Bahamas,Caribbean,1.3,389486,37211.84,0.2103782043481173,America
+Nonfood provision,Bahamas,Caribbean,0.11,389486,37211.84,0.0055898138979939,America
+Organization,Bahamas,Caribbean,2.16,389486,37211.84,0.6210651982564246,America
+Somatic maintenance,Bahamas,Caribbean,10.33,389486,37211.84,4.921168632266722,America
+Technosphere modification,Bahamas,Caribbean,0.76,389486,37211.84,0.0299020332796977,America
+Deliberate neural restructuring,Bahrain,Western Asia,1.4,1641164,47486.02,0.3264594198900369,Asia
+Experience oriented,Bahrain,Western Asia,7.36,1641164,47486.02,1.220005823659226,Asia
+Food provision,Bahrain,Western Asia,1.28,1641164,47486.02,0.2125329918447149,Asia
+Maintenance of surroundings,Bahrain,Western Asia,0.87,1641164,47486.02,0.1912537909498025,Asia
+Nonfood provision,Bahrain,Western Asia,0.07,1641164,47486.02,0.0062000868507373,Asia
+Organization,Bahrain,Western Asia,1.77,1641164,47486.02,0.18522496472987,Asia
+Somatic maintenance,Bahrain,Western Asia,10.68,1641164,47486.02,1.3411877681254591,Asia
+Technosphere modification,Bahrain,Western Asia,0.56,1641164,47486.02,0.2116071990604985,Asia
+Deliberate neural restructuring,Bangladesh,Southern Asia,1.59,159685421,4450.31,0.3205663684126164,Asia
+Experience oriented,Bangladesh,Southern Asia,6.32,159685421,4450.31,1.182213854381728,Asia
+Food provision,Bangladesh,Southern Asia,2.12,159685421,4450.31,0.1922572243362037,Asia
+Maintenance of surroundings,Bangladesh,Southern Asia,0.73,159685421,4450.31,0.181363278859351,Asia
+Nonfood provision,Bangladesh,Southern Asia,0.06,159685421,4450.31,0.0024765973778542,Asia
+Organization,Bangladesh,Southern Asia,1.61,159685421,4450.31,0.1666519349405772,Asia
+Somatic maintenance,Bangladesh,Southern Asia,11.04,159685421,4450.31,0.9863387621069852,Asia
+Technosphere modification,Bangladesh,Southern Asia,0.52,159685421,4450.31,0.0222419805721282,Asia
+Deliberate neural restructuring,Barbados,Caribbean,1.45,287021,15817.71,0.3509884761906235,America
+Experience oriented,Barbados,Caribbean,6.07,287021,15817.71,3.627329256609568,America
+Food provision,Barbados,Caribbean,1.81,287021,15817.71,0.2505704445049446,America
+Maintenance of surroundings,Barbados,Caribbean,1.3,287021,15817.71,0.2103782043481173,America
+Nonfood provision,Barbados,Caribbean,0.11,287021,15817.71,0.0055898138979939,America
+Organization,Barbados,Caribbean,2.16,287021,15817.71,0.6210651982564246,America
+Somatic maintenance,Barbados,Caribbean,10.33,287021,15817.71,4.921168632266722,America
+Technosphere modification,Barbados,Caribbean,0.76,287021,15817.71,0.0299020332796977,America
+Deliberate neural restructuring,Belarus,Eastern Europe,0.8799999999999999,9445638,18267.24,0.0031656286044496,Europe
+Experience oriented,Belarus,Eastern Europe,6.08,9445638,18267.24,0.4820400500108203,Europe
+Food provision,Belarus,Eastern Europe,1.7000000000000002,9445638,18267.24,0.013185491440709,Europe
+Maintenance of surroundings,Belarus,Eastern Europe,1.01,9445638,18267.24,0.0121778884410419,Europe
+Nonfood provision,Belarus,Eastern Europe,0.21,9445638,18267.24,0.0005292820865443,Europe
+Organization,Belarus,Eastern Europe,2.37,9445638,18267.24,0.0649615817350195,Europe
+Somatic maintenance,Belarus,Eastern Europe,10.86,9445638,18267.24,1.2479564367719935,Europe
+Technosphere modification,Belarus,Eastern Europe,0.8900000000000001,9445638,18267.24,0.0056876785898783,Europe
+Deliberate neural restructuring,Belgium,Western Europe,1.06,10938735,50719.83,0.0019101043061622,Europe
+Experience oriented,Belgium,Western Europe,7.76,10938735,50719.83,0.014810648662208,Europe
+Food provision,Belgium,Western Europe,0.92,10938735,50719.83,0.0008362068800185,Europe
+Maintenance of surroundings,Belgium,Western Europe,0.98,10938735,50719.83,0.0008671478387507,Europe
+Nonfood provision,Belgium,Western Europe,0.03,10938735,50719.83,1.3150330309425812e-05,Europe
+Organization,Belgium,Western Europe,2.46,10938735,50719.83,0.0148125531742574,Europe
+Somatic maintenance,Belgium,Western Europe,10.22,10938735,50719.83,0.1406810406720125,Europe
+Technosphere modification,Belgium,Western Europe,0.5700000000000001,10938735,50719.83,0.0036212747653084,Europe
+Deliberate neural restructuring,Belize,Central America,1.33,390351,6872.66,0.3460768345016241,America
+Experience oriented,Belize,Central America,6.1,390351,6872.66,3.627193772304933,America
+Food provision,Belize,Central America,1.53,390351,6872.66,0.2311487362483241,America
+Maintenance of surroundings,Belize,Central America,1.22,390351,6872.66,0.207177843780237,America
+Nonfood provision,Belize,Central America,0.13,390351,6872.66,0.0042671088708123,America
+Organization,Belize,Central America,2.71,390351,6872.66,0.6286202771812703,America
+Somatic maintenance,Belize,Central America,10.4,390351,6872.66,4.921078361420217,America
+Technosphere modification,Belize,Central America,0.5800000000000001,390351,6872.66,0.0220752402072098,America
+Deliberate neural restructuring,Benin,Western Africa,1.4400000000000002,8902134,3044.51,0.0073304044613798,Africa
+Experience oriented,Benin,Western Africa,6.34,8902134,3044.51,0.0292886892576379,Africa
+Food provision,Benin,Western Africa,1.76,8902134,3044.51,0.1598810082785697,Africa
+Maintenance of surroundings,Benin,Western Africa,0.63,8902134,3044.51,0.0025247073989856,Africa
+Nonfood provision,Benin,Western Africa,0.19,8902134,3044.51,0.0035276579243735,Africa
+Organization,Benin,Western Africa,2.1,8902134,3044.51,0.1053795565150763,Africa
+Somatic maintenance,Benin,Western Africa,11.17,8902134,3044.51,0.630070696218773,Africa
+Technosphere modification,Benin,Western Africa,0.36,8902134,3044.51,0.0168910821461894,Africa
+Deliberate neural restructuring,Bhutan,Southern Asia,1.63,763094,10851.9,0.3217398810314678,Asia
+Experience oriented,Bhutan,Southern Asia,6.33,763094,10851.9,1.1822242740491402,Asia
+Food provision,Bhutan,Southern Asia,2.46,763094,10851.9,0.2964365133032137,Asia
+Maintenance of surroundings,Bhutan,Southern Asia,0.71,763094,10851.9,0.1813002502533738,Asia
+Nonfood provision,Bhutan,Southern Asia,0.11,763094,10851.9,0.0038140925965385,Asia
+Organization,Bhutan,Southern Asia,1.4300000000000002,763094,10851.9,0.1798100920428691,Asia
+Somatic maintenance,Bhutan,Southern Asia,11.02,763094,10851.9,0.986318723838998,Asia
+Technosphere modification,Bhutan,Southern Asia,0.33,763094,10851.9,0.0206176533118601,Asia
+Deliberate neural restructuring,Bolivia (Plurinational State of),South America,1.15,11513102,8406.74,0.3257585427679154,America
+Experience oriented,Bolivia (Plurinational State of),South America,7.06,11513102,8406.74,1.2346938571028918,America
+Food provision,Bolivia (Plurinational State of),South America,1.41,11513102,8406.74,0.1964823020746004,America
+Maintenance of surroundings,Bolivia (Plurinational State of),South America,0.71,11513102,8406.74,0.20401650695974,America
+Nonfood provision,Bolivia (Plurinational State of),South America,0.17,11513102,8406.74,0.0024800301448554,America
+Organization,Bolivia (Plurinational State of),South America,2.48,11513102,8406.74,0.1825443467778895,America
+Somatic maintenance,Bolivia (Plurinational State of),South America,10.21,11513102,8406.74,1.8787702953849703,America
+Technosphere modification,Bolivia (Plurinational State of),South America,0.81,11513102,8406.74,0.0395082200014597,America
+Deliberate neural restructuring,Bosnia and Herzegovina,Southern Europe,0.89,3300998,13836.66,0.0128768385320136,Europe
+Experience oriented,Bosnia and Herzegovina,Southern Europe,7.279999999999999,3300998,13836.66,0.0944796081712322,Europe
+Food provision,Bosnia and Herzegovina,Southern Europe,1.46,3300998,13836.66,0.0233797483057958,Europe
+Maintenance of surroundings,Bosnia and Herzegovina,Southern Europe,1.1,3300998,13836.66,0.0412831223444174,Europe
+Nonfood provision,Bosnia and Herzegovina,Southern Europe,0.15,3300998,13836.66,0.0012693310979766,Europe
+Organization,Bosnia and Herzegovina,Southern Europe,2.31,3300998,13836.66,0.0632456454469111,Europe
+Somatic maintenance,Bosnia and Herzegovina,Southern Europe,10.17,3300998,13836.66,0.0775863719267133,Europe
+Technosphere modification,Bosnia and Herzegovina,Southern Europe,0.66,3300998,13836.66,0.022097905521323,Europe
+Deliberate neural restructuring,Botswana,Southern Africa,1.38,2303703,17253.31,0.3240547119749716,Africa
+Experience oriented,Botswana,Southern Africa,6.7700000000000005,2303703,17253.31,1.205016261312427,Africa
+Food provision,Botswana,Southern Africa,1.16,2303703,17253.31,0.1929856627721828,Africa
+Maintenance of surroundings,Botswana,Southern Africa,0.96,2303703,17253.31,0.1854427211405876,Africa
+Nonfood provision,Botswana,Southern Africa,0.14,2303703,17253.31,0.0024037468291615,Africa
+Organization,Botswana,Southern Africa,2.13,2303703,17253.31,0.2065528779786443,Africa
+Somatic maintenance,Botswana,Southern Africa,11.17,2303703,17253.31,1.4080502027638724,Africa
+Technosphere modification,Botswana,Southern Africa,0.31,2303703,17253.31,0.0186655795069288,Africa
+Deliberate neural restructuring,Brazil,South America,1.17,184833335,14596.87,0.0080165180518995,America
+Experience oriented,Brazil,South America,6.88,184833335,14596.87,0.0679188890120122,America
+Food provision,Brazil,South America,1.08,184833335,14596.87,0.0153464154900531,America
+Maintenance of surroundings,Brazil,South America,0.8200000000000001,184833335,14596.87,0.0233606142923737,America
+Nonfood provision,Brazil,South America,0.07,184833335,14596.87,4.600789571401288e-05,America
+Organization,Brazil,South America,2.75,184833335,14596.87,0.0227353597587183,America
+Somatic maintenance,Brazil,South America,10.41,184833335,14596.87,1.060786686974388,America
+Technosphere modification,Brazil,South America,0.81,184833335,14596.87,0.0217546023841444,America
+Deliberate neural restructuring,Brunei Darussalam,South-eastern Asia,1.18,433296,60280.82,0.3457581199923644,Asia
+Experience oriented,Brunei Darussalam,South-eastern Asia,6.84,433296,60280.82,8.20218312778937,Asia
+Food provision,Brunei Darussalam,South-eastern Asia,0.92,433296,60280.82,0.2655199561847791,Asia
+Maintenance of surroundings,Brunei Darussalam,South-eastern Asia,0.72,433296,60280.82,0.2610365250380698,Asia
+Nonfood provision,Brunei Darussalam,South-eastern Asia,0.27,433296,60280.82,0.0034099740590394,Asia
+Organization,Brunei Darussalam,South-eastern Asia,2.88,433296,60280.82,5.400139068919695,Asia
+Somatic maintenance,Brunei Darussalam,South-eastern Asia,10.49,433296,60280.82,10.041682691651513,Asia
+Technosphere modification,Brunei Darussalam,South-eastern Asia,0.68,433296,60280.82,0.092657436965606,Asia
+Deliberate neural restructuring,Bulgaria,Eastern Europe,0.6499999999999999,7524084,21533.74,0.0006679378546751,Europe
+Experience oriented,Bulgaria,Eastern Europe,6.709999999999999,7524084,21533.74,0.014267441013247,Europe
+Food provision,Bulgaria,Eastern Europe,1.94,7524084,21533.74,0.0022524436403333,Europe
+Maintenance of surroundings,Bulgaria,Eastern Europe,1.36,7524084,21533.74,0.0017202955880693,Europe
+Nonfood provision,Bulgaria,Eastern Europe,0.1,7524084,21533.74,2.422504923553045e-05,Europe
+Organization,Bulgaria,Eastern Europe,2.08,7524084,21533.74,0.00232687528749,Europe
+Somatic maintenance,Bulgaria,Eastern Europe,10.22,7524084,21533.74,0.1579130830440787,Europe
+Technosphere modification,Bulgaria,Eastern Europe,0.95,7524084,21533.74,0.0012320343218363,Europe
+Deliberate neural restructuring,Burkina Faso,Western Africa,1.53,17586029,2053.51,0.3251131935291864,Africa
+Experience oriented,Burkina Faso,Western Africa,7.11,17586029,2053.51,1.2031051951920848,Africa
+Food provision,Burkina Faso,Western Africa,1.3,17586029,2053.51,0.1953025603660243,Africa
+Maintenance of surroundings,Burkina Faso,Western Africa,0.64,17586029,2053.51,0.1821447108789287,Africa
+Nonfood provision,Burkina Faso,Western Africa,0.5,17586029,2053.51,0.0124877569954749,Africa
+Organization,Burkina Faso,Western Africa,1.98,17586029,2053.51,0.1867335730037005,Africa
+Somatic maintenance,Burkina Faso,Western Africa,10.34,17586029,2053.51,1.4485746459251954,Africa
+Technosphere modification,Burkina Faso,Western Africa,0.6000000000000001,17586029,2053.51,0.0290545589553628,Africa
+Deliberate neural restructuring,Burundi,Eastern Africa,1.21,9844301,770.707,0.322817904026469,Africa
+Experience oriented,Burundi,Eastern Africa,6.550000000000001,9844301,770.707,2.3184937128529697,Africa
+Food provision,Burundi,Eastern Africa,2.68,9844301,770.707,0.2344134461157847,Africa
+Maintenance of surroundings,Burundi,Eastern Africa,0.84,9844301,770.707,0.2253515070045686,Africa
+Nonfood provision,Burundi,Eastern Africa,0.11,9844301,770.707,0.0035189440995604,Africa
+Organization,Burundi,Eastern Africa,1.72,9844301,770.707,1.0517362280996214,Africa
+Somatic maintenance,Burundi,Eastern Africa,10.63,9844301,770.707,2.9698992932668453,Africa
+Technosphere modification,Burundi,Eastern Africa,0.26,9844301,770.707,0.0203888446740537,Africa
+Deliberate neural restructuring,Cabo Verde,Western Africa,1.55,549936,6535.1,0.3258962325706135,Africa
+Experience oriented,Cabo Verde,Western Africa,7.05,549936,6535.1,1.203074811314147,Africa
+Food provision,Cabo Verde,Western Africa,1.71,549936,6535.1,0.2858245012306631,Africa
+Maintenance of surroundings,Cabo Verde,Western Africa,0.67,549936,6535.1,0.1838871698119185,Africa
+Nonfood provision,Cabo Verde,Western Africa,0.17,549936,6535.1,0.0092863596201781,Africa
+Organization,Cabo Verde,Western Africa,2.09,549936,6535.1,0.231856638527778,Africa
+Somatic maintenance,Cabo Verde,Western Africa,10.39,549936,6535.1,1.4486498160892902,Africa
+Technosphere modification,Cabo Verde,Western Africa,0.36,549936,6535.1,0.0306959902335486,Africa
+Deliberate neural restructuring,Cambodia,South-eastern Asia,0.99,16486542,4097.53,0.3456969020676014,Asia
+Experience oriented,Cambodia,South-eastern Asia,6.83,16486542,4097.53,8.202182443800313,Asia
+Food provision,Cambodia,South-eastern Asia,1.58,16486542,4097.53,0.2655054558454562,Asia
+Maintenance of surroundings,Cambodia,South-eastern Asia,0.5,16486542,4097.53,0.2605834007142642,Asia
+Nonfood provision,Cambodia,South-eastern Asia,0.08,16486542,4097.53,0.0025273381055847,Asia
+Organization,Cambodia,South-eastern Asia,2.51,16486542,4097.53,5.400171328590508,Asia
+Somatic maintenance,Cambodia,South-eastern Asia,10.4,16486542,4097.53,10.041710985749631,Asia
+Technosphere modification,Cambodia,South-eastern Asia,1.11,16486542,4097.53,0.0927813516521087,Asia
+Deliberate neural restructuring,Cameroon,Middle Africa,2.39,25876387,3554.52,0.0390437827231988,Africa
+Experience oriented,Cameroon,Middle Africa,5.43,25876387,3554.52,0.0192672492531153,Africa
+Food provision,Cameroon,Middle Africa,1.89,25876387,3554.52,0.5086336190086975,Africa
+Maintenance of surroundings,Cameroon,Middle Africa,0.72,25876387,3554.52,0.0194874798421975,Africa
+Nonfood provision,Cameroon,Middle Africa,0.18,25876387,3554.52,0.0165335530579139,Africa
+Organization,Cameroon,Middle Africa,1.99,25876387,3554.52,0.2291646260994743,Africa
+Somatic maintenance,Cameroon,Middle Africa,10.93,25876387,3554.52,0.4792072137716717,Africa
+Technosphere modification,Cameroon,Middle Africa,0.47,25876387,3554.52,0.1274609530530714,Africa
+Deliberate neural restructuring,Canada,Northern America,0.96,36026668,48688.07,0.0020294683015518,America
+Experience oriented,Canada,Northern America,6.890000000000001,36026668,48688.07,0.0414404053471643,America
+Food provision,Canada,Northern America,1.0,36026668,48688.07,0.0189785337145763,America
+Maintenance of surroundings,Canada,Northern America,0.76,36026668,48688.07,0.0165665386636554,America
+Nonfood provision,Canada,Northern America,0.07,36026668,48688.07,0.0003275244824235,America
+Organization,Canada,Northern America,3.04,36026668,48688.07,0.0418744785979541,America
+Somatic maintenance,Canada,Northern America,10.55,36026668,48688.07,0.1451207629161253,America
+Technosphere modification,Canada,Northern America,0.71,36026668,48688.07,0.0172107911933597,America
+Deliberate neural restructuring,Central African Republic,Middle Africa,2.39,4745179,912.808,0.3540090411598675,Africa
+Experience oriented,Central African Republic,Middle Africa,5.43,4745179,912.808,1.1940850933355414,Africa
+Food provision,Central African Republic,Middle Africa,1.89,4745179,912.808,0.5745784415181214,Africa
+Maintenance of surroundings,Central African Republic,Middle Africa,0.72,4745179,912.808,0.2001208693806697,Africa
+Nonfood provision,Central African Republic,Middle Africa,0.18,4745179,912.808,0.0183708206248169,Africa
+Organization,Central African Republic,Middle Africa,1.99,4745179,912.808,0.3546176284891226,Africa
+Somatic maintenance,Central African Republic,Middle Africa,10.93,4745179,912.808,1.298723351948884,Africa
+Technosphere modification,Central African Republic,Middle Africa,0.47,4745179,912.808,0.1441319588704239,Africa
+Deliberate neural restructuring,Chad,Middle Africa,2.39,15946882,1600.06,0.3540090411598675,Africa
+Experience oriented,Chad,Middle Africa,5.43,15946882,1600.06,1.1940850933355414,Africa
+Food provision,Chad,Middle Africa,1.89,15946882,1600.06,0.5745784415181214,Africa
+Maintenance of surroundings,Chad,Middle Africa,0.72,15946882,1600.06,0.2001208693806697,Africa
+Nonfood provision,Chad,Middle Africa,0.18,15946882,1600.06,0.0183708206248169,Africa
+Organization,Chad,Middle Africa,1.99,15946882,1600.06,0.3546176284891226,Africa
+Somatic maintenance,Chad,Middle Africa,10.93,15946882,1600.06,1.298723351948884,Africa
+Technosphere modification,Chad,Middle Africa,0.47,15946882,1600.06,0.1441319588704239,Africa
+Deliberate neural restructuring,Chile,South America,1.28,18952035,23718.0,0.3263365705216989,America
+Experience oriented,Chile,South America,7.109999999999999,18952035,23718.0,1.234755594470912,America
+Food provision,Chile,South America,1.02,18952035,23718.0,0.1964474898832233,America
+Maintenance of surroundings,Chile,South America,0.72,18952035,23718.0,0.203930364725767,America
+Nonfood provision,Chile,South America,0.1699999999999999,18952035,23718.0,0.0024303245193295,America
+Organization,Chile,South America,2.65,18952035,23718.0,0.1873688978822043,America
+Somatic maintenance,Chile,South America,10.26,18952035,23718.0,1.878776442801308,America
+Technosphere modification,Chile,South America,0.79,18952035,23718.0,0.0405593120934725,America
+Deliberate neural restructuring,China,Eastern Asia,0.84,1329915177,14253.9,0.0013877851451844,Asia
+Experience oriented,China,Eastern Asia,6.19,1329915177,14253.9,0.0700427169011508,Asia
+Food provision,China,Eastern Asia,2.49,1329915177,14253.9,0.0059807195892805,Asia
+Maintenance of surroundings,China,Eastern Asia,0.6,1329915177,14253.9,0.0008598185821478,Asia
+Nonfood provision,China,Eastern Asia,0.1699999999999999,1329915177,14253.9,0.0002191534502104,Asia
+Organization,China,Eastern Asia,2.3,1329915177,14253.9,0.0314756681614449,Asia
+Somatic maintenance,China,Eastern Asia,10.61,1329915177,14253.9,0.448561284578254,Asia
+Technosphere modification,China,Eastern Asia,0.8200000000000001,1329915177,14253.9,0.0415523467697587,Asia
+Deliberate neural restructuring,"China, Hong Kong Special Administrative Region",Eastern Asia,1.01,6924642,59676.48,0.095812176112445,Asia
+Experience oriented,"China, Hong Kong Special Administrative Region",Eastern Asia,6.41,6924642,59676.48,0.4835412736255173,Asia
+Food provision,"China, Hong Kong Special Administrative Region",Eastern Asia,1.13,6924642,59676.48,0.0382681292668421,Asia
+Maintenance of surroundings,"China, Hong Kong Special Administrative Region",Eastern Asia,0.72,6924642,59676.48,0.0283841285114421,Asia
+Nonfood provision,"China, Hong Kong Special Administrative Region",Eastern Asia,0.01,6924642,59676.48,0.0010536220019911,Asia
+Organization,"China, Hong Kong Special Administrative Region",Eastern Asia,3.49,6924642,59676.48,0.1144751378369803,Asia
+Somatic maintenance,"China, Hong Kong Special Administrative Region",Eastern Asia,10.56,6924642,59676.48,0.2955601709574819,Asia
+Technosphere modification,"China, Hong Kong Special Administrative Region",Eastern Asia,0.65,6924642,59676.48,0.0045250394788261,Asia
+Deliberate neural restructuring,"China, Macao Special Administrative Region",Eastern Asia,0.87,640446,120286.6,0.097735839013339,Asia
+Experience oriented,"China, Macao Special Administrative Region",Eastern Asia,6.3100000000000005,640446,120286.6,0.484255014290228,Asia
+Food provision,"China, Macao Special Administrative Region",Eastern Asia,2.3,640446,120286.6,0.344919396663455,Asia
+Maintenance of surroundings,"China, Macao Special Administrative Region",Eastern Asia,0.63,640446,120286.6,0.0302212305359306,Asia
+Nonfood provision,"China, Macao Special Administrative Region",Eastern Asia,0.15,640446,120286.6,0.0045747876256491,Asia
+Organization,"China, Macao Special Administrative Region",Eastern Asia,2.34,640446,120286.6,0.1790498972053975,Asia
+Somatic maintenance,"China, Macao Special Administrative Region",Eastern Asia,10.55,640446,120286.6,0.296153640493244,Asia
+Technosphere modification,"China, Macao Special Administrative Region",Eastern Asia,0.84,640446,120286.6,0.047457107935034,Asia
+Deliberate neural restructuring,Colombia,South America,1.24,50339443,14202.93,0.0081984968999693,America
+Experience oriented,Colombia,South America,7.640000000000001,50339443,14202.93,1.312546687773619,America
+Food provision,Colombia,South America,1.31,50339443,14202.93,0.0418175398969609,America
+Maintenance of surroundings,Colombia,South America,0.77,50339443,14202.93,0.0085561210084033,America
+Nonfood provision,Colombia,South America,0.08,50339443,14202.93,0.0015639604649018,America
+Organization,Colombia,South America,2.23,50339443,14202.93,0.0567489211468663,America
+Somatic maintenance,Colombia,South America,9.92,50339443,14202.93,1.3458031515579962,America
+Technosphere modification,Colombia,South America,0.8,50339443,14202.93,0.0157474025151888,America
+Deliberate neural restructuring,Comoros,Eastern Africa,1.2999999999999998,759390,2980.06,0.325667441877574,Africa
+Experience oriented,Comoros,Eastern Africa,6.57,759390,2980.06,2.3185171140183587,Africa
+Food provision,Comoros,Eastern Africa,1.62,759390,2980.06,0.260802325785679,Africa
+Maintenance of surroundings,Comoros,Eastern Africa,0.8200000000000001,759390,2980.06,0.2254246258496648,Africa
+Nonfood provision,Comoros,Eastern Africa,0.05,759390,2980.06,0.0024485815155468,Africa
+Organization,Comoros,Eastern Africa,2.39,759390,2980.06,1.0636615712609183,Africa
+Somatic maintenance,Comoros,Eastern Africa,10.66,759390,2980.06,2.970007406266216,Africa
+Technosphere modification,Comoros,Eastern Africa,0.5800000000000001,759390,2980.06,0.0297924782659748,Africa
+Deliberate neural restructuring,Congo,Middle Africa,2.41,4145400,4986.53,0.334096480870139,Africa
+Experience oriented,Congo,Middle Africa,5.7,4145400,4986.53,1.191677643953814,Africa
+Food provision,Congo,Middle Africa,1.04,4145400,4986.53,0.1986064965276865,Africa
+Maintenance of surroundings,Congo,Middle Africa,0.83,4145400,4986.53,0.1907322403882796,Africa
+Nonfood provision,Congo,Middle Africa,0.11,4145400,4986.53,0.0108563661140566,Africa
+Organization,Congo,Middle Africa,2.39,4145400,4986.53,0.1723079932922666,Africa
+Somatic maintenance,Congo,Middle Africa,10.93,4145400,4986.53,1.297905387672314,Africa
+Technosphere modification,Congo,Middle Africa,0.6000000000000001,4145400,4986.53,0.0252249384002265,Africa
+Deliberate neural restructuring,Costa Rica,Central America,1.21,4949955,19711.65,0.0307219590444188,America
+Experience oriented,Costa Rica,Central America,6.64,4949955,19711.65,2.9609022275131576,America
+Food provision,Costa Rica,Central America,1.81,4949955,19711.65,0.0446798719139771,America
+Maintenance of surroundings,Costa Rica,Central America,1.29,4949955,19711.65,0.0265684612701633,America
+Nonfood provision,Costa Rica,Central America,0.11,4949955,19711.65,0.001999922707282,America
+Organization,Costa Rica,Central America,1.98,4949955,19711.65,0.4784735149529157,America
+Somatic maintenance,Costa Rica,Central America,10.34,4949955,19711.65,4.237364354053351,America
+Technosphere modification,Costa Rica,Central America,0.61,4949955,19711.65,0.0028153250469169,America
+Deliberate neural restructuring,Croatia,Southern Europe,0.95,4130299,26775.7,0.0112023262129671,Europe
+Experience oriented,Croatia,Southern Europe,7.32,4130299,26775.7,0.0944416747092141,Europe
+Food provision,Croatia,Southern Europe,1.29,4130299,26775.7,0.0106521515293423,Europe
+Maintenance of surroundings,Croatia,Southern Europe,1.16,4130299,26775.7,0.0409664852646855,Europe
+Nonfood provision,Croatia,Southern Europe,0.06,4130299,26775.7,1.4358613370805622e-05,Europe
+Organization,Croatia,Southern Europe,2.42,4130299,26775.7,0.0287814082982681,Europe
+Somatic maintenance,Croatia,Southern Europe,10.19,4130299,26775.7,0.077558202718081,Europe
+Technosphere modification,Croatia,Southern Europe,0.62,4130299,26775.7,0.0028602969246617,Europe
+Deliberate neural restructuring,Cyprus,Western Asia,1.42,1198574,38277.37,0.3230972851765045,Asia
+Experience oriented,Cyprus,Western Asia,7.38,1198574,38277.37,1.219800828235141,Asia
+Food provision,Cyprus,Western Asia,1.07,1198574,38277.37,0.190295467499524,Asia
+Maintenance of surroundings,Cyprus,Western Asia,0.96,1198574,38277.37,0.1881076065194792,Asia
+Nonfood provision,Cyprus,Western Asia,0.03,1198574,38277.37,0.0023069718107733,Asia
+Organization,Cyprus,Western Asia,1.97,1198574,38277.37,0.1616489774503042,Asia
+Somatic maintenance,Cyprus,Western Asia,10.72,1198574,38277.37,1.3411372875277243,Asia
+Technosphere modification,Cyprus,Western Asia,0.43,1198574,38277.37,0.0249898725674122,Asia
+Deliberate neural restructuring,Czechia,Eastern Europe,0.95,10689213,39031.09,0.0194578966937001,Europe
+Experience oriented,Czechia,Eastern Europe,6.41,10689213,39031.09,0.2965547582340301,Europe
+Food provision,Czechia,Eastern Europe,1.39,10689213,39031.09,0.0160660490852866,Europe
+Maintenance of surroundings,Czechia,Eastern Europe,1.06,10689213,39031.09,0.0248051916540727,Europe
+Nonfood provision,Czechia,Eastern Europe,0.2,10689213,39031.09,0.0029900007086795,Europe
+Organization,Czechia,Eastern Europe,2.01,10689213,39031.09,0.0151119845019855,Europe
+Somatic maintenance,Czechia,Eastern Europe,10.71,10689213,39031.09,0.0529557813238498,Europe
+Technosphere modification,Czechia,Eastern Europe,1.28,10689213,39031.09,0.0089150851120523,Europe
+Deliberate neural restructuring,Côte d’Ivoire,Western Africa,1.54,25716554,4729.65,0.3252471224933635,Africa
+Experience oriented,Côte d’Ivoire,Western Africa,7.039999999999999,25716554,4729.65,1.2030087707354629,Africa
+Food provision,Côte d’Ivoire,Western Africa,1.88,25716554,4729.65,0.2141540460350665,Africa
+Maintenance of surroundings,Côte d’Ivoire,Western Africa,0.65,25716554,4729.65,0.1823117203043706,Africa
+Nonfood provision,Côte d’Ivoire,Western Africa,0.09,25716554,4729.65,0.0026663040099779,Africa
+Organization,Côte d’Ivoire,Western Africa,2.12,25716554,4729.65,0.1863965651801064,Africa
+Somatic maintenance,Côte d’Ivoire,Western Africa,10.37,25716554,4729.65,1.448585321376619,Africa
+Technosphere modification,Côte d’Ivoire,Western Africa,0.3,25716554,4729.65,0.0192137848653768,Africa
+Deliberate neural restructuring,Democratic Republic of the Congo,Middle Africa,2.39,69020749,1046.71,0.3340132016637034,Africa
+Experience oriented,Democratic Republic of the Congo,Middle Africa,5.41,69020749,1046.71,1.19100669841465,Africa
+Food provision,Democratic Republic of the Congo,Middle Africa,1.94,69020749,1046.71,0.1985280749230285,Africa
+Maintenance of surroundings,Democratic Republic of the Congo,Middle Africa,0.71,69020749,1046.71,0.1894212539954701,Africa
+Nonfood provision,Democratic Republic of the Congo,Middle Africa,0.18,69020749,1046.71,0.0113517343153002,Africa
+Organization,Democratic Republic of the Congo,Middle Africa,1.97,69020749,1046.71,0.1702019524125712,Africa
+Somatic maintenance,Democratic Republic of the Congo,Middle Africa,10.93,69020749,1046.71,1.297905387672314,Africa
+Technosphere modification,Democratic Republic of the Congo,Middle Africa,0.4599999999999999,69020749,1046.71,0.023986481313664,Africa
+Deliberate neural restructuring,Denmark,Northern Europe,1.0,5771877,55673.46,0.0093932800310639,Europe
+Experience oriented,Denmark,Northern Europe,7.43,5771877,55673.46,0.1097663111176578,Europe
+Food provision,Denmark,Northern Europe,0.94,5771877,55673.46,0.0163473568296954,Europe
+Maintenance of surroundings,Denmark,Northern Europe,0.92,5771877,55673.46,0.0269054803282876,Europe
+Nonfood provision,Denmark,Northern Europe,0.03,5771877,55673.46,0.0001215428846613,Europe
+Organization,Denmark,Northern Europe,2.63,5771877,55673.46,0.0164687981948623,Europe
+Somatic maintenance,Denmark,Northern Europe,10.4,5771877,55673.46,0.0688263238520598,Europe
+Technosphere modification,Denmark,Northern Europe,0.65,5771877,55673.46,0.0014118811000034,Europe
+Deliberate neural restructuring,Djibouti,Eastern Africa,1.25,973557,4545.09,0.3239693400791868,Africa
+Experience oriented,Djibouti,Eastern Africa,6.550000000000001,973557,4545.09,2.3185083180674453,Africa
+Food provision,Djibouti,Eastern Africa,2.08,973557,4545.09,0.3624091444095568,Africa
+Maintenance of surroundings,Djibouti,Eastern Africa,0.87,973557,4545.09,0.2287528962288671,Africa
+Nonfood provision,Djibouti,Eastern Africa,0.0999999999999999,973557,4545.09,0.0029917815833123,Africa
+Organization,Djibouti,Eastern Africa,2.09,973557,4545.09,1.0587222371428715,Africa
+Somatic maintenance,Djibouti,Eastern Africa,10.66,973557,4545.09,2.970067978162661,Africa
+Technosphere modification,Djibouti,Eastern Africa,0.37,973557,4545.09,0.0253841532956848,Africa
+Deliberate neural restructuring,Dominican Republic,Caribbean,1.46,10738957,17301.38,0.3467326506294603,America
+Experience oriented,Dominican Republic,Caribbean,6.16,10738957,17301.38,3.6271593331878833,America
+Food provision,Dominican Republic,Caribbean,1.61,10738957,17301.38,0.2320561670345475,America
+Maintenance of surroundings,Dominican Republic,Caribbean,1.44,10738957,17301.38,0.21020035866852,America
+Nonfood provision,Dominican Republic,Caribbean,0.07,10738957,17301.38,0.0041255221747224,America
+Organization,Dominican Republic,Caribbean,2.26,10738957,17301.38,0.6159257304845489,America
+Somatic maintenance,Dominican Republic,Caribbean,10.39,10738957,17301.38,4.921383727134149,America
+Technosphere modification,Dominican Republic,Caribbean,0.6200000000000001,10738957,17301.38,0.0230904951820991,America
+Deliberate neural restructuring,Ecuador,South America,1.18,15951832,11623.72,0.3259966049099518,America
+Experience oriented,Ecuador,South America,7.04,15951832,11623.72,1.2346835731590051,America
+Food provision,Ecuador,South America,1.41,15951832,11623.72,0.1971842550873323,America
+Maintenance of surroundings,Ecuador,South America,0.74,15951832,11623.72,0.2038967994468213,America
+Nonfood provision,Ecuador,South America,0.08,15951832,11623.72,0.0023576990156088,America
+Organization,Ecuador,South America,2.57,15951832,11623.72,0.1869354959669199,America
+Somatic maintenance,Ecuador,South America,10.25,15951832,11623.72,1.8787725406224207,America
+Technosphere modification,Ecuador,South America,0.72,15951832,11623.72,0.0399030761611449,America
+Deliberate neural restructuring,Egypt,Northern Africa,1.51,100388076,11158.25,0.3223783092068702,Africa
+Experience oriented,Egypt,Northern Africa,7.46,100388076,11158.25,1.2115932054123937,Africa
+Food provision,Egypt,Northern Africa,1.59,100388076,11158.25,0.1979873608542431,Africa
+Maintenance of surroundings,Egypt,Northern Africa,0.74,100388076,11158.25,0.1907323309299607,Africa
+Nonfood provision,Egypt,Northern Africa,0.06,100388076,11158.25,0.0023180218970431,Africa
+Organization,Egypt,Northern Africa,1.66,100388076,11158.25,0.1668126312636761,Africa
+Somatic maintenance,Egypt,Northern Africa,10.44,100388076,11158.25,1.4043386418951669,Africa
+Technosphere modification,Egypt,Northern Africa,0.53,100388076,11158.25,0.0248477042819246,Africa
+Deliberate neural restructuring,El Salvador,Central America,1.16,6183877,8454.05,0.0386339298782561,America
+Experience oriented,El Salvador,Central America,6.73,6183877,8454.05,2.816697444365266,America
+Food provision,El Salvador,Central America,1.88,6183877,8454.05,0.2704156772034247,America
+Maintenance of surroundings,El Salvador,Central America,1.13,6183877,8454.05,0.1244564770302961,America
+Nonfood provision,El Salvador,Central America,0.04,6183877,8454.05,0.0001467036781602,America
+Organization,El Salvador,Central America,2.59,6183877,8454.05,0.5369255584805275,America
+Somatic maintenance,El Salvador,Central America,9.84,6183877,8454.05,3.569883397456736,America
+Technosphere modification,El Salvador,Central America,0.62,6183877,8454.05,0.0171583985391609,America
+Deliberate neural restructuring,Equatorial Guinea,Middle Africa,2.39,1355982,22449.9,0.3540090411598675,Africa
+Experience oriented,Equatorial Guinea,Middle Africa,5.43,1355982,22449.9,1.1940850933355414,Africa
+Food provision,Equatorial Guinea,Middle Africa,1.89,1355982,22449.9,0.5745784415181214,Africa
+Maintenance of surroundings,Equatorial Guinea,Middle Africa,0.72,1355982,22449.9,0.2001208693806697,Africa
+Nonfood provision,Equatorial Guinea,Middle Africa,0.18,1355982,22449.9,0.0183708206248169,Africa
+Organization,Equatorial Guinea,Middle Africa,1.99,1355982,22449.9,0.3546176284891226,Africa
+Somatic maintenance,Equatorial Guinea,Middle Africa,10.93,1355982,22449.9,1.298723351948884,Africa
+Technosphere modification,Equatorial Guinea,Middle Africa,0.47,1355982,22449.9,0.1441319588704239,Africa
+Deliberate neural restructuring,Eritrea,Eastern Africa,1.25,3497117,1537.45,0.3239693400791868,Africa
+Experience oriented,Eritrea,Eastern Africa,6.550000000000001,3497117,1537.45,2.3185083180674453,Africa
+Food provision,Eritrea,Eastern Africa,2.08,3497117,1537.45,0.3624091444095568,Africa
+Maintenance of surroundings,Eritrea,Eastern Africa,0.87,3497117,1537.45,0.2287528962288671,Africa
+Nonfood provision,Eritrea,Eastern Africa,0.0999999999999999,3497117,1537.45,0.0029917815833123,Africa
+Organization,Eritrea,Eastern Africa,2.09,3497117,1537.45,1.0587222371428715,Africa
+Somatic maintenance,Eritrea,Eastern Africa,10.66,3497117,1537.45,2.970067978162661,Africa
+Technosphere modification,Eritrea,Eastern Africa,0.37,3497117,1537.45,0.0253841532956848,Africa
+Deliberate neural restructuring,Estonia,Northern Europe,0.8999999999999999,1332103,33937.44,0.000562360046947,Europe
+Experience oriented,Estonia,Northern Europe,7.119999999999999,1332103,33937.44,0.0119444312062468,Europe
+Food provision,Estonia,Northern Europe,1.04,1332103,33937.44,0.0010171929235051,Europe
+Maintenance of surroundings,Estonia,Northern Europe,0.99,1332103,33937.44,0.0010127848339932,Europe
+Nonfood provision,Estonia,Northern Europe,0.11,1332103,33937.44,8.209672307139732e-06,Europe
+Organization,Estonia,Northern Europe,2.49,1332103,33937.44,0.0035862400900719,Europe
+Somatic maintenance,Estonia,Northern Europe,10.53,1332103,33937.44,0.1519180386978647,Europe
+Technosphere modification,Estonia,Northern Europe,0.8200000000000001,1332103,33937.44,0.0013277024412451,Europe
+Deliberate neural restructuring,Eswatini,Southern Africa,1.38,1113994,8650.85,0.3225584239093985,Africa
+Experience oriented,Eswatini,Southern Africa,6.76,1113994,8650.85,1.2050104023330668,Africa
+Food provision,Eswatini,Southern Africa,1.17,1113994,8650.85,0.1918831084343066,Africa
+Maintenance of surroundings,Eswatini,Southern Africa,0.97,1113994,8650.85,0.1851045311474448,Africa
+Nonfood provision,Eswatini,Southern Africa,0.15,1113994,8650.85,0.0023588703449251,Africa
+Organization,Eswatini,Southern Africa,2.0,1113994,8650.85,0.1622158202645118,Africa
+Somatic maintenance,Eswatini,Southern Africa,11.21,1113994,8650.85,1.408088839198988,Africa
+Technosphere modification,Eswatini,Southern Africa,0.37,1113994,8650.85,0.017123686890206,Africa
+Deliberate neural restructuring,Ethiopia,Eastern Africa,1.14,95385793,2321.44,0.0044622770607973,Africa
+Experience oriented,Ethiopia,Eastern Africa,6.73,95385793,2321.44,1.305307030227043,Africa
+Food provision,Ethiopia,Eastern Africa,2.23,95385793,2321.44,0.0642171718603345,Africa
+Maintenance of surroundings,Ethiopia,Eastern Africa,0.93,95385793,2321.44,0.0447625786506247,Africa
+Nonfood provision,Ethiopia,Eastern Africa,0.09,95385793,2321.44,0.0008932780322762,Africa
+Organization,Ethiopia,Eastern Africa,1.81,95385793,2321.44,0.9206587977192752,Africa
+Somatic maintenance,Ethiopia,Eastern Africa,10.63,95385793,2321.44,2.224254556231343,Africa
+Technosphere modification,Ethiopia,Eastern Africa,0.44,95385793,2321.44,0.0041652761209025,Africa
+Deliberate neural restructuring,Fiji,Western Pacific Islands,1.07,889955,13316.59,0.3501124947317888,Oceania
+Experience oriented,Fiji,Western Pacific Islands,6.8100000000000005,889955,13316.59,8.202239777952506,Oceania
+Food provision,Fiji,Western Pacific Islands,1.54,889955,13316.59,0.3691941021074181,Oceania
+Maintenance of surroundings,Fiji,Western Pacific Islands,0.56,889955,13316.59,0.2654099800852976,Oceania
+Nonfood provision,Fiji,Western Pacific Islands,0.09,889955,13316.59,0.0046931840941185,Oceania
+Organization,Fiji,Western Pacific Islands,2.5700000000000003,889955,13316.59,5.404493365158436,Oceania
+Somatic maintenance,Fiji,Western Pacific Islands,10.42,889955,13316.59,10.042091021880308,Oceania
+Technosphere modification,Fiji,Western Pacific Islands,0.92,889955,13316.59,0.1231561559309053,Oceania
+Deliberate neural restructuring,Finland,Northern Europe,0.9,5365784,47621.51,0.0016600347873953,Europe
+Experience oriented,Finland,Northern Europe,7.84,5365784,47621.51,0.0124936725304063,Europe
+Food provision,Finland,Northern Europe,0.86,5365784,47621.51,0.0008282124203571,Europe
+Maintenance of surroundings,Finland,Northern Europe,1.02,5365784,47621.51,0.0014941916540741,Europe
+Nonfood provision,Finland,Northern Europe,0.05,5365784,47621.51,3.603271801037336e-05,Europe
+Organization,Finland,Northern Europe,2.26,5365784,47621.51,0.0084941980191346,Europe
+Somatic maintenance,Finland,Northern Europe,10.32,5365784,47621.51,0.1414052803559455,Europe
+Technosphere modification,Finland,Northern Europe,0.73,5365784,47621.51,0.0051806301326353,Europe
+Deliberate neural restructuring,France,Western Europe,0.96,62879535,46369.7,0.001016880174073,Europe
+Experience oriented,France,Western Europe,7.63,62879535,46369.7,0.013677199490026,Europe
+Food provision,France,Western Europe,0.99,62879535,46369.7,0.0008607349280592,Europe
+Maintenance of surroundings,France,Western Europe,1.01,62879535,46369.7,0.000859155956106,Europe
+Nonfood provision,France,Western Europe,0.03,62879535,46369.7,4.766097845884861e-06,Europe
+Organization,France,Western Europe,2.5,62879535,46369.7,0.0119425832631131,Europe
+Somatic maintenance,France,Western Europe,10.239999999999998,62879535,46369.7,0.1357823252327661,Europe
+Technosphere modification,France,Western Europe,0.64,62879535,46369.7,0.0021043493529474,Europe
+Deliberate neural restructuring,Gabon,Middle Africa,2.39,2172578,15302.64,0.3540090411598675,Africa
+Experience oriented,Gabon,Middle Africa,5.43,2172578,15302.64,1.1940850933355414,Africa
+Food provision,Gabon,Middle Africa,1.89,2172578,15302.64,0.5745784415181214,Africa
+Maintenance of surroundings,Gabon,Middle Africa,0.72,2172578,15302.64,0.2001208693806697,Africa
+Nonfood provision,Gabon,Middle Africa,0.18,2172578,15302.64,0.0183708206248169,Africa
+Organization,Gabon,Middle Africa,1.99,2172578,15302.64,0.3546176284891226,Africa
+Somatic maintenance,Gabon,Middle Africa,10.93,2172578,15302.64,1.298723351948884,Africa
+Technosphere modification,Gabon,Middle Africa,0.47,2172578,15302.64,0.1441319588704239,Africa
+Deliberate neural restructuring,Gambia,Western Africa,1.54,1905020,2072.65,0.3253098223689242,Africa
+Experience oriented,Gambia,Western Africa,7.05,1905020,2072.65,1.2030203796017724,Africa
+Food provision,Gambia,Western Africa,1.33,1905020,2072.65,0.1997640262985046,Africa
+Maintenance of surroundings,Gambia,Western Africa,0.67,1905020,2072.65,0.1828201721141765,Africa
+Nonfood provision,Gambia,Western Africa,0.05,1905020,2072.65,0.0024112720493807,Africa
+Organization,Gambia,Western Africa,2.45,1905020,2072.65,0.241505841677238,Africa
+Somatic maintenance,Gambia,Western Africa,10.39,1905020,2072.65,1.4486162682306818,Africa
+Technosphere modification,Gambia,Western Africa,0.51,1905020,2072.65,0.0261300583600854,Africa
+Deliberate neural restructuring,Georgia,Western Asia,1.45,3996762,13595.58,0.3240144697344542,Asia
+Experience oriented,Georgia,Western Asia,7.38,3996762,13595.58,1.2198218298449777,Asia
+Food provision,Georgia,Western Asia,1.44,3996762,13595.58,0.1925147175527008,Asia
+Maintenance of surroundings,Georgia,Western Asia,0.85,3996762,13595.58,0.1881746205328324,Asia
+Nonfood provision,Georgia,Western Asia,0.07,3996762,13595.58,0.0024425536951701,Asia
+Organization,Georgia,Western Asia,1.73,3996762,13595.58,0.1691558210187672,Asia
+Somatic maintenance,Georgia,Western Asia,10.71,3996762,13595.58,1.3411448063791434,Asia
+Technosphere modification,Georgia,Western Asia,0.37,3996762,13595.58,0.0258017176317063,Asia
+Deliberate neural restructuring,Germany,Western Europe,0.76,80827001,53254.66,0.0006581815690712,Europe
+Experience oriented,Germany,Western Europe,7.75,80827001,53254.66,0.0117761744032507,Europe
+Food provision,Germany,Western Europe,0.83,80827001,53254.66,0.0006238533188883,Europe
+Maintenance of surroundings,Germany,Western Europe,1.07,80827001,53254.66,0.001053614101162,Europe
+Nonfood provision,Germany,Western Europe,0.04,80827001,53254.66,6.561315008605527e-06,Europe
+Organization,Germany,Western Europe,2.72,80827001,53254.66,0.0053875849063424,Europe
+Somatic maintenance,Germany,Western Europe,10.05,80827001,53254.66,0.1402456137651697,Europe
+Technosphere modification,Germany,Western Europe,0.78,80827001,53254.66,0.0024745467037724,Europe
+Deliberate neural restructuring,Ghana,Western Africa,1.61,26607641,5028.02,0.0271866212654834,Africa
+Experience oriented,Ghana,Western Africa,7.36,26607641,5028.02,1.1668619032371417,Africa
+Food provision,Ghana,Western Africa,1.73,26607641,5028.02,0.0323912599090315,Africa
+Maintenance of surroundings,Ghana,Western Africa,0.66,26607641,5028.02,0.0325581872546232,Africa
+Nonfood provision,Ghana,Western Africa,0.11,26607641,5028.02,0.0005877542820812,Africa
+Organization,Ghana,Western Africa,2.13,26607641,5028.02,0.8410969930592144,Africa
+Somatic maintenance,Ghana,Western Africa,10.05,26607641,5028.02,1.9713067865062408,Africa
+Technosphere modification,Ghana,Western Africa,0.3399999999999999,26607641,5028.02,0.0005300434128016,Africa
+Deliberate neural restructuring,Greece,Southern Europe,0.9,10887640,28558.3,0.0011177712863367,Europe
+Experience oriented,Greece,Southern Europe,8.07,10887640,28558.3,0.0170125392132659,Europe
+Food provision,Greece,Southern Europe,1.4300000000000002,10887640,28558.3,0.003385362230451,Europe
+Maintenance of surroundings,Greece,Southern Europe,1.02,10887640,28558.3,0.0012196705734933,Europe
+Nonfood provision,Greece,Southern Europe,0.04,10887640,28558.3,5.4987030832096574e-05,Europe
+Organization,Greece,Southern Europe,2.01,10887640,28558.3,0.0220981085391181,Europe
+Somatic maintenance,Greece,Southern Europe,10.14,10887640,28558.3,0.1439759790501093,Europe
+Technosphere modification,Greece,Southern Europe,0.41,10887640,28558.3,0.0020485957728211,Europe
+Deliberate neural restructuring,Grenada,Caribbean,1.45,112002,16217.5,0.3509884761906235,America
+Experience oriented,Grenada,Caribbean,6.07,112002,16217.5,3.627329256609568,America
+Food provision,Grenada,Caribbean,1.81,112002,16217.5,0.2505704445049446,America
+Maintenance of surroundings,Grenada,Caribbean,1.3,112002,16217.5,0.2103782043481173,America
+Nonfood provision,Grenada,Caribbean,0.11,112002,16217.5,0.0055898138979939,America
+Organization,Grenada,Caribbean,2.16,112002,16217.5,0.6210651982564246,America
+Somatic maintenance,Grenada,Caribbean,10.33,112002,16217.5,4.921168632266722,America
+Technosphere modification,Grenada,Caribbean,0.76,112002,16217.5,0.0299020332796977,America
+Deliberate neural restructuring,Guatemala,Central America,1.44,16583079,7908.46,0.3464207790593342,America
+Experience oriented,Guatemala,Central America,6.0600000000000005,16583079,7908.46,3.627080678914446,America
+Food provision,Guatemala,Central America,1.93,16583079,7908.46,0.2343508833122483,America
+Maintenance of surroundings,Guatemala,Central America,1.24,16583079,7908.46,0.2072642623013103,America
+Nonfood provision,Guatemala,Central America,0.19,16583079,7908.46,0.0046815997933529,America
+Organization,Guatemala,Central America,2.05,16583079,7908.46,0.6142259979741093,America
+Somatic maintenance,Guatemala,Central America,10.27,16583079,7908.46,4.921073380236432,America
+Technosphere modification,Guatemala,Central America,0.81,16583079,7908.46,0.0276734943287258,America
+Deliberate neural restructuring,Guinea,Western Africa,1.55,12771246,2252.16,0.3258962325706135,Africa
+Experience oriented,Guinea,Western Africa,7.05,12771246,2252.16,1.203074811314147,Africa
+Food provision,Guinea,Western Africa,1.71,12771246,2252.16,0.2858245012306631,Africa
+Maintenance of surroundings,Guinea,Western Africa,0.67,12771246,2252.16,0.1838871698119185,Africa
+Nonfood provision,Guinea,Western Africa,0.17,12771246,2252.16,0.0092863596201781,Africa
+Organization,Guinea,Western Africa,2.09,12771246,2252.16,0.231856638527778,Africa
+Somatic maintenance,Guinea,Western Africa,10.39,12771246,2252.16,1.4486498160892902,Africa
+Technosphere modification,Guinea,Western Africa,0.36,12771246,2252.16,0.0306959902335486,Africa
+Deliberate neural restructuring,Guinea-Bissau,Western Africa,1.55,1920917,2253.42,0.3258962325706135,Africa
+Experience oriented,Guinea-Bissau,Western Africa,7.05,1920917,2253.42,1.203074811314147,Africa
+Food provision,Guinea-Bissau,Western Africa,1.71,1920917,2253.42,0.2858245012306631,Africa
+Maintenance of surroundings,Guinea-Bissau,Western Africa,0.67,1920917,2253.42,0.1838871698119185,Africa
+Nonfood provision,Guinea-Bissau,Western Africa,0.17,1920917,2253.42,0.0092863596201781,Africa
+Organization,Guinea-Bissau,Western Africa,2.09,1920917,2253.42,0.231856638527778,Africa
+Somatic maintenance,Guinea-Bissau,Western Africa,10.39,1920917,2253.42,1.4486498160892902,Africa
+Technosphere modification,Guinea-Bissau,Western Africa,0.36,1920917,2253.42,0.0306959902335486,Africa
+Deliberate neural restructuring,Guyana,South America,1.15,782775,11964.64,0.3266593714350667,America
+Experience oriented,Guyana,South America,7.04,782775,11964.64,1.2346878184880026,America
+Food provision,Guyana,South America,1.31,782775,11964.64,0.2000920189049937,America
+Maintenance of surroundings,Guyana,South America,0.73,782775,11964.64,0.2044066570083624,America
+Nonfood provision,Guyana,South America,0.21,782775,11964.64,0.0037824101282975,America
+Organization,Guyana,South America,2.76,782775,11964.64,0.2370366971395859,America
+Somatic maintenance,Guyana,South America,10.21,782775,11964.64,1.8787744650399612,America
+Technosphere modification,Guyana,South America,0.5900000000000001,782775,11964.64,0.0423655371205308,America
+Deliberate neural restructuring,Haiti,Caribbean,1.45,10250922,2980.96,0.3467593126099058,America
+Experience oriented,Haiti,Caribbean,6.04,10250922,2980.96,3.6270768220416416,America
+Food provision,Haiti,Caribbean,2.05,10250922,2980.96,0.2435062144658098,America
+Maintenance of surroundings,Haiti,Caribbean,1.3,10250922,2980.96,0.2086236148520769,America
+Nonfood provision,Haiti,Caribbean,0.3,10250922,2980.96,0.006819426701463,America
+Organization,Haiti,Caribbean,2.09,10250922,2980.96,0.6201449409639326,America
+Somatic maintenance,Haiti,Caribbean,10.34,10250922,2980.96,4.921173097943874,America
+Technosphere modification,Haiti,Caribbean,0.42,10250922,2980.96,0.0215393302679954,America
+Deliberate neural restructuring,Honduras,Central America,1.42,9746115,5557.93,0.3466149874333513,America
+Experience oriented,Honduras,Central America,6.04,9746115,5557.93,3.627079051113899,America
+Food provision,Honduras,Central America,2.1,9746115,5557.93,0.2376047921456726,America
+Maintenance of surroundings,Honduras,Central America,1.31,9746115,5557.93,0.2081085220107273,America
+Nonfood provision,Honduras,Central America,0.1,9746115,5557.93,0.0042887924375726,America
+Organization,Honduras,Central America,2.12,9746115,5557.93,0.6199901166200085,America
+Somatic maintenance,Honduras,Central America,10.31,9746115,5557.93,4.921157600804832,America
+Technosphere modification,Honduras,Central America,0.59,9746115,5557.93,0.024799973909025,America
+Deliberate neural restructuring,Hungary,Eastern Europe,1.03,9927380,29801.55,0.0009273255846939,Europe
+Experience oriented,Hungary,Eastern Europe,7.04,9927380,29801.55,0.0138168462482437,Europe
+Food provision,Hungary,Eastern Europe,1.42,9927380,29801.55,0.0016448234547167,Europe
+Maintenance of surroundings,Hungary,Eastern Europe,1.14,9927380,29801.55,0.0012419406590451,Europe
+Nonfood provision,Hungary,Eastern Europe,0.05,9927380,29801.55,6.439943189814034e-06,Europe
+Organization,Hungary,Eastern Europe,2.14,9927380,29801.55,0.0032701026927382,Europe
+Somatic maintenance,Hungary,Eastern Europe,10.5,9927380,29801.55,0.1433449733370756,Europe
+Technosphere modification,Hungary,Eastern Europe,0.68,9927380,29801.55,0.0010062213188959,Europe
+Deliberate neural restructuring,Iceland,Northern Europe,1.08,339037,56944.8,0.026346644864155,Europe
+Experience oriented,Iceland,Northern Europe,7.380000000000001,339037,56944.8,0.1101342393929411,Europe
+Food provision,Iceland,Northern Europe,1.06,339037,56944.8,0.0183210471109347,Europe
+Maintenance of surroundings,Iceland,Northern Europe,0.91,339037,56944.8,0.0281209729038605,Europe
+Nonfood provision,Iceland,Northern Europe,0.04,339037,56944.8,0.0002208102927737,Europe
+Organization,Iceland,Northern Europe,2.64,339037,56944.8,0.0768216657178194,Europe
+Somatic maintenance,Iceland,Northern Europe,10.32,339037,56944.8,0.0691370626259551,Europe
+Technosphere modification,Iceland,Northern Europe,0.54,339037,56944.8,0.0075209100184205,Europe
+Deliberate neural restructuring,India,Southern Asia,1.63,1366417756,6183.0,0.0019353965508603,Asia
+Experience oriented,India,Southern Asia,6.37,1366417756,6183.0,0.0078359267895226,Asia
+Food provision,India,Southern Asia,2.25,1366417756,6183.0,0.0030315152387509,Asia
+Maintenance of surroundings,India,Southern Asia,0.71,1366417756,6183.0,0.0003028258291557,Asia
+Nonfood provision,India,Southern Asia,0.08,1366417756,6183.0,0.0003265529754277,Asia
+Organization,India,Southern Asia,1.4,1366417756,6183.0,0.0007064821465933,Asia
+Somatic maintenance,India,Southern Asia,11.07,1366417756,6183.0,0.1652511094940016,Asia
+Technosphere modification,India,Southern Asia,0.51,1366417756,6183.0,0.000307801135936,Asia
+Deliberate neural restructuring,Indonesia,South-eastern Asia,1.08,258383257,11073.52,0.3470737618461996,Asia
+Experience oriented,Indonesia,South-eastern Asia,6.82,258383257,11073.52,8.202184401720467,Asia
+Food provision,Indonesia,South-eastern Asia,1.52,258383257,11073.52,0.2754929988853615,Asia
+Maintenance of surroundings,Indonesia,South-eastern Asia,0.58,258383257,11073.52,0.2616550975278618,Asia
+Nonfood provision,Indonesia,South-eastern Asia,0.11,258383257,11073.52,0.0026161189864487,Asia
+Organization,Indonesia,South-eastern Asia,2.61,258383257,11073.52,5.402783420784344,Asia
+Somatic maintenance,Indonesia,South-eastern Asia,10.44,258383257,11073.52,10.041798848009092,Asia
+Technosphere modification,Indonesia,South-eastern Asia,0.8500000000000001,258383257,11073.52,0.0989609646286322,Asia
+Deliberate neural restructuring,Iran (Islamic Republic of),Southern Asia,0.93,82913893,14402.19,0.0239152506451242,Asia
+Experience oriented,Iran (Islamic Republic of),Southern Asia,7.31,82913893,14402.19,1.0679836281811477,Asia
+Food provision,Iran (Islamic Republic of),Southern Asia,1.25,82913893,14402.19,0.1248413254240436,Asia
+Maintenance of surroundings,Iran (Islamic Republic of),Southern Asia,0.87,82913893,14402.19,0.0882970153961606,Asia
+Nonfood provision,Iran (Islamic Republic of),Southern Asia,0.06,82913893,14402.19,5.002544149379103e-05,Asia
+Organization,Iran (Islamic Republic of),Southern Asia,1.97,82913893,14402.19,1.0569745206418737,Asia
+Somatic maintenance,Iran (Islamic Republic of),Southern Asia,10.87,82913893,14402.19,1.7115129009796155,Asia
+Technosphere modification,Iran (Islamic Republic of),Southern Asia,0.75,82913893,14402.19,0.0883082703700216,Asia
+Deliberate neural restructuring,Iraq,Western Asia,1.5699999999999998,39309789,10916.39,0.0091346909566609,Asia
+Experience oriented,Iraq,Western Asia,6.98,39309789,10916.39,0.0510891882489341,Asia
+Food provision,Iraq,Western Asia,0.99,39309789,10916.39,0.0833245386423929,Asia
+Maintenance of surroundings,Iraq,Western Asia,1.0,39309789,10916.39,0.0114594139980261,Asia
+Nonfood provision,Iraq,Western Asia,0.07,39309789,10916.39,0.0048494345284832,Asia
+Organization,Iraq,Western Asia,1.29,39309789,10916.39,0.0785712187440785,Asia
+Somatic maintenance,Iraq,Western Asia,11.48,39309789,10916.39,0.5221890497783618,Asia
+Technosphere modification,Iraq,Western Asia,0.62,39309789,10916.39,0.2027518824379459,Asia
+Deliberate neural restructuring,Ireland,Northern Europe,1.11,4415871,78299.41,0.0051580853690815,Europe
+Experience oriented,Ireland,Northern Europe,7.64,4415871,78299.41,0.0350767135930481,Europe
+Food provision,Ireland,Northern Europe,0.86,4415871,78299.41,0.0024689704038816,Europe
+Maintenance of surroundings,Ireland,Northern Europe,0.73,4415871,78299.41,0.003147255907588,Europe
+Nonfood provision,Ireland,Northern Europe,0.04,4415871,78299.41,2.9593369206187832e-05,Europe
+Organization,Ireland,Northern Europe,2.23,4415871,78299.41,0.0208020910803924,Europe
+Somatic maintenance,Ireland,Northern Europe,10.59,4415871,78299.41,0.4100508174207075,Europe
+Technosphere modification,Ireland,Northern Europe,0.81,4415871,78299.41,0.0038126639460664,Europe
+Deliberate neural restructuring,Israel,Western Asia,1.53,8243849,38918.09,0.3239967182938079,Asia
+Experience oriented,Israel,Western Asia,7.42,8243849,38918.09,1.2198517970386809,Asia
+Food provision,Israel,Western Asia,0.97,8243849,38918.09,0.1903349900462739,Asia
+Maintenance of surroundings,Israel,Western Asia,0.87,8243849,38918.09,0.1881057851706359,Asia
+Nonfood provision,Israel,Western Asia,0.03,8243849,38918.09,0.0023094088227657,Asia
+Organization,Israel,Western Asia,1.91,8243849,38918.09,0.1673590019681272,Asia
+Somatic maintenance,Israel,Western Asia,10.73,8243849,38918.09,1.341143085648949,Asia
+Technosphere modification,Israel,Western Asia,0.54,8243849,38918.09,0.0263072903207704,Asia
+Deliberate neural restructuring,Italy,Southern Europe,0.9,59325232,41748.26,0.0009011010763784,Europe
+Experience oriented,Italy,Southern Europe,7.0600000000000005,59325232,41748.26,0.0118960929858938,Europe
+Food provision,Italy,Southern Europe,1.23,59325232,41748.26,0.0016243805136575,Europe
+Maintenance of surroundings,Italy,Southern Europe,1.32,59325232,41748.26,0.0018324038078023,Europe
+Nonfood provision,Italy,Southern Europe,0.04,59325232,41748.26,7.532538961373386e-06,Europe
+Organization,Italy,Southern Europe,2.59,59325232,41748.26,0.0088241624008994,Europe
+Somatic maintenance,Italy,Southern Europe,10.11,59325232,41748.26,0.1435549910848561,Europe
+Technosphere modification,Italy,Southern Europe,0.76,59325232,41748.26,0.0033261361357023,Europe
+Deliberate neural restructuring,Jamaica,Caribbean,1.51,2948277,10286.74,0.3465336218936142,America
+Experience oriented,Jamaica,Caribbean,6.02,2948277,10286.74,3.6270757809105576,America
+Food provision,Jamaica,Caribbean,1.71,2948277,10286.74,0.2321624831152355,America
+Maintenance of surroundings,Jamaica,Caribbean,1.31,2948277,10286.74,0.2079146603599961,America
+Nonfood provision,Jamaica,Caribbean,0.16,2948277,10286.74,0.0042924913161687,America
+Organization,Jamaica,Caribbean,2.35,2948277,10286.74,0.6131053297276379,America
+Somatic maintenance,Jamaica,Caribbean,10.29,2948277,10286.74,4.921103120376984,America
+Technosphere modification,Jamaica,Caribbean,0.63,2948277,10286.74,0.0212746758413025,America
+Deliberate neural restructuring,Japan,Eastern Asia,0.9,127763267,41408.95,0.0033939673483151,Asia
+Experience oriented,Japan,Eastern Asia,7.23,127763267,41408.95,0.0708537279190656,Asia
+Food provision,Japan,Eastern Asia,0.7799999999999999,127763267,41408.95,0.0232720598098494,Asia
+Maintenance of surroundings,Japan,Eastern Asia,0.93,127763267,41408.95,0.0224119666698936,Asia
+Nonfood provision,Japan,Eastern Asia,0.03,127763267,41408.95,0.0009920991622075,Asia
+Organization,Japan,Eastern Asia,2.76,127763267,41408.95,0.1045809342646883,Asia
+Somatic maintenance,Japan,Eastern Asia,10.25,127763267,41408.95,0.4930369672124782,Asia
+Technosphere modification,Japan,Eastern Asia,1.12,127763267,41408.95,0.0285422954881926,Asia
+Deliberate neural restructuring,Jordan,Western Asia,1.43,10101697,10089.53,0.3233632726264362,Asia
+Experience oriented,Jordan,Western Asia,7.34,10101697,10089.53,1.2197984038139362,Asia
+Food provision,Jordan,Western Asia,1.05,10101697,10089.53,0.190475884086093,Asia
+Maintenance of surroundings,Jordan,Western Asia,1.01,10101697,10089.53,0.1894811328424955,Asia
+Nonfood provision,Jordan,Western Asia,0.04,10101697,10089.53,0.0023120275246673,Asia
+Organization,Jordan,Western Asia,1.99,10101697,10089.53,0.1703280132387298,Asia
+Somatic maintenance,Jordan,Western Asia,10.71,10101697,10089.53,1.3411423962432814,Asia
+Technosphere modification,Jordan,Western Asia,0.42,10101697,10089.53,0.0256165231157943,Asia
+Deliberate neural restructuring,Kazakhstan,Central Asia,2.12,18080023,24699.3,0.8889307049425674,Asia
+Experience oriented,Kazakhstan,Central Asia,6.859999999999999,18080023,24699.3,3.992043553562315,Asia
+Food provision,Kazakhstan,Central Asia,1.04,18080023,24699.3,0.3930478899460961,Asia
+Maintenance of surroundings,Kazakhstan,Central Asia,1.08,18080023,24699.3,0.4301107754721807,Asia
+Nonfood provision,Kazakhstan,Central Asia,0.1699999999999999,18080023,24699.3,0.0025659961656267,Asia
+Organization,Kazakhstan,Central Asia,2.09,18080023,24699.3,3.5447706781268518,Asia
+Somatic maintenance,Kazakhstan,Central Asia,10.39,18080023,24699.3,4.65529067538599,Asia
+Technosphere modification,Kazakhstan,Central Asia,0.63,18080023,24699.3,0.3057757016357575,Asia
+Deliberate neural restructuring,Kenya,Eastern Africa,1.3099999999999998,52573967,4475.92,0.3228160626154353,Africa
+Experience oriented,Kenya,Eastern Africa,6.550000000000001,52573967,4475.92,2.318493769947688,Africa
+Food provision,Kenya,Eastern Africa,1.56,52573967,4475.92,0.2300426138583559,Africa
+Maintenance of surroundings,Kenya,Eastern Africa,0.91,52573967,4475.92,0.2254611932275252,Africa
+Nonfood provision,Kenya,Eastern Africa,0.08,52573967,4475.92,0.0023844708517981,Africa
+Organization,Kenya,Eastern Africa,2.41,52573967,4475.92,1.0518084781720218,Africa
+Somatic maintenance,Kenya,Eastern Africa,10.68,52573967,4475.92,2.9699241033216395,Africa
+Technosphere modification,Kenya,Eastern Africa,0.48,52573967,4475.92,0.0203920322388352,Africa
+Deliberate neural restructuring,Kiribati,Western Pacific Islands,1.07,117608,2036.11,0.3501124947317888,Oceania
+Experience oriented,Kiribati,Western Pacific Islands,6.8100000000000005,117608,2036.11,8.202239777952506,Oceania
+Food provision,Kiribati,Western Pacific Islands,1.54,117608,2036.11,0.3691941021074181,Oceania
+Maintenance of surroundings,Kiribati,Western Pacific Islands,0.56,117608,2036.11,0.2654099800852976,Oceania
+Nonfood provision,Kiribati,Western Pacific Islands,0.09,117608,2036.11,0.0046931840941185,Oceania
+Organization,Kiribati,Western Pacific Islands,2.5700000000000003,117608,2036.11,5.404493365158436,Oceania
+Somatic maintenance,Kiribati,Western Pacific Islands,10.42,117608,2036.11,10.042091021880308,Oceania
+Technosphere modification,Kiribati,Western Pacific Islands,0.92,117608,2036.11,0.1231561559309053,Oceania
+Deliberate neural restructuring,Kuwait,Western Asia,1.4,4207077,46479.26,0.3264594198900369,Asia
+Experience oriented,Kuwait,Western Asia,7.36,4207077,46479.26,1.220005823659226,Asia
+Food provision,Kuwait,Western Asia,1.28,4207077,46479.26,0.2125329918447149,Asia
+Maintenance of surroundings,Kuwait,Western Asia,0.87,4207077,46479.26,0.1912537909498025,Asia
+Nonfood provision,Kuwait,Western Asia,0.07,4207077,46479.26,0.0062000868507373,Asia
+Organization,Kuwait,Western Asia,1.77,4207077,46479.26,0.18522496472987,Asia
+Somatic maintenance,Kuwait,Western Asia,10.68,4207077,46479.26,1.3411877681254591,Asia
+Technosphere modification,Kuwait,Western Asia,0.56,4207077,46479.26,0.2116071990604985,Asia
+Deliberate neural restructuring,Kyrgyzstan,Central Asia,1.93,5422298,5094.37,0.6781124446203143,Asia
+Experience oriented,Kyrgyzstan,Central Asia,6.99,5422298,5094.37,3.114663889992325,Asia
+Food provision,Kyrgyzstan,Central Asia,1.23,5422298,5094.37,0.207370018726843,Asia
+Maintenance of surroundings,Kyrgyzstan,Central Asia,1.19,5422298,5094.37,0.2499670269964104,Asia
+Nonfood provision,Kyrgyzstan,Central Asia,0.03,5422298,5094.37,9.33633088724325e-05,Asia
+Organization,Kyrgyzstan,Central Asia,2.09,5422298,5094.37,3.413714208135608,Asia
+Somatic maintenance,Kyrgyzstan,Central Asia,10.32,5422298,5094.37,3.965485469367293,Asia
+Technosphere modification,Kyrgyzstan,Central Asia,0.63,5422298,5094.37,0.288192202063069,Asia
+Deliberate neural restructuring,Lao People's Democratic Republic,South-eastern Asia,1.03,6953031,7255.17,0.3467449546349357,Asia
+Experience oriented,Lao People's Democratic Republic,South-eastern Asia,6.8100000000000005,6953031,7255.17,8.202185325407301,Asia
+Food provision,Lao People's Democratic Republic,South-eastern Asia,2.47,6953031,7255.17,0.5395338523825535,Asia
+Maintenance of surroundings,Lao People's Democratic Republic,South-eastern Asia,0.49,6953031,7255.17,0.2605971220623396,Asia
+Nonfood provision,Lao People's Democratic Republic,South-eastern Asia,0.1399999999999999,6953031,7255.17,0.0040639982896914,Asia
+Organization,Lao People's Democratic Republic,South-eastern Asia,2.21,6953031,7255.17,5.402267123850265,Asia
+Somatic maintenance,Lao People's Democratic Republic,South-eastern Asia,10.4,6953031,7255.17,10.04173585497221,Asia
+Technosphere modification,Lao People's Democratic Republic,South-eastern Asia,0.45,6953031,7255.17,0.0944665478158818,Asia
+Deliberate neural restructuring,Latvia,Northern Europe,0.87,2171248,28547.99,0.0038051841197312,Europe
+Experience oriented,Latvia,Northern Europe,6.47,2171248,28547.99,0.010968495801431,Europe
+Food provision,Latvia,Northern Europe,1.38,2171248,28547.99,0.0027204002127548,Europe
+Maintenance of surroundings,Latvia,Northern Europe,1.08,2171248,28547.99,0.0014427879757673,Europe
+Nonfood provision,Latvia,Northern Europe,0.13,2171248,28547.99,0.0002095843373215,Europe
+Organization,Latvia,Northern Europe,3.01,2171248,28547.99,0.0394077495616858,Europe
+Somatic maintenance,Latvia,Northern Europe,10.02,2171248,28547.99,0.1392123777579111,Europe
+Technosphere modification,Latvia,Northern Europe,1.04,2171248,28547.99,0.0092584240110456,Europe
+Deliberate neural restructuring,Lebanon,Western Asia,1.42,6855709,15987.65,0.3233333724617553,Asia
+Experience oriented,Lebanon,Western Asia,7.36,6855709,15987.65,1.219802647639478,Asia
+Food provision,Lebanon,Western Asia,1.08,6855709,15987.65,0.190511214917488,Asia
+Maintenance of surroundings,Lebanon,Western Asia,0.94,6855709,15987.65,0.1887641509869023,Asia
+Nonfood provision,Lebanon,Western Asia,0.03,6855709,15987.65,0.002307842919796,Asia
+Organization,Lebanon,Western Asia,1.96,6855709,15987.65,0.1697223309623306,Asia
+Somatic maintenance,Lebanon,Western Asia,10.73,6855709,15987.65,1.3411423466607406,Asia
+Technosphere modification,Lebanon,Western Asia,0.47,6855709,15987.65,0.0258257240568303,Asia
+Deliberate neural restructuring,Lesotho,Southern Africa,1.32,2125267,2752.74,0.3227399403431188,Africa
+Experience oriented,Lesotho,Southern Africa,6.7700000000000005,2125267,2752.74,1.2050169055121158,Africa
+Food provision,Lesotho,Southern Africa,1.3,2125267,2752.74,0.1940099783022937,Africa
+Maintenance of surroundings,Lesotho,Southern Africa,0.91,2125267,2752.74,0.184454478297353,Africa
+Nonfood provision,Lesotho,Southern Africa,0.24,2125267,2752.74,0.0029871511956932,Africa
+Organization,Lesotho,Southern Africa,1.72,2125267,2752.74,0.1662650565864785,Africa
+Somatic maintenance,Lesotho,Southern Africa,11.12,2125267,2752.74,1.4080346908953283,Africa
+Technosphere modification,Lesotho,Southern Africa,0.64,2125267,2752.74,0.0291906660173702,Africa
+Deliberate neural restructuring,Liberia,Western Africa,1.59,4702224,1662.31,0.3296904229735761,Africa
+Experience oriented,Liberia,Western Africa,7.0600000000000005,4702224,1662.31,1.203057771233525,Africa
+Food provision,Liberia,Western Africa,1.58,4702224,1662.31,0.3799511561367968,Africa
+Maintenance of surroundings,Liberia,Western Africa,0.63,4702224,1662.31,0.1827094364712525,Africa
+Nonfood provision,Liberia,Western Africa,0.16,4702224,1662.31,0.0063409680832679,Africa
+Organization,Liberia,Western Africa,2.4,4702224,1662.31,0.4911536252726827,Africa
+Somatic maintenance,Liberia,Western Africa,10.41,4702224,1662.31,1.4486321287474928,Africa
+Technosphere modification,Liberia,Western Africa,0.18,4702224,1662.31,0.0207714146277808,Africa
+Deliberate neural restructuring,Libya,Northern Africa,1.5,6777453,10708.89,0.3421296539624594,Africa
+Experience oriented,Libya,Northern Africa,7.47,6777453,10708.89,1.2145883527468346,Africa
+Food provision,Libya,Northern Africa,1.5499999999999998,6777453,10708.89,0.5735407778992145,Africa
+Maintenance of surroundings,Libya,Northern Africa,0.74,6777453,10708.89,0.2006204685323223,Africa
+Nonfood provision,Libya,Northern Africa,0.1,6777453,10708.89,0.009767705227446,Africa
+Organization,Libya,Northern Africa,1.68,6777453,10708.89,0.3477551428448604,Africa
+Somatic maintenance,Libya,Northern Africa,10.42,6777453,10708.89,1.4050840337558848,Africa
+Technosphere modification,Libya,Northern Africa,0.54,6777453,10708.89,0.1455235129975461,Africa
+Deliberate neural restructuring,Lithuania,Northern Europe,1.01,3212867,33826.61,0.0110489999729047,Europe
+Experience oriented,Lithuania,Northern Europe,6.25,3212867,33826.61,0.0117717502680462,Europe
+Food provision,Lithuania,Northern Europe,1.56,3212867,33826.61,0.0052451189384513,Europe
+Maintenance of surroundings,Lithuania,Northern Europe,1.24,3212867,33826.61,0.0019669124314895,Europe
+Nonfood provision,Lithuania,Northern Europe,0.11,3212867,33826.61,0.0003449913683185,Europe
+Organization,Lithuania,Northern Europe,2.58,3212867,33826.61,0.0791593761039164,Europe
+Somatic maintenance,Lithuania,Northern Europe,10.25,3212867,33826.61,0.1332660793949777,Europe
+Technosphere modification,Lithuania,Northern Europe,1.02,3212867,33826.61,0.0197844071426656,Europe
+Deliberate neural restructuring,Luxembourg,Western Europe,1.09,507890,113905.41,0.0022012009889144,Europe
+Experience oriented,Luxembourg,Western Europe,7.01,507890,113905.41,0.0110340005656694,Europe
+Food provision,Luxembourg,Western Europe,0.82,507890,113905.41,0.0006602906668647,Europe
+Maintenance of surroundings,Luxembourg,Western Europe,0.88,507890,113905.41,0.0007533857951292,Europe
+Nonfood provision,Luxembourg,Western Europe,0.02,507890,113905.41,3.3634907631801128e-06,Europe
+Organization,Luxembourg,Western Europe,3.3,507890,113905.41,0.0374855880779316,Europe
+Somatic maintenance,Luxembourg,Western Europe,10.36,507890,113905.41,0.1416184249682309,Europe
+Technosphere modification,Luxembourg,Western Europe,0.52,507890,113905.41,0.001538601123684,Europe
+Deliberate neural restructuring,Madagascar,Eastern Africa,1.2,24234080,1586.4,0.3228152108972296,Africa
+Experience oriented,Madagascar,Eastern Africa,6.550000000000001,24234080,1586.4,2.318493738642605,Africa
+Food provision,Madagascar,Eastern Africa,2.42,24234080,1586.4,0.2324833211979818,Africa
+Maintenance of surroundings,Madagascar,Eastern Africa,0.85,24234080,1586.4,0.2253684750158715,Africa
+Nonfood provision,Madagascar,Eastern Africa,0.12,24234080,1586.4,0.0030402330140232,Africa
+Organization,Madagascar,Eastern Africa,1.88,24234080,1586.4,1.0517881470380777,Africa
+Somatic maintenance,Madagascar,Eastern Africa,10.64,24234080,1586.4,2.969907427097282,Africa
+Technosphere modification,Madagascar,Eastern Africa,0.34,24234080,1586.4,0.0204482190651516,Africa
+Deliberate neural restructuring,Malawi,Eastern Africa,1.25,18628749,945.343,0.3239693400791868,Africa
+Experience oriented,Malawi,Eastern Africa,6.550000000000001,18628749,945.343,2.3185083180674453,Africa
+Food provision,Malawi,Eastern Africa,2.08,18628749,945.343,0.3624091444095568,Africa
+Maintenance of surroundings,Malawi,Eastern Africa,0.87,18628749,945.343,0.2287528962288671,Africa
+Nonfood provision,Malawi,Eastern Africa,0.0999999999999999,18628749,945.343,0.0029917815833123,Africa
+Organization,Malawi,Eastern Africa,2.09,18628749,945.343,1.0587222371428715,Africa
+Somatic maintenance,Malawi,Eastern Africa,10.66,18628749,945.343,2.970067978162661,Africa
+Technosphere modification,Malawi,Eastern Africa,0.37,18628749,945.343,0.0253841532956848,Africa
+Deliberate neural restructuring,Malaysia,South-eastern Asia,1.15,31949789,25897.24,0.3463103258394303,Asia
+Experience oriented,Malaysia,South-eastern Asia,6.8500000000000005,31949789,25897.24,8.202218684600341,Asia
+Food provision,Malaysia,South-eastern Asia,0.99,31949789,25897.24,0.2675132184715553,Asia
+Maintenance of surroundings,Malaysia,South-eastern Asia,0.6,31949789,25897.24,0.2618144492132442,Asia
+Nonfood provision,Malaysia,South-eastern Asia,0.1,31949789,25897.24,0.0023693605427029,Asia
+Organization,Malaysia,South-eastern Asia,2.71,31949789,25897.24,5.401117162147393,Asia
+Somatic maintenance,Malaysia,South-eastern Asia,10.42,31949789,25897.24,10.041731454034307,Asia
+Technosphere modification,Malaysia,South-eastern Asia,1.17,31949789,25897.24,0.0955752603197379,Asia
+Deliberate neural restructuring,Maldives,Southern Asia,1.75,530957,24928.29,0.3211969247101018,Asia
+Experience oriented,Maldives,Southern Asia,6.3500000000000005,530957,24928.29,1.1822173629286938,Asia
+Food provision,Maldives,Southern Asia,1.85,530957,24928.29,0.1880033181664958,Asia
+Maintenance of surroundings,Maldives,Southern Asia,0.8,530957,24928.29,0.181283272695402,Asia
+Nonfood provision,Maldives,Southern Asia,0.08,530957,24928.29,0.0023555132040863,Asia
+Organization,Maldives,Southern Asia,1.83,530957,24928.29,0.164929526660209,Asia
+Somatic maintenance,Maldives,Southern Asia,11.12,530957,24928.29,0.98632447885921,Asia
+Technosphere modification,Maldives,Southern Asia,0.2299999999999999,530957,24928.29,0.0171114872179338,Asia
+Deliberate neural restructuring,Mali,Western Africa,1.54,19077755,2315.16,0.3253269704551171,Africa
+Experience oriented,Mali,Western Africa,7.06,19077755,2315.16,1.203046678924844,Africa
+Food provision,Mali,Western Africa,2.26,19077755,2315.16,0.3218625683848823,Africa
+Maintenance of surroundings,Mali,Western Africa,0.65,19077755,2315.16,0.1823619882143453,Africa
+Nonfood provision,Mali,Western Africa,0.14,19077755,2315.16,0.0037602856198064,Africa
+Organization,Mali,Western Africa,1.79,19077755,2315.16,0.1791993131003587,Africa
+Somatic maintenance,Mali,Western Africa,10.37,19077755,2315.16,1.4485813875274418,Africa
+Technosphere modification,Mali,Western Africa,0.18,19077755,2315.16,0.0179383481716201,Africa
+Deliberate neural restructuring,Malta,Southern Europe,0.96,440377,43991.84,0.0174172649256665,Europe
+Experience oriented,Malta,Southern Europe,7.39,440377,43991.84,0.0953910917227258,Europe
+Food provision,Malta,Southern Europe,1.17,440377,43991.84,0.0125787954795349,Europe
+Maintenance of surroundings,Malta,Southern Europe,1.2,440377,43991.84,0.0451225650130688,Europe
+Nonfood provision,Malta,Southern Europe,0.01,440377,43991.84,4.856989727204196e-06,Europe
+Organization,Malta,Southern Europe,2.54,440377,43991.84,0.1294150559154054,Europe
+Somatic maintenance,Malta,Southern Europe,10.23,440377,43991.84,0.0778218352998086,Europe
+Technosphere modification,Malta,Southern Europe,0.51,440377,43991.84,0.0153288893990969,Europe
+Deliberate neural restructuring,Mauritania,Western Africa,1.56,4525698,5601.83,0.3265781760869593,Africa
+Experience oriented,Mauritania,Western Africa,7.05,4525698,5601.83,1.203009780846369,Africa
+Food provision,Mauritania,Western Africa,1.64,4525698,5601.83,0.2953655447086631,Africa
+Maintenance of surroundings,Mauritania,Western Africa,0.78,4525698,5601.83,0.1911854477709359,Africa
+Nonfood provision,Mauritania,Western Africa,0.12,4525698,5601.83,0.0038080548034628,Africa
+Organization,Mauritania,Western Africa,2.11,4525698,5601.83,0.26250416744084,Africa
+Somatic maintenance,Mauritania,Western Africa,10.45,4525698,5601.83,1.44876696698937,Africa
+Technosphere modification,Mauritania,Western Africa,0.3,4525698,5601.83,0.0223633989495232,Africa
+Deliberate neural restructuring,Mauritius,Eastern Africa,1.44,1267184,21415.34,0.0062792144594983,Africa
+Experience oriented,Mauritius,Eastern Africa,6.609999999999999,1267184,21415.34,0.454597977717055,Africa
+Food provision,Mauritius,Eastern Africa,1.42,1267184,21415.34,0.0045201696294593,Africa
+Maintenance of surroundings,Mauritius,Eastern Africa,1.07,1267184,21415.34,0.0140838997128353,Africa
+Nonfood provision,Mauritius,Eastern Africa,0.03,1267184,21415.34,3.70905409890496e-05,Africa
+Organization,Mauritius,Eastern Africa,2.22,1267184,21415.34,0.1129592808840744,Africa
+Somatic maintenance,Mauritius,Eastern Africa,10.37,1267184,21415.34,0.6501720602725028,Africa
+Technosphere modification,Mauritius,Eastern Africa,0.8400000000000001,1267184,21415.34,0.0176822141758174,Africa
+Deliberate neural restructuring,Mexico,Central America,1.45,127575529,19933.5,0.0133063525549115,America
+Experience oriented,Mexico,Central America,5.99,127575529,19933.5,0.06058625795601,America
+Food provision,Mexico,Central America,1.78,127575529,19933.5,0.0099302738993822,America
+Maintenance of surroundings,Mexico,Central America,1.31,127575529,19933.5,0.0073033335982082,America
+Nonfood provision,Mexico,Central America,0.08,127575529,19933.5,0.0006000760001648,America
+Organization,Mexico,Central America,2.19,127575529,19933.5,0.0179126062838114,America
+Somatic maintenance,Mexico,Central America,10.35,127575529,19933.5,0.381719745062208,America
+Technosphere modification,Mexico,Central America,0.8499999999999999,127575529,19933.5,0.0042764153324906,America
+Deliberate neural restructuring,Micronesia (Federated States of),Western Pacific Islands,1.07,113811,3291.46,0.3501124947317888,Oceania
+Experience oriented,Micronesia (Federated States of),Western Pacific Islands,6.8100000000000005,113811,3291.46,8.202239777952506,Oceania
+Food provision,Micronesia (Federated States of),Western Pacific Islands,1.54,113811,3291.46,0.3691941021074181,Oceania
+Maintenance of surroundings,Micronesia (Federated States of),Western Pacific Islands,0.56,113811,3291.46,0.2654099800852976,Oceania
+Nonfood provision,Micronesia (Federated States of),Western Pacific Islands,0.09,113811,3291.46,0.0046931840941185,Oceania
+Organization,Micronesia (Federated States of),Western Pacific Islands,2.5700000000000003,113811,3291.46,5.404493365158436,Oceania
+Somatic maintenance,Micronesia (Federated States of),Western Pacific Islands,10.42,113811,3291.46,10.042091021880308,Oceania
+Technosphere modification,Micronesia (Federated States of),Western Pacific Islands,0.92,113811,3291.46,0.1231561559309053,Oceania
+Deliberate neural restructuring,Mongolia,Eastern Asia,0.87,3225166,11083.56,1.2336691925412966,Asia
+Experience oriented,Mongolia,Eastern Asia,7.05,3225166,11083.56,2.9163750684431773,Asia
+Food provision,Mongolia,Eastern Asia,1.53,3225166,11083.56,0.0406986848433196,Asia
+Maintenance of surroundings,Mongolia,Eastern Asia,0.5,3225166,11083.56,0.0054950536240352,Asia
+Nonfood provision,Mongolia,Eastern Asia,0.4,3225166,11083.56,0.0226495679116308,Asia
+Organization,Mongolia,Eastern Asia,2.23,3225166,11083.56,1.338532200470188,Asia
+Somatic maintenance,Mongolia,Eastern Asia,10.91,3225166,11083.56,2.0561965720775603,Asia
+Technosphere modification,Mongolia,Eastern Asia,0.55,3225166,11083.56,0.0052667788683873,Asia
+Deliberate neural restructuring,Montenegro,Southern Europe,0.91,627988,19703.46,0.0114128427637289,Europe
+Experience oriented,Montenegro,Southern Europe,7.33,627988,19703.46,0.0945050459901018,Europe
+Food provision,Montenegro,Southern Europe,1.28,627988,19703.46,0.0113102994561181,Europe
+Maintenance of surroundings,Montenegro,Southern Europe,1.15,627988,19703.46,0.0415297010522794,Europe
+Nonfood provision,Montenegro,Southern Europe,0.06,627988,19703.46,2.6825049186175103e-05,Europe
+Organization,Montenegro,Southern Europe,2.63,627988,19703.46,0.033258551049892,Europe
+Somatic maintenance,Montenegro,Southern Europe,10.11,627988,19703.46,0.077557596450127,Europe
+Technosphere modification,Montenegro,Southern Europe,0.53,627988,19703.46,0.0041299855620646,Europe
+Deliberate neural restructuring,Morocco,Northern Africa,1.5,33241898,7581.0,0.0020264612169833,Africa
+Experience oriented,Morocco,Northern Africa,7.699999999999999,33241898,7581.0,0.0895934266252958,Africa
+Food provision,Morocco,Northern Africa,1.73,33241898,7581.0,0.0033563685253082,Africa
+Maintenance of surroundings,Morocco,Northern Africa,0.67,33241898,7581.0,0.000491895049759,Africa
+Nonfood provision,Morocco,Northern Africa,0.2,33241898,7581.0,0.0003429659979059,Africa
+Organization,Morocco,Northern Africa,1.63,33241898,7581.0,0.0168423105597823,Africa
+Somatic maintenance,Morocco,Northern Africa,10.03,33241898,7581.0,0.1264228013800294,Africa
+Technosphere modification,Morocco,Northern Africa,0.55,33241898,7581.0,0.0011323953548993,Africa
+Deliberate neural restructuring,Mozambique,Eastern Africa,1.22,27042001,1245.03,0.3231491745644042,Africa
+Experience oriented,Mozambique,Eastern Africa,6.550000000000001,27042001,1245.03,2.3184951988826152,Africa
+Food provision,Mozambique,Eastern Africa,2.12,27042001,1245.03,0.3241172847655524,Africa
+Maintenance of surroundings,Mozambique,Eastern Africa,0.87,27042001,1245.03,0.2261621855277101,Africa
+Nonfood provision,Mozambique,Eastern Africa,0.12,27042001,1245.03,0.003503845126821,Africa
+Organization,Mozambique,Eastern Africa,2.11,27042001,1245.03,1.0564768566226848,Africa
+Somatic maintenance,Mozambique,Eastern Africa,10.65,27042001,1245.03,2.9699193822035195,Africa
+Technosphere modification,Mozambique,Eastern Africa,0.36,27042001,1245.03,0.0218154246856712,Africa
+Deliberate neural restructuring,Myanmar,South-eastern Asia,1.0,54045422,4332.72,0.3459049578592926,Asia
+Experience oriented,Myanmar,South-eastern Asia,6.79,54045422,4332.72,8.202182596431763,Asia
+Food provision,Myanmar,South-eastern Asia,2.08,54045422,4332.72,0.2996100885089935,Asia
+Maintenance of surroundings,Myanmar,South-eastern Asia,0.5,54045422,4332.72,0.2608194899423082,Asia
+Nonfood provision,Myanmar,South-eastern Asia,0.12,54045422,4332.72,0.0030800298298989,Asia
+Organization,Myanmar,South-eastern Asia,2.39,54045422,4332.72,5.401117579607783,Asia
+Somatic maintenance,Myanmar,South-eastern Asia,10.41,54045422,4332.72,10.04179654297964,Asia
+Technosphere modification,Myanmar,South-eastern Asia,0.6900000000000001,54045422,4332.72,0.0949329501497602,Asia
+Deliberate neural restructuring,Namibia,Southern Africa,1.37,2448300,10316.89,0.3225645233788031,Africa
+Experience oriented,Namibia,Southern Africa,6.76,2448300,10316.89,1.2050106072090288,Africa
+Food provision,Namibia,Southern Africa,1.35,2448300,10316.89,0.1921248181959658,Africa
+Maintenance of surroundings,Namibia,Southern Africa,1.03,2448300,10316.89,0.1847799330169426,Africa
+Nonfood provision,Namibia,Southern Africa,0.15,2448300,10316.89,0.0023661281677747,Africa
+Organization,Namibia,Southern Africa,1.86,2448300,10316.89,0.1618210150530446,Africa
+Somatic maintenance,Namibia,Southern Africa,11.19,2448300,10316.89,1.4080497492142905,Africa
+Technosphere modification,Namibia,Southern Africa,0.3,2448300,10316.89,0.0170771749158241,Africa
+Deliberate neural restructuring,Nepal,Southern Asia,1.67,27632682,3565.92,0.3215665182797168,Asia
+Experience oriented,Nepal,Southern Asia,6.34,27632682,3565.92,1.1822193692991505,Asia
+Food provision,Nepal,Southern Asia,1.94,27632682,3565.92,0.1899994214677919,Asia
+Maintenance of surroundings,Nepal,Southern Asia,0.73,27632682,3565.92,0.1811021896318714,Asia
+Nonfood provision,Nepal,Southern Asia,0.08,27632682,3565.92,0.0023741211924806,Asia
+Organization,Nepal,Southern Asia,1.56,27632682,3565.92,0.169726358160121,Asia
+Somatic maintenance,Nepal,Southern Asia,11.05,27632682,3565.92,0.9863208029547,Asia
+Technosphere modification,Nepal,Southern Asia,0.6399999999999999,27632682,3565.92,0.0240146768666115,Asia
+Deliberate neural restructuring,Netherlands,Western Europe,0.91,16682927,55509.26,0.0009506247909599,Europe
+Experience oriented,Netherlands,Western Europe,7.83,16682927,55509.26,0.0134186247873812,Europe
+Food provision,Netherlands,Western Europe,0.8600000000000001,16682927,55509.26,0.0005129029291501,Europe
+Maintenance of surroundings,Netherlands,Western Europe,0.89,16682927,55509.26,0.0008930001158629,Europe
+Nonfood provision,Netherlands,Western Europe,0.03,16682927,55509.26,4.352661706718503e-06,Europe
+Organization,Netherlands,Western Europe,2.67,16682927,55509.26,0.0037523676848834,Europe
+Somatic maintenance,Netherlands,Western Europe,10.21,16682927,55509.26,0.1344476337292689,Europe
+Technosphere modification,Netherlands,Western Europe,0.62,16682927,55509.26,0.0013907004410341,Europe
+Deliberate neural restructuring,New Zealand,Australia and New Zealand,1.09,4323338,40971.13,0.0012125495698778,Oceania
+Experience oriented,New Zealand,Australia and New Zealand,7.09,4323338,40971.13,0.0109660427334229,Oceania
+Food provision,New Zealand,Australia and New Zealand,0.98,4323338,40971.13,0.0012769206251263,Oceania
+Maintenance of surroundings,New Zealand,Australia and New Zealand,0.89,4323338,40971.13,0.0007624736451222,Oceania
+Nonfood provision,New Zealand,Australia and New Zealand,0.06,4323338,40971.13,3.87830868514872e-05,Oceania
+Organization,New Zealand,Australia and New Zealand,2.54,4323338,40971.13,0.0017867102147208,Oceania
+Somatic maintenance,New Zealand,Australia and New Zealand,10.43,4323338,40971.13,0.1528073170210749,Oceania
+Technosphere modification,New Zealand,Australia and New Zealand,0.9,4323338,40971.13,0.0017670668433303,Oceania
+Deliberate neural restructuring,Nicaragua,Central America,1.44,5982530,5995.6,0.3464305703894147,America
+Experience oriented,Nicaragua,Central America,6.07,5982530,5995.6,3.627089142442128,America
+Food provision,Nicaragua,Central America,1.97,5982530,5995.6,0.2339921075419034,America
+Maintenance of surroundings,Nicaragua,Central America,1.25,5982530,5995.6,0.2072535050972183,America
+Nonfood provision,Nicaragua,Central America,0.27,5982530,5995.6,0.0050268598687663,America
+Organization,Nicaragua,Central America,2.03,5982530,5995.6,0.6127025597147147,America
+Somatic maintenance,Nicaragua,Central America,10.27,5982530,5995.6,4.921068528922466,America
+Technosphere modification,Nicaragua,Central America,0.6699999999999999,5982530,5995.6,0.0240413042885246,America
+Deliberate neural restructuring,Niger,Western Africa,1.57,21602388,1163.64,0.330431573171323,Africa
+Experience oriented,Niger,Western Africa,7.039999999999999,21602388,1163.64,1.203017593872675,Africa
+Food provision,Niger,Western Africa,1.74,21602388,1163.64,0.5289189868494183,Africa
+Maintenance of surroundings,Niger,Western Africa,0.71,21602388,1163.64,0.1926289776540802,Africa
+Nonfood provision,Niger,Western Africa,0.1,21602388,1163.64,0.004642944779769,Africa
+Organization,Niger,Western Africa,1.98,21602388,1163.64,0.3946435786220644,Africa
+Somatic maintenance,Niger,Western Africa,10.49,21602388,1163.64,1.4492244482584586,Africa
+Technosphere modification,Niger,Western Africa,0.37,21602388,1163.64,0.0661143578134761,Africa
+Deliberate neural restructuring,Nigeria,Western Africa,1.55,200963603,5190.36,0.3258962325706135,Africa
+Experience oriented,Nigeria,Western Africa,7.05,200963603,5190.36,1.203074811314147,Africa
+Food provision,Nigeria,Western Africa,1.71,200963603,5190.36,0.2858245012306631,Africa
+Maintenance of surroundings,Nigeria,Western Africa,0.67,200963603,5190.36,0.1838871698119185,Africa
+Nonfood provision,Nigeria,Western Africa,0.17,200963603,5190.36,0.0092863596201781,Africa
+Organization,Nigeria,Western Africa,2.09,200963603,5190.36,0.231856638527778,Africa
+Somatic maintenance,Nigeria,Western Africa,10.39,200963603,5190.36,1.4486498160892902,Africa
+Technosphere modification,Nigeria,Western Africa,0.36,200963603,5190.36,0.0306959902335486,Africa
+Deliberate neural restructuring,North Macedonia,Southern Europe,0.89,2083458,15640.3,0.0112289669089017,Europe
+Experience oriented,North Macedonia,Southern Europe,7.32,2083458,15640.3,0.0944407911555944,Europe
+Food provision,North Macedonia,Southern Europe,1.44,2083458,15640.3,0.0107821443144163,Europe
+Maintenance of surroundings,North Macedonia,Southern Europe,1.11,2083458,15640.3,0.0409442231611985,Europe
+Nonfood provision,North Macedonia,Southern Europe,0.08,2083458,15640.3,5.073962887039675e-05,Europe
+Organization,North Macedonia,Southern Europe,2.37,2083458,15640.3,0.0293318463250195,Europe
+Somatic maintenance,North Macedonia,Southern Europe,10.16,2083458,15640.3,0.0775570450699824,Europe
+Technosphere modification,North Macedonia,Southern Europe,0.66,2083458,15640.3,0.0030454053128484,Europe
+Deliberate neural restructuring,Norway,Northern Europe,1.07,4885878,62782.11,0.0013388742158465,Europe
+Experience oriented,Norway,Northern Europe,7.71,4885878,62782.11,0.0119238782998303,Europe
+Food provision,Norway,Northern Europe,0.86,4885878,62782.11,0.0006466884344603,Europe
+Maintenance of surroundings,Norway,Northern Europe,0.98,4885878,62782.11,0.0011517886675811,Europe
+Nonfood provision,Norway,Northern Europe,0.08,4885878,62782.11,6.025686365964672e-05,Europe
+Organization,Norway,Northern Europe,2.52,4885878,62782.11,0.0038704546421778,Europe
+Somatic maintenance,Norway,Northern Europe,10.07,4885878,62782.11,0.1237883961839913,Europe
+Technosphere modification,Norway,Northern Europe,0.71,4885878,62782.11,0.0030813011380662,Europe
+Deliberate neural restructuring,Oman,Western Asia,2.01,4974992,29758.24,0.0110511803433822,Asia
+Experience oriented,Oman,Western Asia,6.98,4974992,29758.24,0.0349585198680259,Asia
+Food provision,Oman,Western Asia,1.02,4974992,29758.24,0.0694080020627385,Asia
+Maintenance of surroundings,Oman,Western Asia,0.61,4974992,29758.24,0.0070202216924072,Asia
+Nonfood provision,Oman,Western Asia,0.07,4974992,29758.24,0.0046566882339703,Asia
+Organization,Oman,Western Asia,1.5,4974992,29758.24,0.0368459589261714,Asia
+Somatic maintenance,Oman,Western Asia,11.33,4974992,29758.24,0.524308121109309,Asia
+Technosphere modification,Oman,Western Asia,0.5,4974992,29758.24,0.1914631734876805,Asia
+Deliberate neural restructuring,Pakistan,Southern Asia,1.82,191260799,4817.92,0.0014210075071913,Asia
+Experience oriented,Pakistan,Southern Asia,5.51,191260799,4817.92,0.0103756675730597,Asia
+Food provision,Pakistan,Southern Asia,2.14,191260799,4817.92,0.0138127572423189,Asia
+Maintenance of surroundings,Pakistan,Southern Asia,0.55,191260799,4817.92,0.0008588975492734,Asia
+Nonfood provision,Pakistan,Southern Asia,0.1,191260799,4817.92,0.0002842403805114,Asia
+Organization,Pakistan,Southern Asia,2.18,191260799,4817.92,0.0108193174785275,Asia
+Somatic maintenance,Pakistan,Southern Asia,10.82,191260799,4817.92,0.1922989722197143,Asia
+Technosphere modification,Pakistan,Southern Asia,0.88,191260799,4817.92,0.0016764016459991,Asia
+Deliberate neural restructuring,Panama,Central America,1.51,3901311,30510.96,0.3472034702281745,America
+Experience oriented,Panama,Central America,6.08,3901311,30510.96,3.627083438725077,America
+Food provision,Panama,Central America,1.63,3901311,30510.96,0.2315427957888028,America
+Maintenance of surroundings,Panama,Central America,1.36,3901311,30510.96,0.208327770452516,America
+Nonfood provision,Panama,Central America,0.08,3901311,30510.96,0.0041470447087286,America
+Organization,Panama,Central America,2.3200000000000003,3901311,30510.96,0.6163981981649315,America
+Somatic maintenance,Panama,Central America,10.35,3901311,30510.96,4.92110817203285,America
+Technosphere modification,Panama,Central America,0.66,3901311,30510.96,0.022868823111428,America
+Deliberate neural restructuring,Papua New Guinea,Western Pacific Islands,1.07,8776119,3809.91,0.3501124947317888,Oceania
+Experience oriented,Papua New Guinea,Western Pacific Islands,6.8100000000000005,8776119,3809.91,8.202239777952506,Oceania
+Food provision,Papua New Guinea,Western Pacific Islands,1.54,8776119,3809.91,0.3691941021074181,Oceania
+Maintenance of surroundings,Papua New Guinea,Western Pacific Islands,0.56,8776119,3809.91,0.2654099800852976,Oceania
+Nonfood provision,Papua New Guinea,Western Pacific Islands,0.09,8776119,3809.91,0.0046931840941185,Oceania
+Organization,Papua New Guinea,Western Pacific Islands,2.5700000000000003,8776119,3809.91,5.404493365158436,Oceania
+Somatic maintenance,Papua New Guinea,Western Pacific Islands,10.42,8776119,3809.91,10.042091021880308,Oceania
+Technosphere modification,Papua New Guinea,Western Pacific Islands,0.92,8776119,3809.91,0.1231561559309053,Oceania
+Deliberate neural restructuring,Paraguay,South America,1.2,7044639,12437.52,0.3280657504652756,America
+Experience oriented,Paraguay,South America,7.08,7044639,12437.52,1.2351078927372177,America
+Food provision,Paraguay,South America,1.14,7044639,12437.52,0.2082808105149849,America
+Maintenance of surroundings,Paraguay,South America,0.78,7044639,12437.52,0.2054274977925117,America
+Nonfood provision,Paraguay,South America,0.08,7044639,12437.52,0.003220874758033,America
+Organization,Paraguay,South America,2.66,7044639,12437.52,0.2018841526324633,America
+Somatic maintenance,Paraguay,South America,10.28,7044639,12437.52,1.8787958051497595,America
+Technosphere modification,Paraguay,South America,0.78,7044639,12437.52,0.0464336697034012,America
+Deliberate neural restructuring,Peru,South America,1.16,32510462,12536.81,0.3259171353573317,America
+Experience oriented,Peru,South America,7.050000000000001,32510462,12536.81,1.2346843100268594,America
+Food provision,Peru,South America,1.43,32510462,12536.81,0.1975543954745053,America
+Maintenance of surroundings,Peru,South America,0.74,32510462,12536.81,0.2039505169574995,America
+Nonfood provision,Peru,South America,0.08,32510462,12536.81,0.0023931469672636,America
+Organization,Peru,South America,2.7,32510462,12536.81,0.1885967585617083,America
+Somatic maintenance,Peru,South America,10.25,32510462,12536.81,1.8787738228360216,America
+Technosphere modification,Peru,South America,0.6,32510462,12536.81,0.0394611777130976,America
+Deliberate neural restructuring,Philippines,South-eastern Asia,1.05,108116622,8199.05,0.3467540568527439,Asia
+Experience oriented,Philippines,South-eastern Asia,6.83,108116622,8199.05,8.20218840995979,Asia
+Food provision,Philippines,South-eastern Asia,1.25,108116622,8199.05,0.2733311615662266,Asia
+Maintenance of surroundings,Philippines,South-eastern Asia,0.61,108116622,8199.05,0.2635951392219443,Asia
+Nonfood provision,Philippines,South-eastern Asia,0.05,108116622,8199.05,0.0024049999250001,Asia
+Organization,Philippines,South-eastern Asia,3.02,108116622,8199.05,5.408274787351668,Asia
+Somatic maintenance,Philippines,South-eastern Asia,10.42,108116622,8199.05,10.04179528795051,Asia
+Technosphere modification,Philippines,South-eastern Asia,0.76,108116622,8199.05,0.1047940047381682,Asia
+Deliberate neural restructuring,Poland,Eastern Europe,1.04,38329784,30161.55,0.000904186894861,Europe
+Experience oriented,Poland,Eastern Europe,6.88,38329784,30161.55,0.0118363470004242,Europe
+Food provision,Poland,Eastern Europe,1.5,38329784,30161.55,0.0015995988130112,Europe
+Maintenance of surroundings,Poland,Eastern Europe,0.98,38329784,30161.55,0.0010117377546097,Europe
+Nonfood provision,Poland,Eastern Europe,0.09,38329784,30161.55,5.167193415828324e-05,Europe
+Organization,Poland,Eastern Europe,2.34,38329784,30161.55,0.0027896925146887,Europe
+Somatic maintenance,Poland,Eastern Europe,10.4,38329784,30161.55,0.144327841072669,Europe
+Technosphere modification,Poland,Eastern Europe,0.75,38329784,30161.55,0.000823544444259,Europe
+Deliberate neural restructuring,Portugal,Southern Europe,0.96,10226178,33086.05,0.0122302470144528,Europe
+Experience oriented,Portugal,Southern Europe,7.3,10226178,33086.05,0.0944571004555011,Europe
+Food provision,Portugal,Southern Europe,1.27,10226178,33086.05,0.0113067000056842,Europe
+Maintenance of surroundings,Portugal,Southern Europe,1.16,10226178,33086.05,0.0415264299431795,Europe
+Nonfood provision,Portugal,Southern Europe,0.03,10226178,33086.05,1.632812503401474e-05,Europe
+Organization,Portugal,Southern Europe,2.41,10226178,33086.05,0.0401710635332786,Europe
+Somatic maintenance,Portugal,Southern Europe,10.22,10226178,33086.05,0.0775753715595898,Europe
+Technosphere modification,Portugal,Southern Europe,0.64,10226178,33086.05,0.0070148310000315,Europe
+Deliberate neural restructuring,Puerto Rico,Caribbean,1.45,2933404,34627.22,0.3509884761906235,America
+Experience oriented,Puerto Rico,Caribbean,6.07,2933404,34627.22,3.627329256609568,America
+Food provision,Puerto Rico,Caribbean,1.81,2933404,34627.22,0.2505704445049446,America
+Maintenance of surroundings,Puerto Rico,Caribbean,1.3,2933404,34627.22,0.2103782043481173,America
+Nonfood provision,Puerto Rico,Caribbean,0.11,2933404,34627.22,0.0055898138979939,America
+Organization,Puerto Rico,Caribbean,2.16,2933404,34627.22,0.6210651982564246,America
+Somatic maintenance,Puerto Rico,Caribbean,10.33,2933404,34627.22,4.921168632266722,America
+Technosphere modification,Puerto Rico,Caribbean,0.76,2933404,34627.22,0.0299020332796977,America
+Deliberate neural restructuring,Qatar,Western Asia,1.36,2832071,91742.83,0.3297440967542313,Asia
+Experience oriented,Qatar,Western Asia,7.35,2832071,91742.83,1.220028808731914,Asia
+Food provision,Qatar,Western Asia,1.01,2832071,91742.83,0.2092818474390561,Asia
+Maintenance of surroundings,Qatar,Western Asia,0.83,2832071,91742.83,0.1956049389084612,Asia
+Nonfood provision,Qatar,Western Asia,0.13,2832071,91742.83,0.0229481651519239,Asia
+Organization,Qatar,Western Asia,1.57,2832071,91742.83,0.5656920708920394,Asia
+Somatic maintenance,Qatar,Western Asia,10.67,2832071,91742.83,1.3412845598169292,Asia
+Technosphere modification,Qatar,Western Asia,1.08,2832071,91742.83,1.1240761659065155,Asia
+Deliberate neural restructuring,Republic of Korea,Eastern Asia,1.6,50607904,41001.06,0.0035458147997067,Asia
+Experience oriented,Republic of Korea,Eastern Asia,6.77,50607904,41001.06,0.0369013588839035,Asia
+Food provision,Republic of Korea,Eastern Asia,1.11,50607904,41001.06,0.0031759767166016,Asia
+Maintenance of surroundings,Republic of Korea,Eastern Asia,0.65,50607904,41001.06,0.0019526939669593,Asia
+Nonfood provision,Republic of Korea,Eastern Asia,0.05,50607904,41001.06,7.260866737333655e-05,Asia
+Organization,Republic of Korea,Eastern Asia,3.05,50607904,41001.06,0.0117528883834064,Asia
+Somatic maintenance,Republic of Korea,Eastern Asia,9.93,50607904,41001.06,0.530044219602558,Asia
+Technosphere modification,Republic of Korea,Eastern Asia,0.84,50607904,41001.06,0.0044582528240045,Asia
+Deliberate neural restructuring,Republic of Moldova,Eastern Europe,0.93,4043258,11547.4,0.0211819329769657,Europe
+Experience oriented,Republic of Moldova,Eastern Europe,6.38,4043258,11547.4,0.2966258083842586,Europe
+Food provision,Republic of Moldova,Eastern Europe,2.45,4043258,11547.4,0.1534087469407007,Europe
+Maintenance of surroundings,Republic of Moldova,Eastern Europe,1.01,4043258,11547.4,0.0248407783003869,Europe
+Nonfood provision,Republic of Moldova,Eastern Europe,0.37,4043258,11547.4,0.0054102124489454,Europe
+Organization,Republic of Moldova,Eastern Europe,1.67,4043258,11547.4,0.0269886797526378,Europe
+Somatic maintenance,Republic of Moldova,Eastern Europe,10.59,4043258,11547.4,0.052937210938831,Europe
+Technosphere modification,Republic of Moldova,Eastern Europe,0.61,4043258,11547.4,0.0089452735027241,Europe
+Deliberate neural restructuring,Romania,Eastern Europe,0.84,20471860,27219.98,0.0006229500676918,Europe
+Experience oriented,Romania,Eastern Europe,6.63,20471860,27219.98,0.0125211906789722,Europe
+Food provision,Romania,Eastern Europe,2.04,20471860,27219.98,0.0019340846206642,Europe
+Maintenance of surroundings,Romania,Eastern Europe,1.23,20471860,27219.98,0.0008372065819088,Europe
+Nonfood provision,Romania,Eastern Europe,0.12,20471860,27219.98,0.000267653178582,Europe
+Organization,Romania,Eastern Europe,1.82,20471860,27219.98,0.0021577917097079,Europe
+Somatic maintenance,Romania,Eastern Europe,10.62,20471860,27219.98,0.1509402987860473,Europe
+Technosphere modification,Romania,Eastern Europe,0.71,20471860,27219.98,0.0005316594286958,Europe
+Deliberate neural restructuring,Russian Federation,Eastern Europe,1.02,145734034,25999.32,0.0318358304423314,Europe
+Experience oriented,Russian Federation,Eastern Europe,6.19,145734034,25999.32,1.011246004695911,Europe
+Food provision,Russian Federation,Eastern Europe,1.35,145734034,25999.32,0.189667547943077,Europe
+Maintenance of surroundings,Russian Federation,Eastern Europe,0.98,145734034,25999.32,0.1874893302947174,Europe
+Nonfood provision,Russian Federation,Eastern Europe,0.36,145734034,25999.32,0.0287541164422233,Europe
+Organization,Russian Federation,Eastern Europe,2.12,145734034,25999.32,0.8073520985385236,Europe
+Somatic maintenance,Russian Federation,Eastern Europe,10.73,145734034,25999.32,2.0288778468167097,Europe
+Technosphere modification,Russian Federation,Eastern Europe,1.25,145734034,25999.32,0.1890523293742807,Europe
+Deliberate neural restructuring,Rwanda,Eastern Africa,1.25,12301969,2005.48,0.3238610803583937,Africa
+Experience oriented,Rwanda,Eastern Africa,6.5600000000000005,12301969,2005.48,2.318497391602726,Africa
+Food provision,Rwanda,Eastern Africa,1.7200000000000002,12301969,2005.48,0.2614709237447477,Africa
+Maintenance of surroundings,Rwanda,Eastern Africa,1.0,12301969,2005.48,0.2323199357410833,Africa
+Nonfood provision,Rwanda,Eastern Africa,0.0999999999999999,12301969,2005.48,0.0030303226834931,Africa
+Organization,Rwanda,Eastern Africa,2.2,12301969,2005.48,1.0583849570680888,Africa
+Somatic maintenance,Rwanda,Eastern Africa,10.69,12301969,2005.48,2.9700076042090378,Africa
+Technosphere modification,Rwanda,Eastern Africa,0.4599999999999999,12301969,2005.48,0.0240839277934821,Africa
+Deliberate neural restructuring,Saint Lucia,Caribbean,1.49,182795,15253.74,0.3464045693811226,America
+Experience oriented,Saint Lucia,Caribbean,6.08,182795,15253.74,3.627093685169724,America
+Food provision,Saint Lucia,Caribbean,1.75,182795,15253.74,0.2349824449911593,America
+Maintenance of surroundings,Saint Lucia,Caribbean,1.38,182795,15253.74,0.2096460188399532,America
+Nonfood provision,Saint Lucia,Caribbean,0.11,182795,15253.74,0.004169631851595,America
+Organization,Saint Lucia,Caribbean,2.3,182795,15253.74,0.612089453812495,America
+Somatic maintenance,Saint Lucia,Caribbean,10.3,182795,15253.74,4.921073784383895,America
+Technosphere modification,Saint Lucia,Caribbean,0.5800000000000001,182795,15253.74,0.0206921574879278,America
+Deliberate neural restructuring,Saint Vincent and the Grenadines,Caribbean,1.45,110593,12201.78,0.3509884761906235,America
+Experience oriented,Saint Vincent and the Grenadines,Caribbean,6.07,110593,12201.78,3.627329256609568,America
+Food provision,Saint Vincent and the Grenadines,Caribbean,1.81,110593,12201.78,0.2505704445049446,America
+Maintenance of surroundings,Saint Vincent and the Grenadines,Caribbean,1.3,110593,12201.78,0.2103782043481173,America
+Nonfood provision,Saint Vincent and the Grenadines,Caribbean,0.11,110593,12201.78,0.0055898138979939,America
+Organization,Saint Vincent and the Grenadines,Caribbean,2.16,110593,12201.78,0.6210651982564246,America
+Somatic maintenance,Saint Vincent and the Grenadines,Caribbean,10.33,110593,12201.78,4.921168632266722,America
+Technosphere modification,Saint Vincent and the Grenadines,Caribbean,0.76,110593,12201.78,0.0299020332796977,America
+Deliberate neural restructuring,Samoa,Western Pacific Islands,1.07,197093,5601.13,0.3501124947317888,Oceania
+Experience oriented,Samoa,Western Pacific Islands,6.8100000000000005,197093,5601.13,8.202239777952506,Oceania
+Food provision,Samoa,Western Pacific Islands,1.54,197093,5601.13,0.3691941021074181,Oceania
+Maintenance of surroundings,Samoa,Western Pacific Islands,0.56,197093,5601.13,0.2654099800852976,Oceania
+Nonfood provision,Samoa,Western Pacific Islands,0.09,197093,5601.13,0.0046931840941185,Oceania
+Organization,Samoa,Western Pacific Islands,2.5700000000000003,197093,5601.13,5.404493365158436,Oceania
+Somatic maintenance,Samoa,Western Pacific Islands,10.42,197093,5601.13,10.042091021880308,Oceania
+Technosphere modification,Samoa,Western Pacific Islands,0.92,197093,5601.13,0.1231561559309053,Oceania
+Deliberate neural restructuring,Sao Tome and Principe,Middle Africa,2.39,215048,3975.03,0.3540090411598675,Africa
+Experience oriented,Sao Tome and Principe,Middle Africa,5.43,215048,3975.03,1.1940850933355414,Africa
+Food provision,Sao Tome and Principe,Middle Africa,1.89,215048,3975.03,0.5745784415181214,Africa
+Maintenance of surroundings,Sao Tome and Principe,Middle Africa,0.72,215048,3975.03,0.2001208693806697,Africa
+Nonfood provision,Sao Tome and Principe,Middle Africa,0.18,215048,3975.03,0.0183708206248169,Africa
+Organization,Sao Tome and Principe,Middle Africa,1.99,215048,3975.03,0.3546176284891226,Africa
+Somatic maintenance,Sao Tome and Principe,Middle Africa,10.93,215048,3975.03,1.298723351948884,Africa
+Technosphere modification,Sao Tome and Principe,Middle Africa,0.47,215048,3975.03,0.1441319588704239,Africa
+Deliberate neural restructuring,Saudi Arabia,Western Asia,1.4,34268529,48014.57,0.3264594198900369,Asia
+Experience oriented,Saudi Arabia,Western Asia,7.36,34268529,48014.57,1.220005823659226,Asia
+Food provision,Saudi Arabia,Western Asia,1.28,34268529,48014.57,0.2125329918447149,Asia
+Maintenance of surroundings,Saudi Arabia,Western Asia,0.87,34268529,48014.57,0.1912537909498025,Asia
+Nonfood provision,Saudi Arabia,Western Asia,0.07,34268529,48014.57,0.0062000868507373,Asia
+Organization,Saudi Arabia,Western Asia,1.77,34268529,48014.57,0.18522496472987,Asia
+Somatic maintenance,Saudi Arabia,Western Asia,10.68,34268529,48014.57,1.3411877681254591,Asia
+Technosphere modification,Saudi Arabia,Western Asia,0.56,34268529,48014.57,0.2116071990604985,Asia
+Deliberate neural restructuring,Senegal,Western Africa,1.57,16296362,3203.9,0.325771467180974,Africa
+Experience oriented,Senegal,Western Africa,7.04,16296362,3203.9,1.2030082777069746,Africa
+Food provision,Senegal,Western Africa,1.2,16296362,3203.9,0.1937872675551985,Africa
+Maintenance of surroundings,Senegal,Western Africa,0.77,16296362,3203.9,0.1871085695951284,Africa
+Nonfood provision,Senegal,Western Africa,0.08,16296362,3203.9,0.0024597743288532,Africa
+Organization,Senegal,Western Africa,2.3,16296362,3203.9,0.2201939086433318,Africa
+Somatic maintenance,Senegal,Western Africa,10.5,16296362,3203.9,1.4488444924960642,Africa
+Technosphere modification,Senegal,Western Africa,0.53,16296362,3203.9,0.0277811697838599,Africa
+Deliberate neural restructuring,Serbia,Southern Europe,0.84,8963761,16621.47,0.0025353111433867,Europe
+Experience oriented,Serbia,Southern Europe,7.56,8963761,16621.47,0.0166366341205525,Europe
+Food provision,Serbia,Southern Europe,1.84,8963761,16621.47,0.0180952029285447,Europe
+Maintenance of surroundings,Serbia,Southern Europe,1.1,8963761,16621.47,0.0013097916588021,Europe
+Nonfood provision,Serbia,Southern Europe,0.1,8963761,16621.47,0.0003570694644347,Europe
+Organization,Serbia,Southern Europe,2.03,8963761,16621.47,0.0230354357421976,Europe
+Somatic maintenance,Serbia,Southern Europe,9.98,8963761,16621.47,0.1323828193854502,Europe
+Technosphere modification,Serbia,Southern Europe,0.55,8963761,16621.47,0.008632180034158,Europe
+Deliberate neural restructuring,Seychelles,Eastern Africa,1.25,97741,27711.69,0.3239693400791868,Africa
+Experience oriented,Seychelles,Eastern Africa,6.550000000000001,97741,27711.69,2.3185083180674453,Africa
+Food provision,Seychelles,Eastern Africa,2.08,97741,27711.69,0.3624091444095568,Africa
+Maintenance of surroundings,Seychelles,Eastern Africa,0.87,97741,27711.69,0.2287528962288671,Africa
+Nonfood provision,Seychelles,Eastern Africa,0.0999999999999999,97741,27711.69,0.0029917815833123,Africa
+Organization,Seychelles,Eastern Africa,2.09,97741,27711.69,1.0587222371428715,Africa
+Somatic maintenance,Seychelles,Eastern Africa,10.66,97741,27711.69,2.970067978162661,Africa
+Technosphere modification,Seychelles,Eastern Africa,0.37,97741,27711.69,0.0253841532956848,Africa
+Deliberate neural restructuring,Sierra Leone,Western Africa,1.54,7650149,1633.73,0.3252069128356012,Africa
+Experience oriented,Sierra Leone,Western Africa,7.05,7650149,1633.73,1.203009493747481,Africa
+Food provision,Sierra Leone,Western Africa,1.78,7650149,1633.73,0.2151093719750193,Africa
+Maintenance of surroundings,Sierra Leone,Western Africa,0.61,7650149,1633.73,0.181974633265767,Africa
+Nonfood provision,Sierra Leone,Western Africa,0.16,7650149,1633.73,0.0032574094086555,Africa
+Organization,Sierra Leone,Western Africa,2.29,7650149,1633.73,0.203055627735372,Africa
+Somatic maintenance,Sierra Leone,Western Africa,10.35,7650149,1633.73,1.448576516450139,Africa
+Technosphere modification,Sierra Leone,Western Africa,0.2199999999999999,7650149,1633.73,0.0177859698247742,Africa
+Deliberate neural restructuring,Singapore,South-eastern Asia,1.07,5804343,95350.44,0.3501124947317888,Asia
+Experience oriented,Singapore,South-eastern Asia,6.8100000000000005,5804343,95350.44,8.202239777952506,Asia
+Food provision,Singapore,South-eastern Asia,1.54,5804343,95350.44,0.3691941021074181,Asia
+Maintenance of surroundings,Singapore,South-eastern Asia,0.56,5804343,95350.44,0.2654099800852976,Asia
+Nonfood provision,Singapore,South-eastern Asia,0.09,5804343,95350.44,0.0046931840941185,Asia
+Organization,Singapore,South-eastern Asia,2.5700000000000003,5804343,95350.44,5.404493365158436,Asia
+Somatic maintenance,Singapore,South-eastern Asia,10.42,5804343,95350.44,10.042091021880308,Asia
+Technosphere modification,Singapore,South-eastern Asia,0.92,5804343,95350.44,0.1231561559309053,Asia
+Deliberate neural restructuring,Slovakia,Eastern Europe,0.98,5457012,30933.6,0.0197449475058723,Europe
+Experience oriented,Slovakia,Eastern Europe,6.42,5457012,30933.6,0.2965558957597122,Europe
+Food provision,Slovakia,Eastern Europe,1.39,5457012,30933.6,0.0161025110360149,Europe
+Maintenance of surroundings,Slovakia,Eastern Europe,1.04,5457012,30933.6,0.0248112008084829,Europe
+Nonfood provision,Slovakia,Eastern Europe,0.2,5457012,30933.6,0.0030021547334966,Europe
+Organization,Slovakia,Eastern Europe,2.05,5457012,30933.6,0.0177432580995776,Europe
+Somatic maintenance,Slovakia,Eastern Europe,10.69,5457012,30933.6,0.0529567839499561,Europe
+Technosphere modification,Slovakia,Eastern Europe,1.24,5457012,30933.6,0.010386874099804,Europe
+Deliberate neural restructuring,Slovenia,Southern Europe,0.91,2023049,36678.31,0.0008164649443979,Europe
+Experience oriented,Slovenia,Southern Europe,6.859999999999999,2023049,36678.31,0.0098767853238787,Europe
+Food provision,Slovenia,Southern Europe,1.6,2023049,36678.31,0.0016812268304077,Europe
+Maintenance of surroundings,Slovenia,Southern Europe,1.4,2023049,36678.31,0.0017223571196312,Europe
+Nonfood provision,Slovenia,Southern Europe,0.07,2023049,36678.31,3.601203541559499e-05,Europe
+Organization,Slovenia,Southern Europe,2.21,2023049,36678.31,0.0021538788329781,Europe
+Somatic maintenance,Slovenia,Southern Europe,9.78,2023049,36678.31,0.1341429647382657,Europe
+Technosphere modification,Slovenia,Southern Europe,1.17,2023049,36678.31,0.0022920793322263,Europe
+Deliberate neural restructuring,Solomon Islands,Western Pacific Islands,1.2,571329,2467.93,0.3459876052518586,Oceania
+Experience oriented,Solomon Islands,Western Pacific Islands,6.82,571329,2467.93,8.202182633516632,Oceania
+Food provision,Solomon Islands,Western Pacific Islands,1.8,571329,2467.93,0.2667048431471679,Oceania
+Maintenance of surroundings,Solomon Islands,Western Pacific Islands,0.63,571329,2467.93,0.2609144225348483,Oceania
+Nonfood provision,Solomon Islands,Western Pacific Islands,0.1399999999999999,571329,2467.93,0.0025504423396733,Oceania
+Organization,Solomon Islands,Western Pacific Islands,2.33,571329,2467.93,5.400096159124635,Oceania
+Somatic maintenance,Solomon Islands,Western Pacific Islands,10.47,571329,2467.93,10.041699113041345,Oceania
+Technosphere modification,Solomon Islands,Western Pacific Islands,0.6000000000000001,571329,2467.93,0.0927574766792185,Oceania
+Deliberate neural restructuring,Somalia,Eastern Africa,1.25,15442906,916.435,0.3239693400791868,Africa
+Experience oriented,Somalia,Eastern Africa,6.550000000000001,15442906,916.435,2.3185083180674453,Africa
+Food provision,Somalia,Eastern Africa,2.08,15442906,916.435,0.3624091444095568,Africa
+Maintenance of surroundings,Somalia,Eastern Africa,0.87,15442906,916.435,0.2287528962288671,Africa
+Nonfood provision,Somalia,Eastern Africa,0.0999999999999999,15442906,916.435,0.0029917815833123,Africa
+Organization,Somalia,Eastern Africa,2.09,15442906,916.435,1.0587222371428715,Africa
+Somatic maintenance,Somalia,Eastern Africa,10.66,15442906,916.435,2.970067978162661,Africa
+Technosphere modification,Somalia,Eastern Africa,0.37,15442906,916.435,0.0253841532956848,Africa
+Deliberate neural restructuring,South Africa,Southern Africa,1.35,51216967,12681.72,0.0041904992447985,Africa
+Experience oriented,South Africa,Southern Africa,6.8,51216967,12681.72,0.0332509354579731,Africa
+Food provision,South Africa,Southern Africa,1.1,51216967,12681.72,0.0060266542920131,Africa
+Maintenance of surroundings,South Africa,Southern Africa,0.93,51216967,12681.72,0.0038414116748658,Africa
+Nonfood provision,South Africa,Southern Africa,0.2,51216967,12681.72,0.0001242434162544,Africa
+Organization,South Africa,Southern Africa,2.04,51216967,12681.72,0.0026478201726705,Africa
+Somatic maintenance,South Africa,Southern Africa,11.15,51216967,12681.72,0.5892030810421126,Africa
+Technosphere modification,South Africa,Southern Africa,0.46,51216967,12681.72,0.0004978240571591,Africa
+Deliberate neural restructuring,South Sudan,Eastern Africa,1.25,11062114,888.762,0.3239693400791868,Africa
+Experience oriented,South Sudan,Eastern Africa,6.550000000000001,11062114,888.762,2.3185083180674453,Africa
+Food provision,South Sudan,Eastern Africa,2.08,11062114,888.762,0.3624091444095568,Africa
+Maintenance of surroundings,South Sudan,Eastern Africa,0.87,11062114,888.762,0.2287528962288671,Africa
+Nonfood provision,South Sudan,Eastern Africa,0.0999999999999999,11062114,888.762,0.0029917815833123,Africa
+Organization,South Sudan,Eastern Africa,2.09,11062114,888.762,1.0587222371428715,Africa
+Somatic maintenance,South Sudan,Eastern Africa,10.66,11062114,888.762,2.970067978162661,Africa
+Technosphere modification,South Sudan,Eastern Africa,0.37,11062114,888.762,0.0253841532956848,Africa
+Deliberate neural restructuring,Spain,Southern Europe,0.9,46931011,39626.47,0.000650457371504,Europe
+Experience oriented,Spain,Southern Europe,7.38,46931011,39626.47,0.0135935945010403,Europe
+Food provision,Spain,Southern Europe,1.19,46931011,39626.47,0.0009690174293495,Europe
+Maintenance of surroundings,Spain,Southern Europe,1.02,46931011,39626.47,0.0011103222880874,Europe
+Nonfood provision,Spain,Southern Europe,0.03,46931011,39626.47,5.8188770878433245e-06,Europe
+Organization,Spain,Southern Europe,2.53,46931011,39626.47,0.0022612733716322,Europe
+Somatic maintenance,Spain,Southern Europe,10.32,46931011,39626.47,0.1449745653781869,Europe
+Technosphere modification,Spain,Southern Europe,0.61,46931011,39626.47,0.0004303974236148,Europe
+Deliberate neural restructuring,Sri Lanka,Southern Asia,1.62,21323734,12584.1,0.3204109596969245,Asia
+Experience oriented,Sri Lanka,Southern Asia,6.34,21323734,12584.1,1.182214903719176,Asia
+Food provision,Sri Lanka,Southern Asia,1.95,21323734,12584.1,0.1878422154281821,Asia
+Maintenance of surroundings,Sri Lanka,Southern Asia,0.74,21323734,12584.1,0.18098414499722,Asia
+Nonfood provision,Sri Lanka,Southern Asia,0.07,21323734,12584.1,0.0023356518780154,Asia
+Organization,Sri Lanka,Southern Asia,1.69,21323734,12584.1,0.1612954142841413,Asia
+Somatic maintenance,Sri Lanka,Southern Asia,11.06,21323734,12584.1,0.9863137696645996,Asia
+Technosphere modification,Sri Lanka,Southern Asia,0.54,21323734,12584.1,0.0176835988485153,Asia
+Deliberate neural restructuring,Suriname,South America,1.2,581363,16015.83,0.3280657504652756,America
+Experience oriented,Suriname,South America,7.08,581363,16015.83,1.2351078927372177,America
+Food provision,Suriname,South America,1.14,581363,16015.83,0.2082808105149849,America
+Maintenance of surroundings,Suriname,South America,0.78,581363,16015.83,0.2054274977925117,America
+Nonfood provision,Suriname,South America,0.08,581363,16015.83,0.003220874758033,America
+Organization,Suriname,South America,2.66,581363,16015.83,0.2018841526324633,America
+Somatic maintenance,Suriname,South America,10.28,581363,16015.83,1.8787958051497595,America
+Technosphere modification,Suriname,South America,0.78,581363,16015.83,0.0464336697034012,America
+Deliberate neural restructuring,Sweden,Northern Europe,0.97,9139759,52413.09,0.0011326514786117,Europe
+Experience oriented,Sweden,Northern Europe,7.859999999999999,9139759,52413.09,0.0105091574326303,Europe
+Food provision,Sweden,Northern Europe,0.95,9139759,52413.09,0.0006426073098162,Europe
+Maintenance of surroundings,Sweden,Northern Europe,0.89,9139759,52413.09,0.0008486857572076,Europe
+Nonfood provision,Sweden,Northern Europe,0.08,9139759,52413.09,6.227526844681089e-06,Europe
+Organization,Sweden,Northern Europe,2.51,9139759,52413.09,0.0091360880020387,Europe
+Somatic maintenance,Sweden,Northern Europe,10.0,9139759,52413.09,0.1110605652979781,Europe
+Technosphere modification,Sweden,Northern Europe,0.76,9139759,52413.09,0.0005204566642943,Europe
+Deliberate neural restructuring,Switzerland,Western Europe,0.88,8591361,69853.1,0.0102834025631684,Europe
+Experience oriented,Switzerland,Western Europe,7.67,8591361,69853.1,0.0827119953155855,Europe
+Food provision,Switzerland,Western Europe,0.9,8591361,69853.1,0.0035012800196971,Europe
+Maintenance of surroundings,Switzerland,Western Europe,1.04,8591361,69853.1,0.012602917357654,Europe
+Nonfood provision,Switzerland,Western Europe,0.02,8591361,69853.1,1.6386656894144405e-05,Europe
+Organization,Switzerland,Western Europe,2.6,8591361,69853.1,0.0424854579217944,Europe
+Somatic maintenance,Switzerland,Western Europe,10.16,8591361,69853.1,0.011635404368104,Europe
+Technosphere modification,Switzerland,Western Europe,0.71,8591361,69853.1,0.0079726762330105,Europe
+Deliberate neural restructuring,Syrian Arab Republic,Western Asia,1.4,17070132,,0.3264594198900369,Asia
+Experience oriented,Syrian Arab Republic,Western Asia,7.36,17070132,,1.220005823659226,Asia
+Food provision,Syrian Arab Republic,Western Asia,1.28,17070132,,0.2125329918447149,Asia
+Maintenance of surroundings,Syrian Arab Republic,Western Asia,0.87,17070132,,0.1912537909498025,Asia
+Nonfood provision,Syrian Arab Republic,Western Asia,0.07,17070132,,0.0062000868507373,Asia
+Organization,Syrian Arab Republic,Western Asia,1.77,17070132,,0.18522496472987,Asia
+Somatic maintenance,Syrian Arab Republic,Western Asia,10.68,17070132,,1.3411877681254591,Asia
+Technosphere modification,Syrian Arab Republic,Western Asia,0.56,17070132,,0.2116071990604985,Asia
+Deliberate neural restructuring,Taiwan,Eastern Asia,1.2999999999999998,23773881,48500.85,0.0065417965933752,Asia
+Experience oriented,Taiwan,Eastern Asia,6.8500000000000005,23773881,48500.85,0.04305019807744,Asia
+Food provision,Taiwan,Eastern Asia,2.06,23773881,48500.85,0.3578736392313635,Asia
+Maintenance of surroundings,Taiwan,Eastern Asia,0.77,23773881,48500.85,0.0471768806034577,Asia
+Nonfood provision,Taiwan,Eastern Asia,0.1699999999999999,23773881,48500.85,0.0035912785238721,Asia
+Organization,Taiwan,Eastern Asia,1.69,23773881,48500.85,0.1278825551477332,Asia
+Somatic maintenance,Taiwan,Eastern Asia,10.3,23773881,48500.85,0.5040692502656862,Asia
+Technosphere modification,Taiwan,Eastern Asia,0.85,23773881,48500.85,0.0489688284854875,Asia
+Deliberate neural restructuring,Tajikistan,Central Asia,2.08,9321023,3070.05,0.896608423393764,Asia
+Experience oriented,Tajikistan,Central Asia,6.89,9321023,3070.05,3.994042635101805,Asia
+Food provision,Tajikistan,Central Asia,1.08,9321023,3070.05,0.6788980934026033,Asia
+Maintenance of surroundings,Tajikistan,Central Asia,1.1,9321023,3070.05,0.439970838794577,Asia
+Nonfood provision,Tajikistan,Central Asia,0.14,9321023,3070.05,0.0099221967744187,Asia
+Organization,Tajikistan,Central Asia,2.09,9321023,3070.05,3.573487706552617,Asia
+Somatic maintenance,Tajikistan,Central Asia,10.38,9321023,3070.05,4.656717306121368,Asia
+Technosphere modification,Tajikistan,Central Asia,0.63,9321023,3070.05,0.4242324293353889,Asia
+Deliberate neural restructuring,Thailand,South-eastern Asia,1.03,68714519,17422.95,0.0304181177378852,Asia
+Experience oriented,Thailand,South-eastern Asia,6.83,68714519,17422.95,7.282060930839292,Asia
+Food provision,Thailand,South-eastern Asia,1.7,68714519,17422.95,0.0798872954248897,Asia
+Maintenance of surroundings,Thailand,South-eastern Asia,0.55,68714519,17422.95,0.0799856015704529,Asia
+Nonfood provision,Thailand,South-eastern Asia,0.08,68714519,17422.95,0.0004804574666454,Asia
+Organization,Thailand,South-eastern Asia,2.47,68714519,17422.95,5.276538868209324,Asia
+Somatic maintenance,Thailand,South-eastern Asia,10.44,68714519,17422.95,9.415527426966314,Asia
+Technosphere modification,Thailand,South-eastern Asia,0.91,68714519,17422.95,0.0799020063335546,Asia
+Deliberate neural restructuring,Timor-Leste,South-eastern Asia,1.07,1293120,3145.48,0.3501124947317888,Asia
+Experience oriented,Timor-Leste,South-eastern Asia,6.8100000000000005,1293120,3145.48,8.202239777952506,Asia
+Food provision,Timor-Leste,South-eastern Asia,1.54,1293120,3145.48,0.3691941021074181,Asia
+Maintenance of surroundings,Timor-Leste,South-eastern Asia,0.56,1293120,3145.48,0.2654099800852976,Asia
+Nonfood provision,Timor-Leste,South-eastern Asia,0.09,1293120,3145.48,0.0046931840941185,Asia
+Organization,Timor-Leste,South-eastern Asia,2.5700000000000003,1293120,3145.48,5.404493365158436,Asia
+Somatic maintenance,Timor-Leste,South-eastern Asia,10.42,1293120,3145.48,10.042091021880308,Asia
+Technosphere modification,Timor-Leste,South-eastern Asia,0.92,1293120,3145.48,0.1231561559309053,Asia
+Deliberate neural restructuring,Togo,Western Africa,1.55,8082359,2012.26,0.3258962325706135,Africa
+Experience oriented,Togo,Western Africa,7.05,8082359,2012.26,1.203074811314147,Africa
+Food provision,Togo,Western Africa,1.71,8082359,2012.26,0.2858245012306631,Africa
+Maintenance of surroundings,Togo,Western Africa,0.67,8082359,2012.26,0.1838871698119185,Africa
+Nonfood provision,Togo,Western Africa,0.17,8082359,2012.26,0.0092863596201781,Africa
+Organization,Togo,Western Africa,2.09,8082359,2012.26,0.231856638527778,Africa
+Somatic maintenance,Togo,Western Africa,10.39,8082359,2012.26,1.4486498160892902,Africa
+Technosphere modification,Togo,Western Africa,0.36,8082359,2012.26,0.0306959902335486,Africa
+Deliberate neural restructuring,Tonga,Western Pacific Islands,1.1700000000000002,103199,5813.76,0.3600147142027317,Oceania
+Experience oriented,Tonga,Western Pacific Islands,6.82,103199,5813.76,8.202211044228415,Oceania
+Food provision,Tonga,Western Pacific Islands,1.47,103199,5813.76,0.4083851989347714,Oceania
+Maintenance of surroundings,Tonga,Western Pacific Islands,0.55,103199,5813.76,0.2631146062245452,Oceania
+Nonfood provision,Tonga,Western Pacific Islands,0.09,103199,5813.76,0.0031397719880003,Oceania
+Organization,Tonga,Western Pacific Islands,2.45,103199,5813.76,5.412995789892838,Oceania
+Somatic maintenance,Tonga,Western Pacific Islands,10.42,103199,5813.76,10.042037768974144,Oceania
+Technosphere modification,Tonga,Western Pacific Islands,1.03,103199,5813.76,0.1597311990293261,Oceania
+Deliberate neural restructuring,Trinidad and Tobago,Caribbean,1.45,1394969,26342.58,0.3509884761906235,America
+Experience oriented,Trinidad and Tobago,Caribbean,6.07,1394969,26342.58,3.627329256609568,America
+Food provision,Trinidad and Tobago,Caribbean,1.81,1394969,26342.58,0.2505704445049446,America
+Maintenance of surroundings,Trinidad and Tobago,Caribbean,1.3,1394969,26342.58,0.2103782043481173,America
+Nonfood provision,Trinidad and Tobago,Caribbean,0.11,1394969,26342.58,0.0055898138979939,America
+Organization,Trinidad and Tobago,Caribbean,2.16,1394969,26342.58,0.6210651982564246,America
+Somatic maintenance,Trinidad and Tobago,Caribbean,10.33,1394969,26342.58,4.921168632266722,America
+Technosphere modification,Trinidad and Tobago,Caribbean,0.76,1394969,26342.58,0.0299020332796977,America
+Deliberate neural restructuring,Tunisia,Northern Africa,1.63,11694721,10467.26,0.0243951144434417,Africa
+Experience oriented,Tunisia,Northern Africa,7.13,11694721,10467.26,0.0138441622985359,Africa
+Food provision,Tunisia,Northern Africa,1.75,11694721,10467.26,0.5123718546578633,Africa
+Maintenance of surroundings,Tunisia,Northern Africa,0.81,11694721,10467.26,0.0135687476857389,Africa
+Nonfood provision,Tunisia,Northern Africa,0.12,11694721,10467.26,0.0082783474909296,Africa
+Organization,Tunisia,Northern Africa,2.3200000000000003,11694721,10467.26,0.2298425893521171,Africa
+Somatic maintenance,Tunisia,Northern Africa,9.61,11694721,10467.26,0.1032806166495183,Africa
+Technosphere modification,Tunisia,Northern Africa,0.6100000000000001,11694721,10467.26,0.1239712995717643,Africa
+Deliberate neural restructuring,Turkey,Western Asia,1.29,72326992,28242.49,0.0021861796971301,Asia
+Experience oriented,Turkey,Western Asia,7.51,72326992,28242.49,0.013236138434325,Asia
+Food provision,Turkey,Western Asia,1.48,72326992,28242.49,0.0009919669147315,Asia
+Maintenance of surroundings,Turkey,Western Asia,0.83,72326992,28242.49,0.0006597622616233,Asia
+Nonfood provision,Turkey,Western Asia,0.06,72326992,28242.49,0.0001086444623143,Asia
+Organization,Turkey,Western Asia,1.9,72326992,28242.49,0.0025986365106704,Asia
+Somatic maintenance,Turkey,Western Asia,10.34,72326992,28242.49,0.1335156702362948,Asia
+Technosphere modification,Turkey,Western Asia,0.5900000000000001,72326992,28242.49,0.000208505985068,Asia
+Deliberate neural restructuring,Turkmenistan,Central Asia,2.08,5942094,14324.56,0.896608423393764,Asia
+Experience oriented,Turkmenistan,Central Asia,6.89,5942094,14324.56,3.994042635101805,Asia
+Food provision,Turkmenistan,Central Asia,1.08,5942094,14324.56,0.6788980934026033,Asia
+Maintenance of surroundings,Turkmenistan,Central Asia,1.1,5942094,14324.56,0.439970838794577,Asia
+Nonfood provision,Turkmenistan,Central Asia,0.14,5942094,14324.56,0.0099221967744187,Asia
+Organization,Turkmenistan,Central Asia,2.09,5942094,14324.56,3.573487706552617,Asia
+Somatic maintenance,Turkmenistan,Central Asia,10.38,5942094,14324.56,4.656717306121368,Asia
+Technosphere modification,Turkmenistan,Central Asia,0.63,5942094,14324.56,0.4242324293353889,Asia
+Deliberate neural restructuring,Uganda,Eastern Africa,1.2899999999999998,41166588,2382.08,0.3240871906796026,Africa
+Experience oriented,Uganda,Eastern Africa,6.550000000000001,41166588,2382.08,2.31849529795108,Africa
+Food provision,Uganda,Eastern Africa,2.02,41166588,2382.08,0.2668501382748181,Africa
+Maintenance of surroundings,Uganda,Eastern Africa,0.86,41166588,2382.08,0.2258443703227506,Africa
+Nonfood provision,Uganda,Eastern Africa,0.11,41166588,2382.08,0.0029359618324636,Africa
+Organization,Uganda,Eastern Africa,2.13,41166588,2382.08,1.0545570586904336,Africa
+Somatic maintenance,Uganda,Eastern Africa,10.67,41166588,2382.08,2.9699637831580588,Africa
+Technosphere modification,Uganda,Eastern Africa,0.37,41166588,2382.08,0.0217168196043522,Africa
+Deliberate neural restructuring,Ukraine,Eastern Europe,1.03,44487708,11942.82,0.0235674792306996,Europe
+Experience oriented,Ukraine,Eastern Europe,6.42,44487708,11942.82,0.2966835698232939,Europe
+Food provision,Ukraine,Eastern Europe,1.59,44487708,11942.82,0.0244785924788329,Europe
+Maintenance of surroundings,Ukraine,Eastern Europe,1.03,44487708,11942.82,0.0250488099485288,Europe
+Nonfood provision,Ukraine,Eastern Europe,0.33,44487708,11942.82,0.0038634179414719,Europe
+Organization,Ukraine,Eastern Europe,2.1100000000000003,44487708,11942.82,0.0527643321249504,Europe
+Somatic maintenance,Ukraine,Eastern Europe,10.63,44487708,11942.82,0.0529555690421906,Europe
+Technosphere modification,Ukraine,Eastern Europe,0.8500000000000001,44487708,11942.82,0.0159747516454003,Europe
+Deliberate neural restructuring,United Arab Emirates,Western Asia,1.4,9770526,62864.04,0.3264594198900369,Asia
+Experience oriented,United Arab Emirates,Western Asia,7.36,9770526,62864.04,1.220005823659226,Asia
+Food provision,United Arab Emirates,Western Asia,1.28,9770526,62864.04,0.2125329918447149,Asia
+Maintenance of surroundings,United Arab Emirates,Western Asia,0.87,9770526,62864.04,0.1912537909498025,Asia
+Nonfood provision,United Arab Emirates,Western Asia,0.07,9770526,62864.04,0.0062000868507373,Asia
+Organization,United Arab Emirates,Western Asia,1.77,9770526,62864.04,0.18522496472987,Asia
+Somatic maintenance,United Arab Emirates,Western Asia,10.68,9770526,62864.04,1.3411877681254591,Asia
+Technosphere modification,United Arab Emirates,Western Asia,0.56,9770526,62864.04,0.2116071990604985,Asia
+Deliberate neural restructuring,United Kingdom of Great Britain and Northern Ireland,Northern Europe,1.0,63459801,45923.36,0.0008945864031282,Europe
+Experience oriented,United Kingdom of Great Britain and Northern Ireland,Northern Europe,7.35,63459801,45923.36,0.0123831735477291,Europe
+Food provision,United Kingdom of Great Britain and Northern Ireland,Northern Europe,0.89,63459801,45923.36,0.0006954335840914,Europe
+Maintenance of surroundings,United Kingdom of Great Britain and Northern Ireland,Northern Europe,0.87,63459801,45923.36,0.0006697805907097,Europe
+Nonfood provision,United Kingdom of Great Britain and Northern Ireland,Northern Europe,0.03,63459801,45923.36,4.06259363448033e-06,Europe
+Organization,United Kingdom of Great Britain and Northern Ireland,Northern Europe,2.79,63459801,45923.36,0.0038010455360062,Europe
+Somatic maintenance,United Kingdom of Great Britain and Northern Ireland,Northern Europe,10.44,63459801,45923.36,0.1328847029182555,Europe
+Technosphere modification,United Kingdom of Great Britain and Northern Ireland,Northern Europe,0.62,63459801,45923.36,0.0007843487467224,Europe
+Deliberate neural restructuring,United Republic of Tanzania,Eastern Africa,1.38,49960563,2527.81,0.005527732668983,Africa
+Experience oriented,United Republic of Tanzania,Eastern Africa,6.220000000000001,49960563,2527.81,0.5835251671163832,Africa
+Food provision,United Republic of Tanzania,Eastern Africa,2.33,49960563,2527.81,0.211502152290969,Africa
+Maintenance of surroundings,United Republic of Tanzania,Eastern Africa,0.69,49960563,2527.81,0.1006211466483761,Africa
+Nonfood provision,United Republic of Tanzania,Eastern Africa,0.13,49960563,2527.81,0.001794575385959,Africa
+Organization,United Republic of Tanzania,Eastern Africa,2.3200000000000003,49960563,2527.81,0.3781303005105622,Africa
+Somatic maintenance,United Republic of Tanzania,Eastern Africa,10.73,49960563,2527.81,1.788331021221997,Africa
+Technosphere modification,United Republic of Tanzania,Eastern Africa,0.2,49960563,2527.81,0.0009914867940053,Africa
+Deliberate neural restructuring,United States of America,Northern America,1.13,329064917,60105.85,0.0012403284299929,America
+Experience oriented,United States of America,Northern America,7.13,329064917,60105.85,0.0157277654183309,America
+Food provision,United States of America,Northern America,0.78,329064917,60105.85,0.000517218989272,America
+Maintenance of surroundings,United States of America,Northern America,0.83,329064917,60105.85,0.0006328122127318,America
+Nonfood provision,United States of America,Northern America,0.06,329064917,60105.85,7.160198708103883e-06,America
+Organization,United States of America,Northern America,2.71,329064917,60105.85,0.0032199811148876,America
+Somatic maintenance,United States of America,Northern America,10.64,329064917,60105.85,0.144640907976546,America
+Technosphere modification,United States of America,Northern America,0.73,329064917,60105.85,0.000722019270119,America
+Deliberate neural restructuring,Uruguay,South America,1.23,3449290,22637.31,0.3259396289251681,America
+Experience oriented,Uruguay,South America,7.15,3449290,22637.31,1.2348547170170263,America
+Food provision,Uruguay,South America,1.03,3449290,22637.31,0.1963553153197239,America
+Maintenance of surroundings,Uruguay,South America,0.73,3449290,22637.31,0.2040236736102846,America
+Nonfood provision,Uruguay,South America,0.1,3449290,22637.31,0.0023957982134832,America
+Organization,Uruguay,South America,2.67,3449290,22637.31,0.1838757251424806,America
+Somatic maintenance,Uruguay,South America,10.31,3449290,22637.31,1.8787883949417743,America
+Technosphere modification,Uruguay,South America,0.78,3449290,22637.31,0.0397553807177109,America
+Deliberate neural restructuring,Uzbekistan,Central Asia,2.08,32981715,6573.22,0.896608423393764,Asia
+Experience oriented,Uzbekistan,Central Asia,6.89,32981715,6573.22,3.994042635101805,Asia
+Food provision,Uzbekistan,Central Asia,1.08,32981715,6573.22,0.6788980934026033,Asia
+Maintenance of surroundings,Uzbekistan,Central Asia,1.1,32981715,6573.22,0.439970838794577,Asia
+Nonfood provision,Uzbekistan,Central Asia,0.14,32981715,6573.22,0.0099221967744187,Asia
+Organization,Uzbekistan,Central Asia,2.09,32981715,6573.22,3.573487706552617,Asia
+Somatic maintenance,Uzbekistan,Central Asia,10.38,32981715,6573.22,4.656717306121368,Asia
+Technosphere modification,Uzbekistan,Central Asia,0.63,32981715,6573.22,0.4242324293353889,Asia
+Deliberate neural restructuring,Vanuatu,Western Pacific Islands,1.19,299882,2739.3,0.3653607746807351,Oceania
+Experience oriented,Vanuatu,Western Pacific Islands,6.83,299882,2739.3,8.202202735441883,Oceania
+Food provision,Vanuatu,Western Pacific Islands,1.68,299882,2739.3,0.4600495219265741,Oceania
+Maintenance of surroundings,Vanuatu,Western Pacific Islands,0.6,299882,2739.3,0.2698064553257018,Oceania
+Nonfood provision,Vanuatu,Western Pacific Islands,0.09,299882,2739.3,0.0032288992226944,Oceania
+Organization,Vanuatu,Western Pacific Islands,2.7299999999999995,299882,2739.3,5.4282311688669385,Oceania
+Somatic maintenance,Vanuatu,Western Pacific Islands,10.42,299882,2739.3,10.042230114402631,Oceania
+Technosphere modification,Vanuatu,Western Pacific Islands,0.47,299882,2739.3,0.1043207771174566,Oceania
+Deliberate neural restructuring,Venezuela (Bolivarian Republic of),South America,1.26,29402480,12323.37,0.3257612374737755,America
+Experience oriented,Venezuela (Bolivarian Republic of),South America,7.13,29402480,12323.37,1.2348147859515326,America
+Food provision,Venezuela (Bolivarian Republic of),South America,0.96,29402480,12323.37,0.1961639369546979,America
+Maintenance of surroundings,Venezuela (Bolivarian Republic of),South America,0.71,29402480,12323.37,0.2038462053479181,America
+Nonfood provision,Venezuela (Bolivarian Republic of),South America,0.12,29402480,12323.37,0.0023404652414381,America
+Organization,Venezuela (Bolivarian Republic of),South America,2.78,29402480,12323.37,0.1817289844425074,America
+Somatic maintenance,Venezuela (Bolivarian Republic of),South America,10.239999999999998,29402480,12323.37,1.8787766835783823,America
+Technosphere modification,Venezuela (Bolivarian Republic of),South America,0.77,29402480,12323.37,0.0391899662852565,America
+Deliberate neural restructuring,Viet Nam,South-eastern Asia,1.06,96462108,9085.61,0.3457648808115661,Asia
+Experience oriented,Viet Nam,South-eastern Asia,6.82,96462108,9085.61,8.202182596897092,Asia
+Food provision,Viet Nam,South-eastern Asia,1.54,96462108,9085.61,0.26588188530614,Asia
+Maintenance of surroundings,Viet Nam,South-eastern Asia,0.52,96462108,9085.61,0.2605952097479702,Asia
+Nonfood provision,Viet Nam,South-eastern Asia,0.1,96462108,9085.61,0.0024398690561209,Asia
+Organization,Viet Nam,South-eastern Asia,2.3,96462108,9085.61,5.40020718001572,Asia
+Somatic maintenance,Viet Nam,South-eastern Asia,10.43,96462108,9085.61,10.04171970917583,Asia
+Technosphere modification,Viet Nam,South-eastern Asia,1.24,96462108,9085.61,0.0933317369423691,Asia
+Deliberate neural restructuring,Yemen,Western Asia,1.39,25823488,2025.07,0.3242545826544175,Asia
+Experience oriented,Yemen,Western Asia,7.34,25823488,2025.07,1.2198091368764354,Asia
+Food provision,Yemen,Western Asia,1.3,25823488,2025.07,0.1993925373391527,Asia
+Maintenance of surroundings,Yemen,Western Asia,0.81,25823488,2025.07,0.1880716704637492,Asia
+Nonfood provision,Yemen,Western Asia,0.12,25823488,2025.07,0.0032585687067301,Asia
+Organization,Yemen,Western Asia,1.96,25823488,2025.07,0.2467273789868591,Asia
+Somatic maintenance,Yemen,Western Asia,10.64,25823488,2025.07,1.3411329554344888,Asia
+Technosphere modification,Yemen,Western Asia,0.45,25823488,2025.07,0.0321714511343185,Asia
+Deliberate neural restructuring,Zambia,Eastern Africa,1.24,17861034,3407.31,0.3233094202491887,Africa
+Experience oriented,Zambia,Eastern Africa,6.550000000000001,17861034,3407.31,2.3184941113732127,Africa
+Food provision,Zambia,Eastern Africa,1.97,17861034,3407.31,0.2754972770839846,Africa
+Maintenance of surroundings,Zambia,Eastern Africa,0.89,17861034,3407.31,0.226280537447919,Africa
+Nonfood provision,Zambia,Eastern Africa,0.11,17861034,3407.31,0.0031221603307892,Africa
+Organization,Zambia,Eastern Africa,2.2,17861034,3407.31,1.056557347750113,Africa
+Somatic maintenance,Zambia,Eastern Africa,10.68,17861034,3407.31,2.969985595977074,Africa
+Technosphere modification,Zambia,Eastern Africa,0.3399999999999999,17861034,3407.31,0.0212952441228626,Africa
+Deliberate neural restructuring,Zimbabwe,Eastern Africa,1.2799999999999998,14645473,2965.87,0.3239236815821784,Africa
+Experience oriented,Zimbabwe,Eastern Africa,6.550000000000001,14645473,2965.87,2.3184945099777954,Africa
+Food provision,Zimbabwe,Eastern Africa,2.09,14645473,2965.87,0.2807918303200292,Africa
+Maintenance of surroundings,Zimbabwe,Eastern Africa,0.9,14645473,2965.87,0.2263035734354479,Africa
+Nonfood provision,Zimbabwe,Eastern Africa,0.19,14645473,2965.87,0.0043408654350214,Africa
+Organization,Zimbabwe,Eastern Africa,2.0,14645473,2965.87,1.053583519953098,Africa
+Somatic maintenance,Zimbabwe,Eastern Africa,10.66,14645473,2965.87,2.969922687825368,Africa
+Technosphere modification,Zimbabwe,Eastern Africa,0.3299999999999999,14645473,2965.87,0.0211156546934212,Africa
