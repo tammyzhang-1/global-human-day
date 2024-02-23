@@ -145,6 +145,7 @@
           border-left: solid thin rgb(178, 178, 178);
           margin-left: 1em;
           padding-left: 1em;
+          padding-right: 1em;
           padding-top: 1em;
           background-color: rgb(251, 251, 251);
         }
@@ -198,11 +199,58 @@
     const chartWidth = width - margin.left - margin.right;
     const chartHeight = height - margin.top - margin.bottom;
 
+    const gdpScale = d3.scaleLinear();
+    const hourScale = d3.scaleLinear();
+    const leftAxis = d3.axisLeft(hourScale).tickFormat(d3.format(""));
+    const leftGridlines = d3.axisLeft(hourScale).tickSize(-chartWidth - 10).tickFormat("");
+    const bottomAxis = d3.axisBottom(gdpScale).tickFormat(d3.format("$.2s"));
+    const bottomGridlines = d3.axisBottom(gdpScale).tickSize(-chartHeight - 10).tickFormat("");
+
     let annotations = scatter.append("g").attr("id","annotations")
     let chartArea = scatter.append("g").attr("id","dots")
                     .attr("transform","translate("+margin.left+","+margin.top+")")
     
     const regionScale = d3.scaleOrdinal(d3.schemeCategory10);
+
+    //font size source: http://www.d3noob.org/2016/08/changing-text-size-for-axes-in-d3js-v4.html
+    let leftAxisG = annotations.append("g")
+                  .attr("class", "y axis")
+                  .attr("transform",`translate(${margin.left-10},${margin.top})`)
+ 
+    let leftGridG = annotations.append("g")
+                  .attr("class", "y gridlines")
+                  .attr("transform",`translate(${margin.left-10},${margin.top})`)
+      
+    let bottomAxisG = annotations.append("g")
+                  .attr("class", "x axis")
+                  .attr("transform",`translate(${margin.left},${chartHeight+margin.top+10})`)
+            
+    let bottomGridG = annotations.append("g")
+                  .attr("class", "x gridlines")
+                  .attr("transform",`translate(${margin.left},${chartHeight+margin.top+10})`)
+    
+      scatter.append("text")
+            .attr("class", "x label")
+            .attr("x", chartWidth/2)
+            .attr("y", chartHeight+margin.bottom+15) //hardcoded values....
+            .text("GDP per capita");
+
+      scatter.append("text")
+            .attr("class", "y label")
+            .attr("y", 15) //sorta hardcoded...
+            .attr("x", -chartHeight/2)
+            .attr("transform", "rotate(-90)")
+            .text("Hours");   
+
+      //small label for the country name on hover
+      scatter.append("text")
+              .attr("id", "small-label")
+              .attr("x", chartWidth+50) //no idea why this has to be +50
+              .attr("y", 10)
+              .style("text-anchor", "end")
+              .style("alignment-baseline", "hanging")
+              .text("");
+
 
     let selectedCountry = ""; // global variable tracker
 
@@ -244,6 +292,7 @@
       let filteredData = countries.filter((country) => country.Category == categoryList[0]);
       d3.select(".category-filter").classed("active-filter", true);
       document.getElementById("subtitle-filter").innerHTML = formatFilterText(categoryList[0]);
+      
       refreshScatter(filteredData);
 
       // ------------------------- FILTER SELECT EVENT LISTENER FUNCTION ------------------------- 
@@ -264,82 +313,47 @@
 
     // ------------------------- SCATTERPLOT REFRESH FUNCTION -------------------------
     async function refreshScatter(data) {
-      d3.select("#scatterplot").selectAll(".axis,.gridlines,text").remove();
-
       document.getElementById("intro-definition").innerHTML = `<p><span class="bold">About ${data[0]['Category'].toLowerCase()}:</span> ${categoryDefinitions[data[0]['Category']]}</p>`
 
       // set scatterplot scales based on what filter we're on
-      // note: can possibly move this out to global scope and call axes to update inside this function
-      const gdpExtent = d3.extent(data, d => d['GDP_percapita']); 
-      const gdpScale = d3.scaleLinear().domain(gdpExtent).range([0, chartWidth]);
+      const gdpExtent = d3.extent(data, (d) => d['GDP_percapita']);
+      gdpScale.domain(gdpExtent).range([0, chartWidth]);
 
-      let hourExtent = d3.extent(data, d => d['hoursPerDayCombined']);
-      let hourScale = d3.scaleLinear().domain(hourExtent).range([chartHeight, 0]);
+      const hourExtent = d3.extent(data, (d) => d['hoursPerDayCombined']);
+      hourScale.domain(hourExtent).range([chartHeight, 0]);
 
-      let leftAxis = d3.axisLeft(hourScale)
-                      .tickFormat(d3.format(""));
-      let leftGridlines = d3.axisLeft(hourScale)
-                            .tickSize(-chartWidth-10)
-                            .tickFormat("")
-      let bottomAxis = d3.axisBottom(gdpScale)
-                        .tickFormat(d3.format("$.2s"));
-      let bottomGridlines = d3.axisBottom(gdpScale)
-                              .tickSize(-chartHeight-10)
-                              .tickFormat("")
+      leftAxis.scale(hourScale);
+      leftAxisG.transition().call(leftAxis);
 
-      //font size source: http://www.d3noob.org/2016/08/changing-text-size-for-axes-in-d3js-v4.html
-      annotations.append("g")
-                  .attr("class", "y axis")
-                  .attr("transform",`translate(${margin.left-10},${margin.top})`)
-                  .call(leftAxis)
-      annotations.append("g")
-                  .attr("class", "y gridlines")
-                  .attr("transform",`translate(${margin.left-10},${margin.top})`)
-                  .call(leftGridlines);
-      annotations.append("g")
-                  .attr("class", "x axis")
-                  .attr("transform",`translate(${margin.left},${chartHeight+margin.top+10})`)
-                  .call(bottomAxis);
-      annotations.append("g")
-                  .attr("class", "x gridlines")
-                  .attr("transform",`translate(${margin.left},${chartHeight+margin.top+10})`)
-                  .call(bottomGridlines);
+      leftGridlines.scale(hourScale);
+      leftGridG.transition().call(leftGridlines);
 
-      scatter.append("text")
-            .attr("class", "x label")
-            .attr("x", chartWidth/2)
-            .attr("y", chartHeight+margin.bottom+15) //hardcoded values....
-            .text("GDP per capita");
+      bottomAxis.scale(gdpScale);
+      bottomAxisG.transition().call(bottomAxis);
 
-      scatter.append("text")
-            .attr("class", "y label")
-            .attr("y", 15) //sorta hardcoded...
-            .attr("x", -chartHeight/2)
-            .attr("transform", "rotate(-90)")
-            .text("Hours");   
+      bottomGridlines.scale(gdpScale);
+      bottomGridG.transition().call(bottomGridlines);
 
-      //small label for the country name on hover
-      scatter.append("text")
-              .attr("id", "small-label")
-              .attr("x", chartWidth+50) //no idea why this has to be +50
-              .attr("y", 10)
-              .style("text-anchor", "end")
-              .style("alignment-baseline", "hanging")
-              .text("");
+      chartArea.selectAll("circle.point").data(data, d => d.country_name)
+                        .join(enter => enter.append("circle")
+                                            .attr("class","point")
+                                            .attr("opacity", 0.6)
+                                            .attr("opacity", 0)
+                                            .attr("cx", d => gdpScale(d['GDP_percapita']))
+                                            .attr("cy", d => hourScale(d['hoursPerDayCombined']))
+                                            .attr("r", 6)
+                                            .style("opacity", 0.8)
+                                            .attr("fill", d => regionScale(d['larger_region_name']))
+                                            .attr("country_name", d => d["country_name"])
+                                            .attr("selected", false),
+                              update => update.call(update => update.transition()
+                                            .duration(1000)
+                                            .attr("cx", d => gdpScale(d['GDP_percapita']))
+                                            .attr("cy", d => hourScale(d['hoursPerDayCombined']))
+                                          ))
+                        
+      let circles = chartArea.selectAll("circle.point");
 
-      let circles = chartArea.selectAll("circle.point").data(data)
-                          .join(enter => enter.append("circle")
-                                              .attr("class","point")
-                                              .attr("opacity", 0.6)
-                                            )
-                          .attr("cx", d => gdpScale(d['GDP_percapita']))
-                          .attr("cy", d => hourScale(d['hoursPerDayCombined']))
-                          .attr("r", 6)
-                          .style("opacity", 0.8)
-                          .attr("fill", d => regionScale(d['larger_region_name']))
-                          .attr("country_name", d => d["country_name"])
-                          .attr("selected", false);
-      
       // ------------------------- CIRCLE HOVER EVENT LISTENER FUNCTION ------------------------- 
       circles.on("mouseover", function(event, d) { 
         d3.select(this)
