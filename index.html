@@ -10,20 +10,35 @@
           font-family: 'Lato', sans-serif;
         }
 
+        body {
+          margin: 0;
+        }
+
         h1 {
           font-weight: normal;
           font-size: 1.65em;
+          margin-bottom: 0;
         }
 
         h2 {
           font-weight: normal;
           font-style: italic;
           font-size: 1.25em;
+          margin-top: 0.25em;
         }
 
         h3 {
           font-size: 1.5em;
           margin-top: 0;
+        }
+
+        #headers {
+          padding-left: 2em;
+          padding-top: 0.1em;
+        }
+
+        .bold {
+          font-weight: bold;
         }
 
         #subtitle-filter {
@@ -38,6 +53,7 @@
           justify-content: center;
           margin-right: 2em;
           padding-right: 0.5em;
+          padding-left: 1em;
           background-color: rgb(251, 251, 251);
         }
 
@@ -48,6 +64,7 @@
             justify-content: center;
             height: 100%;
             gap: 0.5em;
+            height: 600px;
         }
 
         .category-filter {
@@ -73,6 +90,7 @@
         /* ------- main scatterplot visualization ------- */
         main {
             display: flex;
+            height: 85%;
         }
 
         #scatterplot-container {
@@ -158,13 +176,14 @@
         <div id="scatterplot-legend" width="700" height="30"></div>
         <svg id="scatterplot" width="700" height="600"></svg>
       </div>
-      <aside id="detail-sidebar" height="700">
+      <aside id="detail-sidebar" height="730">
         <div class="intro-text">
           <p>Over 8 billion people across the world share the same 24 hours in a day - but what we spend our time on can vary dramatically based on where we are.</p>
           <p>Data from the <a href="https://humanchronome.org/">Human Chronome Project</a> aims to determine what the global human day looks like in different places.</p>
           <p>Hover over a point to see what country it corresponds to.</p>
           <p>Click on a point to see more details.</p>
           <p>Click on a category to filter and see more information about that category.</p>
+          <p id="intro-definition"></p>
         </div>
       </aside>
     </main>
@@ -175,7 +194,7 @@
     const scatter = d3.select("svg#scatterplot");
     const width = scatter.attr("width");
     const height = scatter.attr("height");
-    const margin = {top: 25, right: 25, bottom: 60, left: 60};
+    const margin = {top: 25, right: 25, bottom: 70, left: 70};
     const chartWidth = width - margin.left - margin.right;
     const chartHeight = height - margin.top - margin.bottom;
 
@@ -186,6 +205,18 @@
     const regionScale = d3.scaleOrdinal(d3.schemeCategory10);
 
     let selectedCountry = ""; // global variable tracker
+
+    const categoryDefinitions = {
+        "Deliberate neural restructuring": "Education, both formal and informal, research in the academic and private sector, and religious activities.",
+        "Experience oriented": "Engaging in activities to provide desired experiences, including through use of media, interactive hobbies and sports, socializing, and meals.",
+        "Food provision": "Providing food to humans, including agriculture and fishing, the processing of food items, cooking, serving, and cleanup.",
+        "Maintenance of surroundings": "Cleaning surfaces and arranging the spaces that humans inhabit, taking care of accompanying plants and animals, disposing of wastes.",
+        "Nonfood provision": "Providing raw materials and energy to the technosphere, including mining, lumber, fossil fuels, and renewable energy.",
+        "Organization": "Activities that serve to change the locations of entities, or allocate the time and access rights of humans, including through commerce, finance, real estate, law, and governance.",
+        "Somatic maintenance": "Caring for the cleanliness, appearance, and health of human bodies, including medical care and childcare.",
+        "Technosphere modification": "The construction and maintenance of buildings, infrastructure, and movable artifacts."
+    }
+
 
     // ------------------------- REQUEST DATA FUNCTION -------------------------
     const requestData = async function() {
@@ -234,6 +265,8 @@
     // ------------------------- SCATTERPLOT REFRESH FUNCTION -------------------------
     async function refreshScatter(data) {
       d3.select("#scatterplot").selectAll(".axis,.gridlines,text").remove();
+
+      document.getElementById("intro-definition").innerHTML = `<p><span class="bold">About ${data[0]['Category'].toLowerCase()}:</span> ${categoryDefinitions[data[0]['Category']]}</p>`
 
       // set scatterplot scales based on what filter we're on
       // note: can possibly move this out to global scope and call axes to update inside this function
@@ -358,6 +391,7 @@
         detailContainer.innerHTML += `<p>Population: ${d3.format(",")(d.population)}</p>`
         detailContainer.innerHTML += `<svg id="bubbleplot-region" height="150" width="320" ></svg>`
         detailContainer.innerHTML += `<svg id="bubbleplot-all" height="150" width="320"></svg>`
+        detailContainer.innerHTML += `<p id="intro-definition"><span class="bold">About ${d.Category.toLowerCase()}:</span> ${categoryDefinitions[d.Category]}</p>`
 
         // ------------------------- DETAIL VISUALIZATIONS SETUP -------------------------
         // setup for the side panel visualizations
