@@ -33,7 +33,7 @@
 
         /* ------- category filter sidebar ------- */
         #controls-sidebar {
-          width: 25%;
+          width: 20%;
           display: flex;
           justify-content: center;
           margin-right: 2em;
@@ -78,7 +78,7 @@
         #scatterplot-container {
           display: flex;
           flex-direction: column;
-          width: 700px;
+          flex-grow: 1;
         }
 
         .gridlines line {
@@ -106,7 +106,7 @@
         }
 
         .legend-element {
-          width: 233px;
+          width: 80px;
           height: 20px;
         }
 
@@ -115,8 +115,10 @@
         }
 
         #scatterplot-legend {
-          padding-top: 1em;
-          padding-bottom: 1em;
+          padding-top: 0.5em;
+          padding-bottom: 0.5em;
+          display: flex;
+          justify-content: center;
         }
 
         /* ------- detail sidebar ------- */
@@ -125,7 +127,12 @@
           border-left: solid thin rgb(178, 178, 178);
           margin-left: 1em;
           padding-left: 1em;
+          padding-top: 1em;
           background-color: rgb(251, 251, 251);
+        }
+
+        .intro-text {
+          padding-right: 1em;
         }
 
         line.dashed {
@@ -144,17 +151,21 @@
     </div>
   
     <main>
-      <aside id="controls-sidebar" height="700">
+      <aside id="controls-sidebar" height="600">
         <div id="category-filters"></div>
       </aside> 
       <div id="scatterplot-container">
-        <div id="scatterplot-legend" width="700" height="100"></div>
-        <svg id="scatterplot" width="700" height="700"></svg>
+        <div id="scatterplot-legend" width="700" height="30"></div>
+        <svg id="scatterplot" width="700" height="600"></svg>
       </div>
       <aside id="detail-sidebar" height="700">
-        <!-- <svg id="bubbleplot-region" height="200" width="300" style="background: #fff; margin-top:50px" ></svg>
-        <svg id="bubbleplot-country" height="200" width="300" style="background: #fff; margin-top:50px" ></svg> -->
-
+        <div class="intro-text">
+          <p>Over 8 billion people across the world share the same 24 hours in a day - but what we spend our time on can vary dramatically based on where we are.</p>
+          <p>Data from the <a href="https://humanchronome.org/">Human Chronome Project</a> aims to determine what the global human day looks like in different places.</p>
+          <p>Hover over a point to see what country it corresponds to.</p>
+          <p>Click on a point to see more details.</p>
+          <p>Click on a category to filter and see more information about that category.</p>
+        </div>
       </aside>
     </main>
   </body>
@@ -192,7 +203,7 @@
         document.getElementById("scatterplot-legend").innerHTML += `<svg class="legend-element">
           <circle cx=12 cy="50%"" r=6 opacity=0.8 fill=${regionScale(region)} class="legend-point">
           </circle>
-          <text x="15%" y="50%" dominant-baseline="middle" class="legend-text">
+          <text x="35%" y="50%" dominant-baseline="middle" class="legend-text">
             ${region}
           <text>
         </svg>`
