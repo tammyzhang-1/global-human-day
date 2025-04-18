@@ -195,7 +195,7 @@
     const scatter = d3.select("svg#scatterplot");
     const width = scatter.attr("width");
     const height = scatter.attr("height");
-    const margin = {top: 25, right: 25, bottom: 70, left: 70};
+    const margin = {top: 10, right: 25, bottom: 80, left: 70};
     const chartWidth = width - margin.left - margin.right;
     const chartHeight = height - margin.top - margin.bottom;
 
@@ -232,7 +232,7 @@
       scatter.append("text")
             .attr("class", "x label")
             .attr("x", chartWidth/2)
-            .attr("y", chartHeight+margin.bottom+15) //hardcoded values....
+            .attr("y", chartHeight+margin.bottom -15) //hardcoded values....
             .text("GDP per capita");
 
       scatter.append("text")
