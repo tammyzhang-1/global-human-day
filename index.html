@@ -280,13 +280,12 @@
       const regionList = [...new Set(countries.map(country => country.larger_region_name))];
 
       regionList.forEach((region, i) => {
-        region == "America" ? region = "Americas" : region = region;
 
         document.getElementById("scatterplot-legend").innerHTML += `<svg class="legend-element">
           <circle cx=12 cy="50%"" r=6 opacity=0.8 fill=${regionScale(region)} class="legend-point">
           </circle>
           <text x="35%" y="50%" dominant-baseline="middle" class="legend-text">
-            ${region}
+            ${region == "America" ? region = "Americas" : region = region}
           <text>
         </svg>`
       })
