@@ -6,12 +6,15 @@
 
     <style>
         /* ------- headers ------- */
+        html, body {
+          height: 100vh;
+          width: 100vw;
+          padding: 0;
+          margin: 0;
+        }
+        
         body, button {
           font-family: 'Lato', sans-serif;
-        }
-
-        body {
-          margin: 0;
         }
 
         h1 {
@@ -46,6 +49,35 @@
           text-decoration-color:rgb(196, 196, 196);
         }
 
+        #info {
+          width: 0.75em;
+          height: 0.75em;
+          vertical-align: middle;
+          margin-left: 0.25em;
+        }
+
+        .tooltip-container {
+          position: relative;
+          display: inline-block;
+        }
+
+        .tooltip {
+          position: absolute;
+          bottom: 120%;
+          left: 50%;
+          transform: translateX(-50%);
+          background-color: #333;
+          color: white;
+          padding: 0.25em 0.75em;
+          border-radius: 4px;
+          font-size: 0.5em;
+          white-space: nowrap;
+          visibility: hidden;
+          opacity: 0;
+          transition: opacity 0.2s ease-in-out;
+          z-index: 2;
+        }
+
         /* ------- category filter sidebar ------- */
         #controls-sidebar {
           width: 20%;
@@ -70,7 +102,7 @@
         .category-filter {
           background-color: white;
           flex-grow: 1;
-          border: solid 3px rgb(205, 205, 205);
+          border: solid 2px rgb(205, 205, 205);
           border-radius: 20px;
           font-weight: normal;
           font-size: 1em;
@@ -166,9 +198,13 @@
   <body>
     <div id="headers">
       <h1>The Global Human Day</h1>
-      <h2>How many hours a day do people across the world spend on <span id="subtitle-filter">...</span>?</h2>
+      <h2>How many hours a day do people across the world spend on 
+        <span id="subtitle-filter">...</span>? 
+        <span class="tooltip-container">
+          <img id="info" src="info.svg" alt="More Information"/>
+          <div class="tooltip" id="tooltip">More info about the data</div>
+        </span>    
     </div>
-  
     <main>
       <aside id="controls-sidebar" height="600">
         <div id="category-filters"></div>
@@ -245,10 +281,6 @@
       //small label for the country name on hover
       scatter.append("text")
               .attr("id", "small-label")
-              .attr("x", chartWidth+50) //no idea why this has to be +50
-              .attr("y", 10)
-              .style("text-anchor", "end")
-              .style("alignment-baseline", "hanging")
               .text("");
 
 
@@ -315,7 +347,7 @@
 
     // ------------------------- SCATTERPLOT REFRESH FUNCTION -------------------------
     async function refreshScatter(data) {
-      document.getElementById("intro-definition").innerHTML = `<p><span class="bold">About ${data[0]['Category'].toLowerCase()}:</span> ${categoryDefinitions[data[0]['Category']]}</p>`
+      document.getElementById("tooltip").innerHTML = `<p>${categoryDefinitions[data[0]['Category']]}</p>`
 
       // set scatterplot scales based on what filter we're on
       const gdpExtent = d3.extent(data, (d) => d['GDP_percapita']);
@@ -363,7 +395,23 @@
           .attr("stroke","black")
           .attr("stroke-width", 4);
 
-        d3.select("#small-label").text(d['country_name']);
+        let label = d3.select("#small-label")
+          .text(d['country_name'])
+          .attr("x", gdpScale(d['GDP_percapita']) + margin.left)
+          .attr("y", hourScale(d['hoursPerDayCombined']) - 5)
+          .style("text-anchor", "middle");
+
+        const bbox = label.node().getBBox();
+
+        scatter.insert("rect", "text.label")
+          .attr("class", "label-background")
+          .attr("x", bbox.x - 4)      
+          .attr("y", bbox.y - 2)
+          .attr("width", bbox.width + 8)
+          .attr("height", bbox.height + 4)
+          .attr("fill", "white")
+          .attr("opacity", 0.8)
+          .attr("stroke", "gray")
       });
 
       circles.on("mouseout", function(event, d) {
@@ -374,6 +422,8 @@
           .attr("stroke-width", d=>(d3.select(this).attr("selected")=="true") ? 4 : 1); 
         }
         d3.select("#small-label").text(""); //clear the small label
+        scatter.select(".label-background").remove();
+
       });
 
       // ------------------------- CIRCLE CLICK EVENT LISTENER FUNCTION -------------------------
@@ -503,3 +553,18 @@
     requestData();
   </script>
 </html>
+
+<script>
+  const infoIcon = document.getElementById('info');
+  const tooltip = document.getElementById('tooltip');
+
+  infoIcon.addEventListener('mouseenter', () => {
+    tooltip.style.visibility = 'visible';
+    tooltip.style.opacity = '1';
+  });
+
+  infoIcon.addEventListener('mouseleave', () => {
+    tooltip.style.visibility = 'hidden';
+    tooltip.style.opacity = '0';
+  });
+</script>
