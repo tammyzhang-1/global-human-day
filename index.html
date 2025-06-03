@@ -448,16 +448,21 @@
     }
 
     async function updateDetail(data, d) {
-      // ------------------------- POPULATE DETAIL TEXT -------------------------
-      let detailContainer = document.getElementById("detail-sidebar");
+        var sum = (prev, cur) => ({hoursPerDayCombined: prev.hoursPerDayCombined + cur.hoursPerDayCombined});
+        var avg = data.reduce(sum).hoursPerDayCombined / data.length;
+        var avgDiff = d.hoursPerDayCombined - avg;
+
+        var comparison = avgDiff > 0 ? "more" : "less";
+
+        // ------------------------- POPULATE DETAIL TEXT -------------------------
+        let detailContainer = document.getElementById("detail-sidebar");
         detailContainer.innerHTML = `<h3>${d.country_name}</h3>`
-        detailContainer.innerHTML += `<p>Hours per day spent on ${formatFilterText(d.Category)}: ${d3.format(".2f")(d.hoursPerDayCombined)}</p>`
+        detailContainer.innerHTML += `<p>On average, people in ${d.country_name} spend <span class="bold">${d3.format(".2f")(d.hoursPerDayCombined)}</span> hours per day on <span>${formatFilterText(d.Category)}</span> activities - ${d3.format(".2f")(Math.abs(d.hoursPerDayCombined - avg)) + " hours " + comparison} than the global average of <span>${d3.format(".2f")(avg)}</span> hours.</p>`
         detailContainer.innerHTML += `<p>Region: ${d.larger_region_name}</p>`
         detailContainer.innerHTML += `<p>GDP per capita: ${d3.format("$,.2f")(d.GDP_percapita)}</p>`
         detailContainer.innerHTML += `<p>Population: ${d3.format(",")(d.population)}</p>`
         detailContainer.innerHTML += `<svg id="bubbleplot-region" height="150" width="320" ></svg>`
         detailContainer.innerHTML += `<svg id="bubbleplot-all" height="150" width="320"></svg>`
-        detailContainer.innerHTML += `<p id="intro-definition"><span class="bold">About ${d.Category.toLowerCase()}:</span> ${categoryDefinitions[d.Category]}</p>`
 
         // ------------------------- DETAIL VISUALIZATIONS SETUP -------------------------
         // setup for the side panel visualizations
