@@ -395,11 +395,28 @@
           .attr("stroke","black")
           .attr("stroke-width", 4);
 
+        let labelX;
+        let labelY;
+
+        if (d['GDP_percapita'] < 10000) {
+          labelX = "start"
+        } else if (d['GDP_percapita'] > 115000) {
+          labelX = "end";
+        } else {
+          labelX = "middle";
+        }
+
+        if (d['hoursPerDayCombined'] > hourExtent[1] - 0.1) {
+          labelY = hourScale(d['hoursPerDayCombined']) + 40
+        } else {
+          labelY = hourScale(d['hoursPerDayCombined']) - 5; 
+        }
+
         let label = d3.select("#small-label")
           .text(d['country_name'])
-          .attr("x", gdpScale(d['GDP_percapita']) + margin.left)
-          .attr("y", hourScale(d['hoursPerDayCombined']) - 5)
-          .style("text-anchor", "middle");
+          .attr("x", gdpScale(d['GDP_percapita'] + 1) + margin.left)
+          .attr("y", labelY)
+          .style("text-anchor", labelX);
 
         const bbox = label.node().getBBox();
 
